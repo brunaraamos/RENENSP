@@ -598,47 +598,63 @@ with tab_dashboard:
  
 with tab_population:
     st.subheader("Population Estimated by NH4-N")
- 
+
     st.info(
         """
         Population_NH4N represents the estimated population used for normalization of wastewater-based indicators.
-        In this dashboard, population is treated as **year-, event- and WWTP-specific**, because the covered population
-        may change between campaigns, years and wastewater treatment plants.
+        In this dashboard, population is treated as year-, event- and WWTP-specific.
         """
     )
- 
-    pop_table = get_population_table(filtered)
- 
+
+    available_years = sorted(filtered["Year"].dropna().unique())
+
+    selected_pop_year = st.selectbox(
+        "Select year for population view",
+        ["All"] + [str(int(y)) for y in available_years],
+        key="population_year"
+    )
+
+    pop_filtered = filtered.copy()
+
+    if selected_pop_year != "All":
+        pop_filtered = pop_filtered[pop_filtered["Year"] == int(selected_pop_year)]
+
+    pop_table = get_population_table(pop_filtered)
+
     if len(pop_table) > 0:
         fig_pop_wwtp = px.bar(
             pop_table,
             x="WWTP",
             y="Population_NH4N",
-            color="Year",
+            color="State",
             barmode="group",
-            facet_col="State",
-            title="Estimated Population by WWTP and Year",
-            labels={"Population_NH4N": "Estimated population (NH4-N)"}
+            title=f"Estimated Population by WWTP ({selected_pop_year})",
+            labels={
+                "Population_NH4N": "Estimated population (NH4-N)",
+                "WWTP": "WWTP"
+            }
         )
         st.plotly_chart(fig_pop_wwtp, use_container_width=True)
- 
+
         fig_pop_event = px.bar(
             pop_table,
             x="Event",
             y="Population_NH4N",
             color="WWTP",
             barmode="group",
-            title="Estimated Population by Event and WWTP",
-            labels={"Population_NH4N": "Estimated population (NH4-N)"}
+            title=f"Estimated Population by Event and WWTP ({selected_pop_year})",
+            labels={
+                "Population_NH4N": "Estimated population (NH4-N)",
+                "Event": "Event"
+            }
         )
         st.plotly_chart(fig_pop_event, use_container_width=True)
- 
+
         st.markdown("### Population Summary")
         st.dataframe(pop_table, use_container_width=True)
- 
+
     else:
-        st.info("No population data available for the selected filters.")
- 
+        st.info("No population data available for the selected filters.") 
  
 # ============================================================
 # CLASSICAL DRUGS
