@@ -7,21 +7,11 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("Northeast Brazil WBE Drug Observatory")
-
-st.caption(
-    "Developed under RENENSP – Northeast Network for the Production of Secondary Reference Standards and Monitoring of New Psychoactive Substance Consumption through Wastewater-Based Epidemiology"
-)
-
-st.write("""
-Public platform for monitoring classical drugs and new psychoactive substances (NPS)
-through wastewater-based epidemiology (WBE) across Northeast Brazil.
-""")
-
 @st.cache_data
 def load_data():
-    df = pd.read_csv("renensp.csv")
+    df = pd.read_csv("renensp.csv", sep=None, engine="python")
     df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce")
+    df = df.dropna(how="all")
     return df
 
 df = load_data()
