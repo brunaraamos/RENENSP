@@ -1,3 +1,19 @@
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+ 
+st.set_page_config(page_title="RENENSP", layout="wide")
+ 
+# ============================================================
+# DATA LOADING
+# ============================================================
+ 
+REQUIRED_COLUMNS = [
+    "Year", "State", "City", "WWTP", "Event", "Sampling_Date", "Event_Day", "Period",
+    "Substance", "Drug_Class", "Analytical_Platform", "Analysis_Type", "Detection",
+    "Population_NH4N", "Load_g_day", "PNML_mg_day_1000inh"
+]
+ 
 @st.cache_data
 def load_data():
     separators = [",", "\t", ";"]
