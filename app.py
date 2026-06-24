@@ -7,16 +7,45 @@ st.set_page_config(
     layout="wide"
 )
 
+st.title("Northeast Brazil WBE Drug Observatory")
+
+st.caption(
+    "Developed under RENENSP – Northeast Network for the Production of Secondary Reference Standards and Monitoring of New Psychoactive Substance Consumption through Wastewater-Based Epidemiology"
+)
+
+st.write("""
+Public platform for monitoring classical drugs and new psychoactive substances (NPS)
+through wastewater-based epidemiology (WBE) across Northeast Brazil.
+""")
+
 @st.cache_data
 def load_data():
     df = pd.read_csv("renensp.csv", sep=None, engine="python")
-    df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce")
     df = df.dropna(how="all")
+    df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce")
+    df["Event_Day"] = pd.to_numeric(df["Event_Day"], errors="coerce")
+    df["PNML_mg_day_1000inh"] = pd.to_numeric(df["PNML_mg_day_1000inh"], errors="coerce")
+    df["Load_g_day"] = pd.to_numeric(df["Load_g_day"], errors="coerce")
     return df
 
 df = load_data()
 
-# Sidebar filters
+# Coordinates for map
+state_coords = pd.DataFrame({
+    "State": ["PE", "PB", "RN"],
+    "State_Name": ["Pernambuco", "Paraíba", "Rio Grande do Norte"],
+    "lat": [-8.0476, -7.1195, -5.7945],
+    "lon": [-34.8770, -34.8450, -35.2110]
+})
+
+map_data = (
+    df.groupby("State")
+    .size()
+    .reset_index(name="Records")
+    .merge(state_coords, on="State", how="left")
+)
+
+# Sidebar
 st.sidebar.header("Filters")
 
 state = st.sidebar.multiselect("State", sorted(df["State"].dropna().unique()))
@@ -50,15 +79,16 @@ if substance:
 # Overview
 st.header("Overview")
 
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col4, col5 = st.columns(5)
 
 col1.metric("Records", len(filtered))
 col2.metric("States", filtered["State"].nunique())
-col3.metric("Substances", filtered["Substance"].nunique())
-col4.metric("Events", filtered["Event"].nunique())
+col3.metric("Cities", filtered["City"].nunique())
+col4.metric("Substances", filtered["Substance"].nunique())
+col5.metric("Events", filtered["Event"].nunique())
 
-# Main tabs
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
+    "Interactive Map",
     "Dashboard",
     "Target Quantification",
     "NPS Screening",
@@ -66,6 +96,29 @@ tab1, tab2, tab3, tab4 = st.tabs([
 ])
 
 with tab1:
+    st.subheader("Monitored States")
+
+    fig_map = px.scatter_mapbox(
+        map_data,
+        lat="lat",
+        lon="lon",
+        size="Records",
+        color="State",
+        hover_name="State_Name",
+        hover_data={"Records": True, "lat": False, "lon": False},
+        zoom=4.6,
+        height=550,
+        title="RENENSP monitoring coverage in Northeast Brazil"
+    )
+
+    fig_map.update_layout(
+        mapbox_style="open-street-map",
+        margin={"r": 0, "t": 40, "l": 0, "b": 0}
+    )
+
+    st.plotly_chart(fig_map, use_container_width=True)
+
+with tab2:
     st.subheader("General Dashboard")
 
     if len(filtered) > 0:
@@ -83,63 +136,87 @@ with tab1:
         with colB:
             fig2 = px.histogram(
                 filtered,
+                x="Event",
+                color="State",
+                title="Records by Event and State"
+            )
+            st.plotly_chart(fig2, use_container_width=True)
+
+        colC, colD = st.columns(2)
+
+        with colC:
+            fig3 = px.histogram(
+                filtered,
                 x="Period",
                 color="Detection",
                 title="Detection by Period"
             )
-            st.plotly_chart(fig2, use_container_width=True)
+            st.plotly_chart(fig3, use_container_width=True)
+
+        with colD:
+            fig4 = px.histogram(
+                filtered,
+                x="Analytical_Platform",
+                color="Analysis_Type",
+                title="Analytical Platform Overview"
+            )
+            st.plotly_chart(fig4, use_container_width=True)
 
     else:
         st.warning("No data available for the selected filters.")
 
-with tab2:
+with tab3:
     st.subheader("Target Quantification – Triple Quadrupole MS/MS")
 
-    quant = filtered[
-        filtered["Analysis_Type"] == "Quantification"
-    ]
+    quant = filtered[filtered["Analysis_Type"] == "Quantification"]
 
     if len(quant) > 0:
-        fig3 = px.line(
-            quant,
+        fig5 = px.line(
+            quant.sort_values("Event_Day"),
             x="Event_Day",
             y="PNML_mg_day_1000inh",
             color="Substance",
             markers=True,
-            title="Temporal Profile by Event Day"
+            title="Temporal Profile by Event Day",
+            labels={
+                "Event_Day": "Event day",
+                "PNML_mg_day_1000inh": "PNML, mg/day/1000 inhabitants"
+            }
         )
-        st.plotly_chart(fig3, use_container_width=True)
+        st.plotly_chart(fig5, use_container_width=True)
 
-        fig4 = px.bar(
+        fig6 = px.bar(
             quant,
             x="Substance",
             y="PNML_mg_day_1000inh",
-            color="Period",
-            title="Population-Normalized Mass Load by Substance"
+            color="Event",
+            barmode="group",
+            title="Population-Normalized Mass Load by Substance and Event",
+            labels={
+                "PNML_mg_day_1000inh": "PNML, mg/day/1000 inhabitants"
+            }
         )
-        st.plotly_chart(fig4, use_container_width=True)
+        st.plotly_chart(fig6, use_container_width=True)
 
         st.dataframe(quant, use_container_width=True)
     else:
         st.info("No quantification data available for the selected filters.")
 
-with tab3:
+with tab4:
     st.subheader("NPS Screening – Orbitrap HRMS")
 
-    screening = filtered[
-        filtered["Analysis_Type"] == "Screening"
-    ]
+    screening = filtered[filtered["Analysis_Type"] == "Screening"]
 
     if len(screening) > 0:
         detected = screening[screening["Detection"] == "Detected"]
 
-        fig5 = px.histogram(
+        fig7 = px.histogram(
             detected,
             x="Substance",
-            color="Period",
-            title="Detected NPS by Period"
+            color="Event",
+            title="Detected NPS by Event"
         )
-        st.plotly_chart(fig5, use_container_width=True)
+        st.plotly_chart(fig7, use_container_width=True)
 
         detection_frequency = (
             screening
@@ -148,21 +225,42 @@ with tab3:
             .reset_index(name="Count")
         )
 
-        fig6 = px.bar(
+        fig8 = px.bar(
             detection_frequency,
             x="Substance",
             y="Count",
             color="Detection",
             title="Screening Detection Frequency"
         )
-        st.plotly_chart(fig6, use_container_width=True)
+        st.plotly_chart(fig8, use_container_width=True)
+
+        heatmap_data = (
+            screening
+            .assign(Detected_Num=screening["Detection"].eq("Detected").astype(int))
+            .pivot_table(
+                index="Substance",
+                columns="Event",
+                values="Detected_Num",
+                aggfunc="sum",
+                fill_value=0
+            )
+        )
+
+        fig9 = px.imshow(
+            heatmap_data,
+            text_auto=True,
+            aspect="auto",
+            title="NPS Detection Heatmap by Event"
+        )
+        st.plotly_chart(fig9, use_container_width=True)
 
         st.dataframe(screening, use_container_width=True)
     else:
         st.info("No screening data available for the selected filters.")
 
-with tab4:
+with tab5:
     st.subheader("Complete Dataset")
+
     st.dataframe(filtered, use_container_width=True)
 
     csv = filtered.to_csv(index=False).encode("utf-8")
