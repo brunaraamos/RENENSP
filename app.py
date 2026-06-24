@@ -223,8 +223,6 @@ with tab3:
 
             st.plotly_chart(fig_load, use_container_width=True)
 
-            st.dataframe(quant, use_container_width=True)
-
         with tab_pnml:
             fig_pnml = px.bar(
                 quant,
@@ -242,14 +240,11 @@ with tab3:
 
             st.plotly_chart(fig_pnml, use_container_width=True)
 
-            st.dataframe(quant, use_container_width=True)
-
         st.markdown("### Complete Quantification Dataset")
         st.dataframe(quant, use_container_width=True)
 
     else:
         st.info("No quantification data available for the selected filters.")
-
 with tab4:
     st.subheader("NPS Screening – Orbitrap HRMS")
 
