@@ -26,6 +26,10 @@ def load_data():
     df = pd.read_csv("renensp.csv", sep=None, engine="python")
     df = df.dropna(how="all")
 
+    # Clean column names
+    df.columns = df.columns.str.strip()
+
+    # Convert numeric/date columns
     df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce")
     df["Event_Day"] = pd.to_numeric(df["Event_Day"], errors="coerce")
     df["PNML_mg_day_1000inh"] = pd.to_numeric(df["PNML_mg_day_1000inh"], errors="coerce")
