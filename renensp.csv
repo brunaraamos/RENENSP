@@ -1,0 +1,771 @@
+﻿Year,State,City,Event,Sampling_Date,Event_Day,Period,Substance,Drug_Class,Analytical_Platform,Analysis_Type,Detection,Population_NH4N,Load_g_day,PNML_mg_day_1000inh
+2026,PE,Recife,Carnival,2026-02-11,-4,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,493,2347.6
+2026,PE,Recife,Carnival,2026-02-11,-4,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,112.5,535.7
+2026,PE,Recife,Carnival,2026-02-11,-4,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,61.5,292.9
+2026,PE,Recife,Carnival,2026-02-11,-4,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,43.1,205.2
+2026,PE,Recife,Carnival,2026-02-11,-4,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-11,-4,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-11,-4,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-11,-4,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-11,-4,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-11,-4,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-11,-4,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-12,-3,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,525.7,2503.3
+2026,PE,Recife,Carnival,2026-02-12,-3,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,125.1,595.7
+2026,PE,Recife,Carnival,2026-02-12,-3,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,66.5,316.7
+2026,PE,Recife,Carnival,2026-02-12,-3,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,54.9,261.4
+2026,PE,Recife,Carnival,2026-02-12,-3,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-12,-3,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-12,-3,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-12,-3,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-12,-3,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-12,-3,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-12,-3,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-13,-2,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,578.2,2753.3
+2026,PE,Recife,Carnival,2026-02-13,-2,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,152,723.8
+2026,PE,Recife,Carnival,2026-02-13,-2,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,97.5,464.3
+2026,PE,Recife,Carnival,2026-02-13,-2,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,57.8,275.2
+2026,PE,Recife,Carnival,2026-02-13,-2,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-13,-2,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-13,-2,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-13,-2,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-13,-2,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-13,-2,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-13,-2,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-14,-1,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,904,4304.8
+2026,PE,Recife,Carnival,2026-02-14,-1,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,212,1009.5
+2026,PE,Recife,Carnival,2026-02-14,-1,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,112,533.3
+2026,PE,Recife,Carnival,2026-02-14,-1,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,86.9,413.8
+2026,PE,Recife,Carnival,2026-02-14,-1,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-14,-1,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-14,-1,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-14,-1,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-14,-1,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-14,-1,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-14,-1,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-15,0,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,1412.4,6725.7
+2026,PE,Recife,Carnival,2026-02-15,0,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,417.3,1987.1
+2026,PE,Recife,Carnival,2026-02-15,0,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,199.2,948.6
+2026,PE,Recife,Carnival,2026-02-15,0,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,151.4,721
+2026,PE,Recife,Carnival,2026-02-15,0,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-15,0,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-15,0,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-15,0,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-15,0,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-15,0,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-15,0,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-16,1,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,1356.9,6461.4
+2026,PE,Recife,Carnival,2026-02-16,1,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,329.5,1569
+2026,PE,Recife,Carnival,2026-02-16,1,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,196.9,937.6
+2026,PE,Recife,Carnival,2026-02-16,1,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,117.3,558.6
+2026,PE,Recife,Carnival,2026-02-16,1,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-16,1,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-16,1,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-16,1,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-16,1,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-16,1,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-16,1,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-17,2,After,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,691.5,3292.9
+2026,PE,Recife,Carnival,2026-02-17,2,After,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,180.5,859.5
+2026,PE,Recife,Carnival,2026-02-17,2,After,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,99.7,474.8
+2026,PE,Recife,Carnival,2026-02-17,2,After,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,210000,70.1,333.8
+2026,PE,Recife,Carnival,2026-02-17,2,After,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-17,2,After,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-17,2,After,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-17,2,After,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-17,2,After,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-17,2,After,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,Carnival,2026-02-17,2,After,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,210000,,
+2026,PE,Recife,New Year's Eve,2025-12-27,-4,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,371.1,1805.8
+2026,PE,Recife,New Year's Eve,2025-12-27,-4,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,97.5,474.5
+2026,PE,Recife,New Year's Eve,2025-12-27,-4,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,48.4,235.5
+2026,PE,Recife,New Year's Eve,2025-12-27,-4,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,38.3,186.4
+2026,PE,Recife,New Year's Eve,2025-12-27,-4,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-27,-4,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-27,-4,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-27,-4,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-27,-4,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-27,-4,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-27,-4,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-28,-3,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,364.1,1771.8
+2026,PE,Recife,New Year's Eve,2025-12-28,-3,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,100.3,488.1
+2026,PE,Recife,New Year's Eve,2025-12-28,-3,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,51.3,249.6
+2026,PE,Recife,New Year's Eve,2025-12-28,-3,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,43.4,211.2
+2026,PE,Recife,New Year's Eve,2025-12-28,-3,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-28,-3,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-28,-3,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-28,-3,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-28,-3,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-28,-3,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-28,-3,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-29,-2,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,539.4,2624.8
+2026,PE,Recife,New Year's Eve,2025-12-29,-2,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,114.9,559.1
+2026,PE,Recife,New Year's Eve,2025-12-29,-2,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,72.5,352.8
+2026,PE,Recife,New Year's Eve,2025-12-29,-2,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,51.2,249.1
+2026,PE,Recife,New Year's Eve,2025-12-29,-2,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-29,-2,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-29,-2,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-29,-2,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-29,-2,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-29,-2,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-29,-2,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-30,-1,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,700.4,3408.3
+2026,PE,Recife,New Year's Eve,2025-12-30,-1,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,162.4,790.3
+2026,PE,Recife,New Year's Eve,2025-12-30,-1,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,87.7,426.8
+2026,PE,Recife,New Year's Eve,2025-12-30,-1,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,56.3,274
+2026,PE,Recife,New Year's Eve,2025-12-30,-1,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-30,-1,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-30,-1,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-30,-1,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-30,-1,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-30,-1,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-30,-1,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-31,0,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,1310.8,6378.6
+2026,PE,Recife,New Year's Eve,2025-12-31,0,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,394.2,1918.2
+2026,PE,Recife,New Year's Eve,2025-12-31,0,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,183,890.5
+2026,PE,Recife,New Year's Eve,2025-12-31,0,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,109.2,531.4
+2026,PE,Recife,New Year's Eve,2025-12-31,0,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-31,0,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-31,0,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-31,0,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-31,0,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-31,0,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,205500,,
+2026,PE,Recife,New Year's Eve,2025-12-31,0,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-01,1,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,1168.1,5684.2
+2026,PE,Recife,New Year's Eve,2026-01-01,1,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,333.4,1622.4
+2026,PE,Recife,New Year's Eve,2026-01-01,1,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,127.2,619
+2026,PE,Recife,New Year's Eve,2026-01-01,1,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,104,506.1
+2026,PE,Recife,New Year's Eve,2026-01-01,1,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-01,1,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-01,1,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-01,1,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-01,1,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-01,1,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-01,1,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-02,2,After,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,671.8,3269.1
+2026,PE,Recife,New Year's Eve,2026-01-02,2,After,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,164.4,800
+2026,PE,Recife,New Year's Eve,2026-01-02,2,After,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,76.6,372.7
+2026,PE,Recife,New Year's Eve,2026-01-02,2,After,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,205500,60.9,296.4
+2026,PE,Recife,New Year's Eve,2026-01-02,2,After,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-02,2,After,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-02,2,After,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-02,2,After,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-02,2,After,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-02,2,After,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PE,Recife,New Year's Eve,2026-01-02,2,After,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,205500,,
+2026,PB,Joao Pessoa,Carnival,2026-02-11,-4,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,336.9,886.6
+2026,PB,Joao Pessoa,Carnival,2026-02-11,-4,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,97.8,257.4
+2026,PB,Joao Pessoa,Carnival,2026-02-11,-4,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,50.8,133.7
+2026,PB,Joao Pessoa,Carnival,2026-02-11,-4,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,39.3,103.4
+2026,PB,Joao Pessoa,Carnival,2026-02-11,-4,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-11,-4,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-11,-4,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-11,-4,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-11,-4,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-11,-4,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-11,-4,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-12,-3,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,367.6,967.4
+2026,PB,Joao Pessoa,Carnival,2026-02-12,-3,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,109.2,287.4
+2026,PB,Joao Pessoa,Carnival,2026-02-12,-3,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,62.6,164.7
+2026,PB,Joao Pessoa,Carnival,2026-02-12,-3,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,38.7,101.8
+2026,PB,Joao Pessoa,Carnival,2026-02-12,-3,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-12,-3,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-12,-3,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-12,-3,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-12,-3,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-12,-3,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-12,-3,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-13,-2,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,430.5,1132.9
+2026,PB,Joao Pessoa,Carnival,2026-02-13,-2,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,135,355.3
+2026,PB,Joao Pessoa,Carnival,2026-02-13,-2,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,67.3,177.1
+2026,PB,Joao Pessoa,Carnival,2026-02-13,-2,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,48.8,128.4
+2026,PB,Joao Pessoa,Carnival,2026-02-13,-2,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-13,-2,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-13,-2,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-13,-2,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-13,-2,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-13,-2,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-13,-2,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-14,-1,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,587,1544.7
+2026,PB,Joao Pessoa,Carnival,2026-02-14,-1,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,161.1,423.9
+2026,PB,Joao Pessoa,Carnival,2026-02-14,-1,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,87.8,231.1
+2026,PB,Joao Pessoa,Carnival,2026-02-14,-1,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,62.2,163.7
+2026,PB,Joao Pessoa,Carnival,2026-02-14,-1,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-14,-1,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-14,-1,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-14,-1,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-14,-1,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-14,-1,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-14,-1,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-15,0,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,1523.3,4008.7
+2026,PB,Joao Pessoa,Carnival,2026-02-15,0,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,407.6,1072.6
+2026,PB,Joao Pessoa,Carnival,2026-02-15,0,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,211.5,556.6
+2026,PB,Joao Pessoa,Carnival,2026-02-15,0,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,149.3,392.9
+2026,PB,Joao Pessoa,Carnival,2026-02-15,0,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-15,0,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-15,0,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-15,0,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-15,0,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-15,0,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-15,0,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-16,1,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,1223.8,3220.5
+2026,PB,Joao Pessoa,Carnival,2026-02-16,1,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,275.5,725
+2026,PB,Joao Pessoa,Carnival,2026-02-16,1,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,161.9,426.1
+2026,PB,Joao Pessoa,Carnival,2026-02-16,1,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,104.7,275.5
+2026,PB,Joao Pessoa,Carnival,2026-02-16,1,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-16,1,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-16,1,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-16,1,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-16,1,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-16,1,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-16,1,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-17,2,After,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,701.7,1846.6
+2026,PB,Joao Pessoa,Carnival,2026-02-17,2,After,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,175.5,461.8
+2026,PB,Joao Pessoa,Carnival,2026-02-17,2,After,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,86.8,228.4
+2026,PB,Joao Pessoa,Carnival,2026-02-17,2,After,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,380000,65.9,173.4
+2026,PB,Joao Pessoa,Carnival,2026-02-17,2,After,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-17,2,After,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-17,2,After,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-17,2,After,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-17,2,After,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-17,2,After,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,380000,,
+2026,PB,Joao Pessoa,Carnival,2026-02-17,2,After,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,380000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-19,-4,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,253.2,588.8
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-19,-4,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,81,188.4
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-19,-4,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,41.5,96.5
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-19,-4,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,25.8,60
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-19,-4,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-19,-4,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-19,-4,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-19,-4,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-19,-4,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-19,-4,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-19,-4,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-20,-3,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,314.4,731.2
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-20,-3,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,99.3,230.9
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-20,-3,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,39.6,92.1
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-20,-3,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,33.3,77.4
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-20,-3,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-20,-3,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-20,-3,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-20,-3,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-20,-3,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-20,-3,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-20,-3,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-21,-2,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,357.3,830.9
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-21,-2,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,117.2,272.6
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-21,-2,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,58.6,136.3
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-21,-2,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,31.4,73
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-21,-2,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-21,-2,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-21,-2,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-21,-2,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-21,-2,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-21,-2,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-21,-2,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-22,-1,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,517.2,1202.8
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-22,-1,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,139.5,324.4
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-22,-1,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,67.8,157.7
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-22,-1,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,54,125.6
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-22,-1,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-22,-1,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-22,-1,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-22,-1,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-22,-1,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-22,-1,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-22,-1,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-23,0,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,850.8,1978.6
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-23,0,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,237.5,552.3
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-23,0,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,137.7,320.2
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-23,0,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,89.8,208.8
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-23,0,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-23,0,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-23,0,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-23,0,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-23,0,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-23,0,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-23,0,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-24,1,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,865,2011.6
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-24,1,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,190.5,443
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-24,1,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,106.6,247.9
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-24,1,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,72.6,168.8
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-24,1,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-24,1,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-24,1,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-24,1,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-24,1,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-24,1,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-24,1,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-25,2,After,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,380.3,884.4
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-25,2,After,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,109.1,253.7
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-25,2,After,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,70.5,164
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-25,2,After,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,430000,50.6,117.7
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-25,2,After,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-25,2,After,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-25,2,After,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-25,2,After,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-25,2,After,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-25,2,After,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,PB,Campina Grande,Sao Joao Festival,2026-06-25,2,After,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,430000,,
+2026,RN,Natal,New Year's Eve,2025-12-27,-4,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,273.9,883.5
+2026,RN,Natal,New Year's Eve,2025-12-27,-4,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,78.1,251.9
+2026,RN,Natal,New Year's Eve,2025-12-27,-4,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,39.5,127.4
+2026,RN,Natal,New Year's Eve,2025-12-27,-4,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,22.8,73.5
+2026,RN,Natal,New Year's Eve,2025-12-27,-4,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-27,-4,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-27,-4,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-27,-4,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-27,-4,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-27,-4,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-27,-4,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-28,-3,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,316,1019.4
+2026,RN,Natal,New Year's Eve,2025-12-28,-3,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,86.9,280.3
+2026,RN,Natal,New Year's Eve,2025-12-28,-3,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,44.8,144.5
+2026,RN,Natal,New Year's Eve,2025-12-28,-3,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,30.6,98.7
+2026,RN,Natal,New Year's Eve,2025-12-28,-3,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-28,-3,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-28,-3,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-28,-3,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-28,-3,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-28,-3,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-28,-3,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-29,-2,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,354.5,1143.5
+2026,RN,Natal,New Year's Eve,2025-12-29,-2,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,83.8,270.3
+2026,RN,Natal,New Year's Eve,2025-12-29,-2,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,49.3,159
+2026,RN,Natal,New Year's Eve,2025-12-29,-2,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,28.3,91.3
+2026,RN,Natal,New Year's Eve,2025-12-29,-2,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-29,-2,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-29,-2,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-29,-2,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-29,-2,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-29,-2,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-29,-2,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-30,-1,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,382,1232.3
+2026,RN,Natal,New Year's Eve,2025-12-30,-1,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,99.5,321
+2026,RN,Natal,New Year's Eve,2025-12-30,-1,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,52.8,170.3
+2026,RN,Natal,New Year's Eve,2025-12-30,-1,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,39.5,127.4
+2026,RN,Natal,New Year's Eve,2025-12-30,-1,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-30,-1,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-30,-1,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-30,-1,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-30,-1,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-30,-1,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-30,-1,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-31,0,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,982.2,3168.4
+2026,RN,Natal,New Year's Eve,2025-12-31,0,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,212.5,685.5
+2026,RN,Natal,New Year's Eve,2025-12-31,0,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,138.7,447.4
+2026,RN,Natal,New Year's Eve,2025-12-31,0,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,77.6,250.3
+2026,RN,Natal,New Year's Eve,2025-12-31,0,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-31,0,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-31,0,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-31,0,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-31,0,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-31,0,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,310000,,
+2026,RN,Natal,New Year's Eve,2025-12-31,0,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-01,1,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,698.6,2253.5
+2026,RN,Natal,New Year's Eve,2026-01-01,1,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,187.9,606.1
+2026,RN,Natal,New Year's Eve,2026-01-01,1,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,99.8,321.9
+2026,RN,Natal,New Year's Eve,2026-01-01,1,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,64.3,207.4
+2026,RN,Natal,New Year's Eve,2026-01-01,1,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-01,1,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-01,1,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-01,1,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-01,1,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-01,1,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-01,1,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-02,2,After,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,383.9,1238.4
+2026,RN,Natal,New Year's Eve,2026-01-02,2,After,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,97.1,313.2
+2026,RN,Natal,New Year's Eve,2026-01-02,2,After,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,59,190.3
+2026,RN,Natal,New Year's Eve,2026-01-02,2,After,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,310000,38,122.6
+2026,RN,Natal,New Year's Eve,2026-01-02,2,After,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-02,2,After,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-02,2,After,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-02,2,After,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-02,2,After,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-02,2,After,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,New Year's Eve,2026-01-02,2,After,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,310000,,
+2026,RN,Natal,Carnival,2026-02-11,-4,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,294.7,935.6
+2026,RN,Natal,Carnival,2026-02-11,-4,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,77.9,247.3
+2026,RN,Natal,Carnival,2026-02-11,-4,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,43,136.5
+2026,RN,Natal,Carnival,2026-02-11,-4,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,35.8,113.7
+2026,RN,Natal,Carnival,2026-02-11,-4,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-11,-4,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-11,-4,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-11,-4,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-11,-4,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-11,-4,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-11,-4,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-12,-3,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,342.2,1086.3
+2026,RN,Natal,Carnival,2026-02-12,-3,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,100.4,318.7
+2026,RN,Natal,Carnival,2026-02-12,-3,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,51.4,163.2
+2026,RN,Natal,Carnival,2026-02-12,-3,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,34.6,109.8
+2026,RN,Natal,Carnival,2026-02-12,-3,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-12,-3,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-12,-3,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-12,-3,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-12,-3,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-12,-3,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-12,-3,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-13,-2,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,407.8,1294.6
+2026,RN,Natal,Carnival,2026-02-13,-2,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,118.4,375.9
+2026,RN,Natal,Carnival,2026-02-13,-2,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,53.9,171.1
+2026,RN,Natal,Carnival,2026-02-13,-2,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,44.6,141.6
+2026,RN,Natal,Carnival,2026-02-13,-2,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-13,-2,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-13,-2,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-13,-2,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-13,-2,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-13,-2,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-13,-2,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-14,-1,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,582.4,1848.9
+2026,RN,Natal,Carnival,2026-02-14,-1,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,127.2,403.8
+2026,RN,Natal,Carnival,2026-02-14,-1,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,71.5,227
+2026,RN,Natal,Carnival,2026-02-14,-1,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,54.6,173.3
+2026,RN,Natal,Carnival,2026-02-14,-1,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-14,-1,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-14,-1,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-14,-1,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-14,-1,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-14,-1,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-14,-1,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-15,0,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,1176.5,3734.9
+2026,RN,Natal,Carnival,2026-02-15,0,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,266.2,845.1
+2026,RN,Natal,Carnival,2026-02-15,0,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,148.3,470.8
+2026,RN,Natal,Carnival,2026-02-15,0,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,97.4,309.2
+2026,RN,Natal,Carnival,2026-02-15,0,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-15,0,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-15,0,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-15,0,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-15,0,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-15,0,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-15,0,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-16,1,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,920.6,2922.5
+2026,RN,Natal,Carnival,2026-02-16,1,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,282.4,896.5
+2026,RN,Natal,Carnival,2026-02-16,1,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,126.1,400.3
+2026,RN,Natal,Carnival,2026-02-16,1,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,99.8,316.8
+2026,RN,Natal,Carnival,2026-02-16,1,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-16,1,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-16,1,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-16,1,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-16,1,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-16,1,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-16,1,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-17,2,After,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,542.3,1721.6
+2026,RN,Natal,Carnival,2026-02-17,2,After,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,139.9,444.1
+2026,RN,Natal,Carnival,2026-02-17,2,After,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,65.2,207
+2026,RN,Natal,Carnival,2026-02-17,2,After,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,315000,46.4,147.3
+2026,RN,Natal,Carnival,2026-02-17,2,After,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-17,2,After,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-17,2,After,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-17,2,After,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-17,2,After,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-17,2,After,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,315000,,
+2026,RN,Natal,Carnival,2026-02-17,2,After,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,315000,,
+2026,AL,Maceio,Carnival,2026-02-11,-4,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,258.9,877.6
+2026,AL,Maceio,Carnival,2026-02-11,-4,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,73.7,249.8
+2026,AL,Maceio,Carnival,2026-02-11,-4,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,39.5,133.9
+2026,AL,Maceio,Carnival,2026-02-11,-4,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,24.7,83.7
+2026,AL,Maceio,Carnival,2026-02-11,-4,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-11,-4,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-11,-4,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-11,-4,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-11,-4,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-11,-4,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-11,-4,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-12,-3,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,281.4,953.9
+2026,AL,Maceio,Carnival,2026-02-12,-3,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,84.6,286.8
+2026,AL,Maceio,Carnival,2026-02-12,-3,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,48.9,165.8
+2026,AL,Maceio,Carnival,2026-02-12,-3,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,31.8,107.8
+2026,AL,Maceio,Carnival,2026-02-12,-3,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-12,-3,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-12,-3,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-12,-3,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-12,-3,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-12,-3,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-12,-3,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-13,-2,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,399.3,1353.6
+2026,AL,Maceio,Carnival,2026-02-13,-2,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,115,389.8
+2026,AL,Maceio,Carnival,2026-02-13,-2,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,49,166.1
+2026,AL,Maceio,Carnival,2026-02-13,-2,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,38.7,131.2
+2026,AL,Maceio,Carnival,2026-02-13,-2,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-13,-2,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-13,-2,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-13,-2,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-13,-2,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-13,-2,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-13,-2,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-14,-1,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,490.9,1664.1
+2026,AL,Maceio,Carnival,2026-02-14,-1,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,126.2,427.8
+2026,AL,Maceio,Carnival,2026-02-14,-1,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,58.2,197.3
+2026,AL,Maceio,Carnival,2026-02-14,-1,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,46,155.9
+2026,AL,Maceio,Carnival,2026-02-14,-1,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-14,-1,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-14,-1,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-14,-1,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-14,-1,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-14,-1,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-14,-1,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-15,0,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,850.8,2884.1
+2026,AL,Maceio,Carnival,2026-02-15,0,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,265.7,900.7
+2026,AL,Maceio,Carnival,2026-02-15,0,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,115.5,391.5
+2026,AL,Maceio,Carnival,2026-02-15,0,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,92.4,313.2
+2026,AL,Maceio,Carnival,2026-02-15,0,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-15,0,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-15,0,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-15,0,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-15,0,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-15,0,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-15,0,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-16,1,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,673.1,2281.7
+2026,AL,Maceio,Carnival,2026-02-16,1,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,184.2,624.4
+2026,AL,Maceio,Carnival,2026-02-16,1,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,109.8,372.2
+2026,AL,Maceio,Carnival,2026-02-16,1,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,89.6,303.7
+2026,AL,Maceio,Carnival,2026-02-16,1,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-16,1,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-16,1,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-16,1,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-16,1,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-16,1,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-16,1,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-17,2,After,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,379.1,1285.1
+2026,AL,Maceio,Carnival,2026-02-17,2,After,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,111.3,377.3
+2026,AL,Maceio,Carnival,2026-02-17,2,After,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,55.1,186.8
+2026,AL,Maceio,Carnival,2026-02-17,2,After,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,295000,47,159.3
+2026,AL,Maceio,Carnival,2026-02-17,2,After,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-17,2,After,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-17,2,After,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-17,2,After,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-17,2,After,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-17,2,After,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,AL,Maceio,Carnival,2026-02-17,2,After,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,295000,,
+2026,SE,Aracaju,Reference Week,2026-04-06,-4,Reference,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,66.4,276.7
+2026,SE,Aracaju,Reference Week,2026-04-06,-4,Reference,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,17.5,72.9
+2026,SE,Aracaju,Reference Week,2026-04-06,-4,Reference,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,7.3,30.4
+2026,SE,Aracaju,Reference Week,2026-04-06,-4,Reference,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,8.4,35
+2026,SE,Aracaju,Reference Week,2026-04-06,-4,Reference,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-06,-4,Reference,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-06,-4,Reference,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-06,-4,Reference,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-06,-4,Reference,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-06,-4,Reference,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-06,-4,Reference,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-07,-3,Reference,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,85.2,355
+2026,SE,Aracaju,Reference Week,2026-04-07,-3,Reference,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,22,91.7
+2026,SE,Aracaju,Reference Week,2026-04-07,-3,Reference,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,10.4,43.3
+2026,SE,Aracaju,Reference Week,2026-04-07,-3,Reference,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,6.8,28.3
+2026,SE,Aracaju,Reference Week,2026-04-07,-3,Reference,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-07,-3,Reference,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-07,-3,Reference,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-07,-3,Reference,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-07,-3,Reference,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-07,-3,Reference,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-07,-3,Reference,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-08,-2,Reference,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,102.6,427.5
+2026,SE,Aracaju,Reference Week,2026-04-08,-2,Reference,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,25.8,107.5
+2026,SE,Aracaju,Reference Week,2026-04-08,-2,Reference,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,12.3,51.2
+2026,SE,Aracaju,Reference Week,2026-04-08,-2,Reference,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,9.5,39.6
+2026,SE,Aracaju,Reference Week,2026-04-08,-2,Reference,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-08,-2,Reference,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-08,-2,Reference,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-08,-2,Reference,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-08,-2,Reference,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-08,-2,Reference,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-08,-2,Reference,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-09,-1,Reference,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,109.3,455.4
+2026,SE,Aracaju,Reference Week,2026-04-09,-1,Reference,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,32,133.3
+2026,SE,Aracaju,Reference Week,2026-04-09,-1,Reference,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,11.7,48.8
+2026,SE,Aracaju,Reference Week,2026-04-09,-1,Reference,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,10.5,43.8
+2026,SE,Aracaju,Reference Week,2026-04-09,-1,Reference,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-09,-1,Reference,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-09,-1,Reference,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-09,-1,Reference,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-09,-1,Reference,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-09,-1,Reference,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-09,-1,Reference,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-10,0,Reference,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,211.8,882.5
+2026,SE,Aracaju,Reference Week,2026-04-10,0,Reference,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,67.8,282.5
+2026,SE,Aracaju,Reference Week,2026-04-10,0,Reference,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,37.4,155.8
+2026,SE,Aracaju,Reference Week,2026-04-10,0,Reference,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,23.8,99.2
+2026,SE,Aracaju,Reference Week,2026-04-10,0,Reference,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-10,0,Reference,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-10,0,Reference,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-10,0,Reference,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-10,0,Reference,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-10,0,Reference,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-10,0,Reference,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-11,1,Reference,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,179.3,747.1
+2026,SE,Aracaju,Reference Week,2026-04-11,1,Reference,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,51.2,213.3
+2026,SE,Aracaju,Reference Week,2026-04-11,1,Reference,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,24.6,102.5
+2026,SE,Aracaju,Reference Week,2026-04-11,1,Reference,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,14.1,58.8
+2026,SE,Aracaju,Reference Week,2026-04-11,1,Reference,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-11,1,Reference,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-11,1,Reference,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-11,1,Reference,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-11,1,Reference,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-11,1,Reference,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-11,1,Reference,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-12,2,Reference,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,137.2,571.7
+2026,SE,Aracaju,Reference Week,2026-04-12,2,Reference,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,27,112.5
+2026,SE,Aracaju,Reference Week,2026-04-12,2,Reference,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,11.2,46.7
+2026,SE,Aracaju,Reference Week,2026-04-12,2,Reference,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,240000,8.3,34.6
+2026,SE,Aracaju,Reference Week,2026-04-12,2,Reference,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-12,2,Reference,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-12,2,Reference,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-12,2,Reference,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-12,2,Reference,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-12,2,Reference,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,SE,Aracaju,Reference Week,2026-04-12,2,Reference,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,240000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-27,-4,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,499.3,657
+2026,CE,Fortaleza,New Year's Eve,2025-12-27,-4,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,124.9,164.3
+2026,CE,Fortaleza,New Year's Eve,2025-12-27,-4,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,70,92.1
+2026,CE,Fortaleza,New Year's Eve,2025-12-27,-4,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,45.8,60.3
+2026,CE,Fortaleza,New Year's Eve,2025-12-27,-4,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-27,-4,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-27,-4,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-27,-4,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-27,-4,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-27,-4,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-27,-4,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-28,-3,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,481.8,633.9
+2026,CE,Fortaleza,New Year's Eve,2025-12-28,-3,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,120.6,158.7
+2026,CE,Fortaleza,New Year's Eve,2025-12-28,-3,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,72.4,95.3
+2026,CE,Fortaleza,New Year's Eve,2025-12-28,-3,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,42.8,56.3
+2026,CE,Fortaleza,New Year's Eve,2025-12-28,-3,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-28,-3,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-28,-3,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-28,-3,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-28,-3,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-28,-3,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-28,-3,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-29,-2,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,629.4,828.2
+2026,CE,Fortaleza,New Year's Eve,2025-12-29,-2,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,147.6,194.2
+2026,CE,Fortaleza,New Year's Eve,2025-12-29,-2,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,81.3,107
+2026,CE,Fortaleza,New Year's Eve,2025-12-29,-2,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,56.8,74.7
+2026,CE,Fortaleza,New Year's Eve,2025-12-29,-2,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-29,-2,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-29,-2,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-29,-2,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-29,-2,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-29,-2,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-29,-2,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-30,-1,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,850.6,1119.2
+2026,CE,Fortaleza,New Year's Eve,2025-12-30,-1,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,189.7,249.6
+2026,CE,Fortaleza,New Year's Eve,2025-12-30,-1,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,95,125
+2026,CE,Fortaleza,New Year's Eve,2025-12-30,-1,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,78.3,103
+2026,CE,Fortaleza,New Year's Eve,2025-12-30,-1,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-30,-1,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-30,-1,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-30,-1,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-30,-1,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-30,-1,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-30,-1,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-31,0,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,1411.6,1857.4
+2026,CE,Fortaleza,New Year's Eve,2025-12-31,0,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,459.6,604.7
+2026,CE,Fortaleza,New Year's Eve,2025-12-31,0,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,229.5,302
+2026,CE,Fortaleza,New Year's Eve,2025-12-31,0,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,151.9,199.9
+2026,CE,Fortaleza,New Year's Eve,2025-12-31,0,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-31,0,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-31,0,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-31,0,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-31,0,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-31,0,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2025-12-31,0,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-01,1,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,1260.5,1658.6
+2026,CE,Fortaleza,New Year's Eve,2026-01-01,1,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,364.2,479.2
+2026,CE,Fortaleza,New Year's Eve,2026-01-01,1,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,196.3,258.3
+2026,CE,Fortaleza,New Year's Eve,2026-01-01,1,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,137.1,180.4
+2026,CE,Fortaleza,New Year's Eve,2026-01-01,1,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-01,1,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-01,1,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-01,1,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-01,1,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-01,1,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-01,1,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-02,2,After,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,758.4,997.9
+2026,CE,Fortaleza,New Year's Eve,2026-01-02,2,After,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,213.1,280.4
+2026,CE,Fortaleza,New Year's Eve,2026-01-02,2,After,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,114.2,150.3
+2026,CE,Fortaleza,New Year's Eve,2026-01-02,2,After,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,760000,71.6,94.2
+2026,CE,Fortaleza,New Year's Eve,2026-01-02,2,After,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-02,2,After,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-02,2,After,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-02,2,After,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-02,2,After,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-02,2,After,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,760000,,
+2026,CE,Fortaleza,New Year's Eve,2026-01-02,2,After,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,760000,,
+2026,BA,Salvador,Carnival,2026-02-11,-4,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,746.8,889
+2026,BA,Salvador,Carnival,2026-02-11,-4,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,201.9,240.4
+2026,BA,Salvador,Carnival,2026-02-11,-4,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,93.5,111.3
+2026,BA,Salvador,Carnival,2026-02-11,-4,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,74.4,88.6
+2026,BA,Salvador,Carnival,2026-02-11,-4,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-11,-4,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-11,-4,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-11,-4,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-11,-4,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-11,-4,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-11,-4,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-12,-3,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,819.3,975.4
+2026,BA,Salvador,Carnival,2026-02-12,-3,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,182.6,217.4
+2026,BA,Salvador,Carnival,2026-02-12,-3,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,104.2,124
+2026,BA,Salvador,Carnival,2026-02-12,-3,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,75.5,89.9
+2026,BA,Salvador,Carnival,2026-02-12,-3,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-12,-3,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-12,-3,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-12,-3,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-12,-3,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-12,-3,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-12,-3,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-13,-2,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,891.7,1061.5
+2026,BA,Salvador,Carnival,2026-02-13,-2,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,219.7,261.5
+2026,BA,Salvador,Carnival,2026-02-13,-2,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,134.1,159.6
+2026,BA,Salvador,Carnival,2026-02-13,-2,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,92.3,109.9
+2026,BA,Salvador,Carnival,2026-02-13,-2,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-13,-2,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-13,-2,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-13,-2,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-13,-2,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-13,-2,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-13,-2,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-14,-1,Before,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,1253.5,1492.3
+2026,BA,Salvador,Carnival,2026-02-14,-1,Before,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,319.4,380.2
+2026,BA,Salvador,Carnival,2026-02-14,-1,Before,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,154.2,183.6
+2026,BA,Salvador,Carnival,2026-02-14,-1,Before,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,105.7,125.8
+2026,BA,Salvador,Carnival,2026-02-14,-1,Before,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-14,-1,Before,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-14,-1,Before,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-14,-1,Before,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-14,-1,Before,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-14,-1,Before,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-14,-1,Before,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-15,0,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,2548,3033.3
+2026,BA,Salvador,Carnival,2026-02-15,0,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,616.8,734.3
+2026,BA,Salvador,Carnival,2026-02-15,0,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,334.1,397.7
+2026,BA,Salvador,Carnival,2026-02-15,0,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,198,235.7
+2026,BA,Salvador,Carnival,2026-02-15,0,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-15,0,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-15,0,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-15,0,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-15,0,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-15,0,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-15,0,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-16,1,During,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,2091.6,2490
+2026,BA,Salvador,Carnival,2026-02-16,1,During,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,573,682.1
+2026,BA,Salvador,Carnival,2026-02-16,1,During,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,250.6,298.3
+2026,BA,Salvador,Carnival,2026-02-16,1,During,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,159.4,189.8
+2026,BA,Salvador,Carnival,2026-02-16,1,During,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-16,1,During,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-16,1,During,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-16,1,During,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-16,1,During,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-16,1,During,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-16,1,During,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-17,2,After,Cocaine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,959.7,1142.5
+2026,BA,Salvador,Carnival,2026-02-17,2,After,MDMA,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,296.9,353.5
+2026,BA,Salvador,Carnival,2026-02-17,2,After,Ketamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,140.8,167.6
+2026,BA,Salvador,Carnival,2026-02-17,2,After,Amphetamine,Classical,Triple Quadrupole MS/MS,Quantification,Detected,840000,118.2,140.7
+2026,BA,Salvador,Carnival,2026-02-17,2,After,3-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-17,2,After,4-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-17,2,After,2-MMC,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-17,2,After,Eutylone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-17,2,After,N-Ethylhexedrone,Synthetic Cathinone,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-17,2,After,5F-MDMB-PICA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
+2026,BA,Salvador,Carnival,2026-02-17,2,After,ADB-BUTINACA,Synthetic Cannabinoid,Orbitrap HRMS,Screening,Not Detected,840000,,
