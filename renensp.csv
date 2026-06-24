@@ -1,6 +1,0 @@
-﻿RENENSP Simulated Dataset,
-Total rows,6552
-Years included,"2025, 2026"
-States included,"PE, PB, RN, AL, SE, CE, BA"
-Key update,Population_NH4N is event/year/WWTP-specific.
-Key update,WWTP is included as a required navigation/filter field.
