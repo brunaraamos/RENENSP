@@ -1,65 +1,53 @@
-import streamlit as st
-import pandas as pd
-import plotly.express as px
- 
-st.set_page_config(page_title="RENENSP", layout="wide")
- 
-# ============================================================
-# DATA LOADING
-# ============================================================
- 
-REQUIRED_COLUMNS = [
-    "Year", "State", "City", "WWTP", "Event", "Sampling_Date", "Event_Day", "Period",
-    "Substance", "Drug_Class", "Analytical_Platform", "Analysis_Type", "Detection",
-    "Population_NH4N", "Load_g_day", "PNML_mg_day_1000inh"
-]
- 
 @st.cache_data
 def load_data():
-    """
-    Reads renensp.csv from the GitHub repository.
- 
-    The file may be comma-separated or tab-separated.
-    Required columns include WWTP and year/event-specific Population_NH4N.
-    """
-    try:
-        df = pd.read_csv("renensp.csv", sep=",")
-        if len(df.columns) == 1:
-            df = pd.read_csv("renensp.csv", sep="\t")
-    except Exception:
-        df = pd.read_csv("renensp.csv", sep="\t")
- 
+    separators = [",", "\t", ";"]
+    df = None
+
+    for sep in separators:
+        temp = pd.read_csv("renensp.csv", sep=sep)
+        temp.columns = temp.columns.str.strip()
+
+        if "Year" in temp.columns and "State" in temp.columns and "Period" in temp.columns:
+            df = temp
+            break
+
+    if df is None:
+        st.error("The file renensp.csv was not read correctly. Check if the separator is comma, tab, or semicolon.")
+        st.stop()
+
     df = df.dropna(how="all")
     df.columns = df.columns.str.strip()
- 
-    # Backward compatibility if an old file does not yet include WWTP.
-    if "WWTP" not in df.columns:
-        df["WWTP"] = "Not informed"
- 
-    # Create missing optional numeric columns if needed.
-    for col in REQUIRED_COLUMNS:
-        if col not in df.columns:
-            df[col] = None
- 
+
+    required_columns = [
+        "Year", "State", "City", "WWTP", "Event", "Sampling_Date",
+        "Event_Day", "Period", "Substance", "Drug_Class",
+        "Analytical_Platform", "Analysis_Type", "Detection",
+        "Population_NH4N", "Load_g_day", "PNML_mg_day_1000inh"
+    ]
+
+    missing = [col for col in required_columns if col not in df.columns]
+
+    if missing:
+        st.error(f"Missing columns in renensp.csv: {missing}")
+        st.stop()
+
     df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce")
     df["Year"] = pd.to_numeric(df["Year"], errors="coerce").astype("Int64")
     df["Event_Day"] = pd.to_numeric(df["Event_Day"], errors="coerce")
     df["Population_NH4N"] = pd.to_numeric(df["Population_NH4N"], errors="coerce")
     df["Load_g_day"] = pd.to_numeric(df["Load_g_day"], errors="coerce")
     df["PNML_mg_day_1000inh"] = pd.to_numeric(df["PNML_mg_day_1000inh"], errors="coerce")
- 
-    # Clean text columns.
+
     text_cols = [
-        "State", "City", "WWTP", "Event", "Period", "Substance", "Drug_Class",
-        "Analytical_Platform", "Analysis_Type", "Detection"
+        "State", "City", "WWTP", "Event", "Period", "Substance",
+        "Drug_Class", "Analytical_Platform", "Analysis_Type", "Detection"
     ]
+
     for col in text_cols:
         df[col] = df[col].astype(str).str.strip()
         df[col] = df[col].replace({"nan": None, "None": None, "": None})
- 
-    return df
- 
-df = load_data()
+
+    return dfdf = load_data()
  
  
 # ============================================================
