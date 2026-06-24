@@ -7,11 +7,17 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("Northeast Brazil WBE Drug Observatory")
+# Logo + title
+col_logo, col_title = st.columns([1, 5])
 
-st.caption(
-    "Developed under RENENSP – Northeast Network for the Production of Secondary Reference Standards and Monitoring of New Psychoactive Substance Consumption through Wastewater-Based Epidemiology"
-)
+with col_logo:
+    st.image("logo_renensp.png", width=180)
+
+with col_title:
+    st.title("Northeast Brazil WBE Drug Observatory")
+    st.caption(
+        "Developed under RENENSP – Northeast Network for the Production of Secondary Reference Standards and Monitoring of New Psychoactive Substance Consumption through Wastewater-Based Epidemiology"
+    )
 
 st.write("""
 Public platform for monitoring classical drugs and new psychoactive substances (NPS)
@@ -22,15 +28,17 @@ through wastewater-based epidemiology (WBE) across Northeast Brazil.
 def load_data():
     df = pd.read_csv("renensp.csv", sep=None, engine="python")
     df = df.dropna(how="all")
+
     df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce")
     df["Event_Day"] = pd.to_numeric(df["Event_Day"], errors="coerce")
     df["PNML_mg_day_1000inh"] = pd.to_numeric(df["PNML_mg_day_1000inh"], errors="coerce")
     df["Load_g_day"] = pd.to_numeric(df["Load_g_day"], errors="coerce")
+
     return df
 
 df = load_data()
 
-# Coordinates for map
+# Coordinates
 state_coords = pd.DataFrame({
     "State": ["PE", "PB", "RN"],
     "State_Name": ["Pernambuco", "Paraíba", "Rio Grande do Norte"],
@@ -46,6 +54,7 @@ map_data = (
 )
 
 # Sidebar
+st.sidebar.image("logo_renensp.png", width=160)
 st.sidebar.header("Filters")
 
 state = st.sidebar.multiselect("State", sorted(df["State"].dropna().unique()))
@@ -97,6 +106,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
 
 with tab1:
     st.subheader("Monitored States")
+    st.info("Use the mouse wheel, double click, or the zoom buttons to explore the map.")
 
     fig_map = px.scatter_mapbox(
         map_data,
@@ -106,17 +116,30 @@ with tab1:
         color="State",
         hover_name="State_Name",
         hover_data={"Records": True, "lat": False, "lon": False},
-        zoom=4.6,
-        height=550,
+        zoom=5,
+        height=600,
         title="RENENSP monitoring coverage in Northeast Brazil"
     )
 
     fig_map.update_layout(
         mapbox_style="open-street-map",
+        dragmode="zoom",
+        mapbox=dict(
+            center=dict(lat=-7.2, lon=-36.0),
+            zoom=5
+        ),
         margin={"r": 0, "t": 40, "l": 0, "b": 0}
     )
 
-    st.plotly_chart(fig_map, use_container_width=True)
+    st.plotly_chart(
+        fig_map,
+        use_container_width=True,
+        config={
+            "scrollZoom": True,
+            "displayModeBar": True,
+            "displaylogo": False
+        }
+    )
 
 with tab2:
     st.subheader("General Dashboard")
