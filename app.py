@@ -47,8 +47,9 @@ def load_data():
         df[col] = df[col].astype(str).str.strip()
         df[col] = df[col].replace({"nan": None, "None": None, "": None})
 
-    return dfdf = load_data()
- 
+return df
+
+df = load_data() 
  
 # ============================================================
 # SUPPORT FUNCTIONS
