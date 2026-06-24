@@ -7,22 +7,18 @@ st.set_page_config(
     layout="wide"
 )
 
-# Logo + title
-col_logo, col_title = st.columns([1, 5])
+st.title("RENENSP")
 
-with col_logo:
-    st.image("logo_renensp.png", width=180)
+st.caption(
+    "Northeast Network for the Production of Secondary Reference Standards and Monitoring of New Psychoactive Substance Consumption through Wastewater-Based Epidemiology"
+)
 
-with col_title:
-    st.title("Northeast Brazil WBE Drug Observatory")
-    st.caption(
-        "Developed under RENENSP – Northeast Network for the Production of Secondary Reference Standards and Monitoring of New Psychoactive Substance Consumption through Wastewater-Based Epidemiology"
-    )
-
-st.write("""
-Public platform for monitoring classical drugs and new psychoactive substances (NPS)
-through wastewater-based epidemiology (WBE) across Northeast Brazil.
-""")
+st.info(
+    """
+    RENENSP Observatory provides open-access data on classical drugs and new psychoactive substances (NPS)
+    monitored through wastewater-based epidemiology (WBE) across Northeast Brazil.
+    """
+)
 
 @st.cache_data
 def load_data():
@@ -38,7 +34,6 @@ def load_data():
 
 df = load_data()
 
-# Coordinates
 state_coords = pd.DataFrame({
     "State": ["PE", "PB", "RN"],
     "State_Name": ["Pernambuco", "Paraíba", "Rio Grande do Norte"],
@@ -53,8 +48,11 @@ map_data = (
     .merge(state_coords, on="State", how="left")
 )
 
-# Sidebar
-st.sidebar.image("logo_renensp.png", width=160)
+st.sidebar.image(
+    "logo_renensp.png",
+    use_container_width=True
+)
+
 st.sidebar.header("Filters")
 
 state = st.sidebar.multiselect("State", sorted(df["State"].dropna().unique()))
@@ -85,7 +83,6 @@ if drug_class:
 if substance:
     filtered = filtered[filtered["Substance"].isin(substance)]
 
-# Overview
 st.header("Overview")
 
 col1, col2, col3, col4, col5 = st.columns(5)
@@ -117,8 +114,8 @@ with tab1:
         hover_name="State_Name",
         hover_data={"Records": True, "lat": False, "lon": False},
         zoom=5,
-        height=600,
-        title="RENENSP monitoring coverage in Northeast Brazil"
+        height=650,
+        title="RENENSP Monitoring Coverage"
     )
 
     fig_map.update_layout(
