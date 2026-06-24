@@ -23,13 +23,10 @@ st.info(
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("renensp.csv", sep=None, engine="python")
+    df = pd.read_csv("renensp.csv", sep="\t")
     df = df.dropna(how="all")
-
-    # Clean column names
     df.columns = df.columns.str.strip()
 
-    # Convert numeric/date columns
     df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce")
     df["Event_Day"] = pd.to_numeric(df["Event_Day"], errors="coerce")
     df["PNML_mg_day_1000inh"] = pd.to_numeric(df["PNML_mg_day_1000inh"], errors="coerce")
@@ -219,13 +216,7 @@ with tab3:
 
             st.plotly_chart(fig_load, use_container_width=True)
 
-            st.dataframe(
-                quant[[
-                    "Year", "State", "City", "Event", "Sampling_Date",
-                    "Period", "Substance", "Load_g_day"
-                ]],
-                use_container_width=True
-            )
+            st.dataframe(quant, use_container_width=True)
 
         with tab_pnml:
             fig_pnml = px.bar(
@@ -244,13 +235,7 @@ with tab3:
 
             st.plotly_chart(fig_pnml, use_container_width=True)
 
-            st.dataframe(
-                quant[[
-                    "Year", "State", "City", "Event", "Sampling_Date",
-                    "Period", "Substance", "PNML_mg_day_1000inh"
-                ]],
-                use_container_width=True
-            )
+            st.dataframe(quant, use_container_width=True)
 
         st.markdown("### Complete Quantification Dataset")
         st.dataframe(quant, use_container_width=True)
