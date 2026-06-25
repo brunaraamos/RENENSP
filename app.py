@@ -313,8 +313,17 @@ with tab_population:
         st.info("No population data available for the selected filters.")
 
 with tab_classical:
-    st.subheader("Classical Drugs and Quantified NPS – Target Quantification")
+    st.subheader("Target Quantification – Triple Quadrupole MS/MS")
+
     quant = filtered[filtered["Analysis_Type"] == "Quantification"]
+
+    classical_quant = quant[quant["Drug_Class"] == "Classical"]
+    nps_quant = quant[quant["Drug_Class"] != "Classical"]
+
+    qtab1, qtab2 = st.tabs([
+        "Classical Drugs",
+        "Quantified NPS"
+    ])
     if len(quant) > 0:
         tab_load, tab_pnml, tab_trends = st.tabs(["Load (g/day)", "PNML (mg/day/1000 inhabitants)", "Temporal Trends"])
         with tab_load:
