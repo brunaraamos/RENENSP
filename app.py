@@ -518,8 +518,8 @@ with tab_nps:
             st.plotly_chart(fig2, use_container_width=True)
 
             st.dataframe(screening_nps, use_container_width=True)
-else:
-    st.info("No NPS screening data available for the selected filters.")
+    else:
+        st.info("No NPS screening data available for the selected filters.")
 
 with tab_events:
     st.subheader("Event Comparison")
@@ -535,7 +535,7 @@ with tab_events:
         st.dataframe(event_overview, use_container_width=True)
     else:
         st.info("No event data available for the selected filters.")
-
+   
 with tab_method:
     st.subheader("Methodology")
     st.markdown("""
