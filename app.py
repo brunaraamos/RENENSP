@@ -61,11 +61,11 @@ def load_data():
         "Drug_Class", "Analytical_Platform", "Analysis_Type", "Detection"
     ]
 
-    for col in text_cols:
+     for col in text_cols:
         df[col] = df[col].astype(str).str.strip()
         df[col] = df[col].replace({"nan": None, "None": None, "": None})
 
-        return df
+    return df
 
 df = load_data()
 
@@ -324,31 +324,116 @@ with tab_classical:
         "Classical Drugs",
         "Quantified NPS"
     ])
-    if len(quant) > 0:
-        tab_load, tab_pnml, tab_trends = st.tabs(["Load (g/day)", "PNML (mg/day/1000 inhabitants)", "Temporal Trends"])
-        with tab_load:
-            fig_load = px.bar(quant, x="Event", y="Load_g_day", color="Substance", barmode="group", facet_col="Year", title="Daily Load by Event and Year", labels={"Load_g_day": "Load (g/day)"})
-            st.plotly_chart(fig_load, use_container_width=True)
-            fig_wwtp_load = px.bar(quant.groupby(["Year", "State", "WWTP", "Substance"], as_index=False)["Load_g_day"].sum(), x="WWTP", y="Load_g_day", color="Substance", barmode="group", facet_col="Year", title="Total Load by WWTP and Year", labels={"Load_g_day": "Total Load (g/day)"})
-            st.plotly_chart(fig_wwtp_load, use_container_width=True)
-        with tab_pnml:
-            fig_pnml = px.bar(quant, x="Event", y="PNML_mg_day_1000inh", color="Substance", barmode="group", facet_col="Year", title="Population-Normalized Mass Load by Event and Year", labels={"PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"})
-            st.plotly_chart(fig_pnml, use_container_width=True)
-            fig_wwtp_pnml = px.bar(quant.groupby(["Year", "State", "WWTP", "Substance"], as_index=False)["PNML_mg_day_1000inh"].mean(), x="WWTP", y="PNML_mg_day_1000inh", color="Substance", barmode="group", facet_col="Year", title="Average PNML by WWTP and Year", labels={"PNML_mg_day_1000inh": "Average PNML"})
-            st.plotly_chart(fig_wwtp_pnml, use_container_width=True)
-        with tab_trends:
-            temporal = quant.dropna(subset=["Event_Day", "PNML_mg_day_1000inh"])
-            if temporal["Event_Day"].nunique() > 1:
-                fig_trend = px.line(temporal.sort_values("Event_Day"), x="Event_Day", y="PNML_mg_day_1000inh", color="Substance", line_dash="Event", markers=True, facet_col="WWTP", title="Temporal profile around events by WWTP", labels={"Event_Day": "Event day", "PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"})
-                st.plotly_chart(fig_trend, use_container_width=True)
-            else:
-                st.info("Temporal trends will be more informative when the dataset includes multiple event days, such as -4, -3, -2, -1, 0, +1 and +2.")
-        st.markdown("### Complete Quantification Dataset")
-        st.dataframe(quant, use_container_width=True)
-    else:
-        st.info("No quantification data available for the selected filters.")
 
-with tab_nps:
+    with qtab1:
+        st.markdown("### Classical Drugs Quantification")
+
+        if len(classical_quant) > 0:
+            fig_load_classical = px.bar(
+                classical_quant,
+                x="Event",
+                y="Load_g_day",
+                color="Substance",
+                barmode="group",
+                facet_col="Year",
+                title="Classical Drugs – Load by Event and Year",
+                labels={"Load_g_day": "Load (g/day)"}
+            )
+            st.plotly_chart(fig_load_classical, use_container_width=True)
+
+            fig_pnml_classical = px.bar(
+                classical_quant,
+                x="Event",
+                y="PNML_mg_day_1000inh",
+                color="Substance",
+                barmode="group",
+                facet_col="Year",
+                title="Classical Drugs – PNML by Event and Year",
+                labels={"PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"}
+            )
+            st.plotly_chart(fig_pnml_classical, use_container_width=True)
+
+            temporal_classical = classical_quant.dropna(
+                subset=["Event_Day", "PNML_mg_day_1000inh"]
+            )
+
+            if temporal_classical["Event_Day"].nunique() > 1:
+                fig_trend_classical = px.line(
+                    temporal_classical.sort_values("Event_Day"),
+                    x="Event_Day",
+                    y="PNML_mg_day_1000inh",
+                    color="Substance",
+                    line_dash="Event",
+                    markers=True,
+                    facet_col="WWTP",
+                    title="Classical Drugs – Temporal Profile by WWTP",
+                    labels={
+                        "Event_Day": "Event day",
+                        "PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"
+                    }
+                )
+                st.plotly_chart(fig_trend_classical, use_container_width=True)
+
+            st.markdown("### Classical Drugs Dataset")
+            st.dataframe(classical_quant, use_container_width=True)
+
+        else:
+            st.info("No classical drug quantification data available for the selected filters.")
+
+    with qtab2:
+        st.markdown("### Quantified NPS")
+
+        if len(nps_quant) > 0:
+            fig_load_nps = px.bar(
+                nps_quant,
+                x="Event",
+                y="Load_g_day",
+                color="Substance",
+                barmode="group",
+                facet_col="Year",
+                title="Quantified NPS – Load by Event and Year",
+                labels={"Load_g_day": "Load (g/day)"}
+            )
+            st.plotly_chart(fig_load_nps, use_container_width=True)
+
+            fig_pnml_nps = px.bar(
+                nps_quant,
+                x="Event",
+                y="PNML_mg_day_1000inh",
+                color="Substance",
+                barmode="group",
+                facet_col="Year",
+                title="Quantified NPS – PNML by Event and Year",
+                labels={"PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"}
+            )
+            st.plotly_chart(fig_pnml_nps, use_container_width=True)
+
+            temporal_nps = nps_quant.dropna(
+                subset=["Event_Day", "PNML_mg_day_1000inh"]
+            )
+
+            if temporal_nps["Event_Day"].nunique() > 1:
+                fig_trend_nps = px.line(
+                    temporal_nps.sort_values("Event_Day"),
+                    x="Event_Day",
+                    y="PNML_mg_day_1000inh",
+                    color="Substance",
+                    line_dash="Event",
+                    markers=True,
+                    facet_col="WWTP",
+                    title="Quantified NPS – Temporal Profile by WWTP",
+                    labels={
+                        "Event_Day": "Event day",
+                        "PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"
+                    }
+                )
+                st.plotly_chart(fig_trend_nps, use_container_width=True)
+
+            st.markdown("### Quantified NPS Dataset")
+            st.dataframe(nps_quant, use_container_width=True)
+
+        else:
+            st.info("No quantified NPS data available for the selected filters.")with tab_nps:
     st.subheader("NPS Observatory – Orbitrap HRMS Screening")
     screening = filtered[filtered["Analysis_Type"] == "Screening"]
     if len(screening) > 0:
