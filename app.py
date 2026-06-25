@@ -304,7 +304,7 @@ def apply_local_filters(dataframe, prefix, label):
         filtered_local = filtered_local[filtered_local["Period"].isin(period_choice)]
 
     with st.expander("Selected Site Context", expanded=False):
-    st.dataframe(context, use_container_width=True)
+        st.dataframe(context, use_container_width=True)
 
     return filtered_local
 
