@@ -300,7 +300,7 @@ def apply_local_filters(dataframe, prefix, label):
             default=periods,
             key=f"{prefix}_period"
         )
-     if period_choice:
+if period_choice:
         filtered_local = filtered_local[filtered_local["Period"].isin(period_choice)]
 
     context = site_context_table(filtered_local)
