@@ -403,60 +403,73 @@ with tab_quantification:
         else:
             st.info("No classical drug quantification data available for the selected filters.")
 
-    with qtab2:
-        st.markdown("### Quantified NPS")
+   with qtab2:
+    st.markdown("### Quantified NPS")
 
-        if len(nps_quant) > 0:
-            fig_load_nps = px.bar(
-                nps_quant,
-                x="Event",
-                y="Load_g_day",
-                color="Substance",
-                barmode="group",
-                facet_col="Year",
-                title="Quantified NPS – Load by Event and Year",
-                labels={"Load_g_day": "Load (g/day)"}
-            )
-            st.plotly_chart(fig_load_nps, use_container_width=True)
+    if len(nps_quant) > 0:
 
-            fig_pnml_nps = px.bar(
-                nps_quant,
-                x="Event",
+        fig_load_nps = px.bar(
+            nps_quant,
+            x="Event",
+            y="Load_g_day",
+            color="Substance",
+            barmode="group",
+            facet_col="Year",
+            title="Quantified NPS – Load by Event and Year",
+            labels={
+                "Load_g_day": "Load (g/day)"
+            }
+        )
+        st.plotly_chart(fig_load_nps, use_container_width=True)
+
+        fig_pnml_nps = px.bar(
+            nps_quant,
+            x="Event",
+            y="PNML_mg_day_1000inh",
+            color="Substance",
+            barmode="group",
+            facet_col="Year",
+            title="Quantified NPS – PNML by Event and Year",
+            labels={
+                "PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"
+            }
+        )
+        st.plotly_chart(fig_pnml_nps, use_container_width=True)
+
+        # ---------- Temporal profile ----------
+        temporal_nps = nps_quant.dropna(
+            subset=["Event_Day", "PNML_mg_day_1000inh"]
+        )
+
+        if temporal_nps["Event_Day"].nunique() > 1:
+
+            fig_trend_nps = px.line(
+                temporal_nps.sort_values("Event_Day"),
+                x="Event_Day",
                 y="PNML_mg_day_1000inh",
                 color="Substance",
-                barmode="group",
-                facet_col="Year",
-                title="Quantified NPS – PNML by Event and Year",
-                labels={"PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"}
+                line_dash="Event",
+                markers=True,
+                facet_col="WWTP",
+                title="Quantified NPS – Temporal Profile by WWTP",
+                labels={
+                    "Event_Day": "Event Day",
+                    "PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"
+                }
             )
-            st.plotly_chart(fig_pnml_nps, use_container_width=True)
 
-            temporal_nps = nps_quant.dropna(
-                subset=["Event_Day", "PNML_mg_day_1000inh"]
-            )
-
-            if temporal_nps["Event_Day"].nunique() > 1:
-                fig_trend_nps = px.line(
-                    temporal_nps.sort_values("Event_Day"),
-                    x="Event_Day",
-                    y="PNML_mg_day_1000inh",
-                    color="Substance",
-                    line_dash="Event",
-                    markers=True,
-                    facet_col="WWTP",
-                    title="Quantified NPS – Temporal Profile by WWTP",
-                    labels={
-                        "Event_Day": "Event day",
-                        "PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"
-                    }
-                )
-                st.plotly_chart(fig_trend_nps, use_container_width=True)
-
-            st.markdown("### Quantified NPS Dataset")
-            st.dataframe(nps_quant, use_container_width=True)
+            st.plotly_chart(fig_trend_nps, use_container_width=True)
 
         else:
-            st.info("No quantified NPS data available for the selected filters.")
+            st.info(
+                "Temporal profile cannot be generated because only one Event Day is available."
+            )
+
+        st.markdown("### Quantified NPS Dataset")
+        st.dataframe(nps_quant, use_container_width=True)
+
+    else:
+        st.info("No quantified NPS data available for the selected filters.")
 
 with tab_nps:
     st.subheader("Screening – Orbitrap HRMS")
