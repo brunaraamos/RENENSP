@@ -519,7 +519,7 @@ with tab_nps:
 
             st.dataframe(screening_nps, use_container_width=True)
              else:
-            st.info("No NPS screening data available for the selected filters.")
+                 st.info("No NPS screening data available for the selected filters.")
 
 with tab_events:
     st.subheader("Event Comparison")
