@@ -32,6 +32,7 @@ REQUIRED_COLUMNS = [
 
 @st.cache_data
 def load_data():
+
     df = pd.read_csv(
         "renensp.csv",
         sep=",",
@@ -45,8 +46,8 @@ def load_data():
     missing = [col for col in REQUIRED_COLUMNS if col not in df.columns]
 
     if missing:
-        st.error(f"Missing columns in renensp.csv: {missing}")
-        st.write("Columns found:", df.columns.tolist())
+        st.error(f"Missing columns: {missing}")
+        st.write(df.columns.tolist())
         st.stop()
 
     df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce")
@@ -57,18 +58,32 @@ def load_data():
     df["PNML_mg_day_1000inh"] = pd.to_numeric(df["PNML_mg_day_1000inh"], errors="coerce")
 
     text_cols = [
-        "State", "City", "WWTP", "Event", "Period", "Substance",
-        "Drug_Class", "Analytical_Platform", "Analysis_Type", "Detection"
+        "State",
+        "City",
+        "WWTP",
+        "Event",
+        "Period",
+        "Substance",
+        "Drug_Class",
+        "Analytical_Platform",
+        "Analysis_Type",
+        "Detection",
     ]
 
-     for col in text_cols:
+    for col in text_cols:
         df[col] = df[col].astype(str).str.strip()
-        df[col] = df[col].replace({"nan": None, "None": None, "": None})
+        df[col] = df[col].replace(
+            {
+                "nan": None,
+                "None": None,
+                "": None
+            }
+        )
 
     return df
 
-df = load_data()
 
+df = load_data()
 def unique_sorted(dataframe, column):
     if column not in dataframe.columns:
         return []
