@@ -520,9 +520,9 @@ with tab_nps:
             st.dataframe(screening_nps, use_container_width=True)
         else:
             st.info("No NPS screening data available for the selected filters.")
-            
             with tab_events:
     st.subheader("Event Comparison")
+    
     if len(filtered) > 0:
         event_overview = filtered.groupby(["Year", "Event", "State", "WWTP"]).agg(Monitoring_Results=("Event", "count"), Substances=("Substance", "nunique"), Cities=("City", "nunique"), Population=("Population_NH4N", "max")).reset_index()
         fig_event = px.bar(event_overview, x="Event", y="Monitoring_Results", color="State", barmode="group", facet_col="Year", title="Monitoring results by event, state and year")
