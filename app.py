@@ -35,7 +35,7 @@ def load_data():
     df = pd.read_csv(
         "renensp.csv",
         sep=",",
-        encoding="utf-8-sig",
+        encoding="latin-1",
         engine="python"
     )
 
