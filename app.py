@@ -192,10 +192,18 @@ col7.metric("Detected NPS", detected_nps["Substance"].nunique())
 col8.metric("Population covered", format_int(population_covered))
 st.caption("Population covered is calculated from unique year–state–city–WWTP–event combinations, avoiding repeated counts across substances from the same sampling context.")
 
-tab_about, tab_partners, tab_map, tab_dashboard, tab_population, tab_classical, tab_nps, tab_events, tab_method, tab_data = st.tabs([
-    "About the Project", "Partner Institutions", "Interactive Map", "Dashboard", "Population", "Classical Drugs", "NPS Observatory", "Events", "Methodology", "Data Explorer"
+tab_about, tab_partners, tab_map, tab_dashboard, tab_population, tab_quantification, tab_nps, tab_events, tab_method, tab_data = st.tabs([
+    "About the Project",
+    "Partner Institutions",
+    "Interactive Map",
+    "Dashboard",
+    "Population",
+    "Target Quantification",
+    "NPS Screening",
+    "Events",
+    "Methodology",
+    "Data Explorer"
 ])
-
 with tab_about:
     st.subheader("About the RENENSP Project")
     st.markdown("""
@@ -327,7 +335,7 @@ with tab_population:
     else:
         st.info("No population data available for the selected filters.")
 
-with tab_classical:
+with tab_quantification:
     st.subheader("Target Quantification – Triple Quadrupole MS/MS")
 
     quant = filtered[filtered["Analysis_Type"] == "Quantification"]
