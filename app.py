@@ -3,7 +3,78 @@ import pandas as pd
 import plotly.express as px
  
 st.set_page_config(page_title="RENENSP", layout="wide")
- 
+ st.markdown(
+    """
+    <style>
+    .stApp {
+        background: linear-gradient(135deg, #f7fbfb 0%, #eef6f6 45%, #ffffff 100%);
+    }
+
+    h1 {
+        color: #005f63;
+        font-weight: 800;
+        letter-spacing: 1px;
+    }
+
+    h2, h3 {
+        color: #12343b;
+        font-weight: 700;
+    }
+
+    [data-testid="stSidebar"] {
+        background: linear-gradient(180deg, #003c43 0%, #005f63 100%);
+    }
+
+    [data-testid="stSidebar"] * {
+        color: white;
+    }
+
+    div[data-testid="stMetric"] {
+        background-color: white;
+        border: 1px solid #dbe7e7;
+        padding: 18px;
+        border-radius: 18px;
+        box-shadow: 0 4px 14px rgba(0, 95, 99, 0.10);
+    }
+
+    div[data-testid="stMetric"] label {
+        color: #005f63;
+        font-weight: 700;
+    }
+
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 8px;
+    }
+
+    .stTabs [data-baseweb="tab"] {
+        background-color: #ffffff;
+        border-radius: 14px 14px 0 0;
+        padding: 10px 18px;
+        border: 1px solid #dbe7e7;
+    }
+
+    .stTabs [aria-selected="true"] {
+        background-color: #005f63 !important;
+        color: white !important;
+    }
+
+    .stAlert {
+        border-radius: 16px;
+    }
+
+    .stDataFrame {
+        border-radius: 14px;
+        overflow: hidden;
+    }
+
+    .block-container {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # ============================================================
 # DATA LOADING
 # ============================================================
