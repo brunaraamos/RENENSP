@@ -240,7 +240,7 @@ with tab_about:
     📧 jandyson.machado@ufrpe.br
 
     ### Platform Development
-    **Dr. Bruna Ramos de Souza Gomes**  
+    **Dra. Bruna Ramos de Souza Gomes**  
     Platform Developer  
     📧 brunaramosquimica@gmail.com
 
@@ -564,6 +564,6 @@ st.markdown("---")
 st.caption("""
 RENENSP Observatory | PROCAD CAPES/SENAD  
 Project Coordinator: Prof. Dr. Jandyson Machado Santos (UFRPE)  
-Platform Developer: Dr. Bruna Ramos de Souza Gomes  
+Platform Developer: Dra. Bruna Ramos de Souza Gomes  
 © 2026 RENENSP Network
 """)
