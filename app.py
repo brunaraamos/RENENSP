@@ -32,38 +32,34 @@ REQUIRED_COLUMNS = [
 
 @st.cache_data
 def load_data():
-    separators = [",", "\t", ";"]
-    df = None
-    for sep in separators:
-        try:
-            temp = pd.read_csv("renensp.csv", sep=sep)
-            temp.columns = temp.columns.str.strip()
-            if "Year" in temp.columns and "State" in temp.columns and "Period" in temp.columns:
-                df = temp
-                break
-        except Exception:
-            pass
-    if df is None:
-        st.error("The file renensp.csv was not read correctly. Check if the separator is comma, tab, or semicolon.")
-        st.stop()
-    df = df.dropna(how="all")
-    df.columns = df.columns.str.strip()
-    missing = [col for col in REQUIRED_COLUMNS if col not in df.columns]
-    if missing:
-        st.error(f"Missing columns in renensp.csv: {missing}")
-        st.stop()
-    df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce")
-    df["Year"] = pd.to_numeric(df["Year"], errors="coerce").astype("Int64")
-    df["Event_Day"] = pd.to_numeric(df["Event_Day"], errors="coerce")
-    df["Population_NH4N"] = pd.to_numeric(df["Population_NH4N"], errors="coerce")
-    df["Load_g_day"] = pd.to_numeric(df["Load_g_day"], errors="coerce")
-    df["PNML_mg_day_1000inh"] = pd.to_numeric(df["PNML_mg_day_1000inh"], errors="coerce")
-    text_cols = ["State", "City", "WWTP", "Event", "Period", "Substance", "Drug_Class", "Analytical_Platform", "Analysis_Type", "Detection"]
-    for col in text_cols:
-        df[col] = df[col].astype(str).str.strip()
-        df[col] = df[col].replace({"nan": None, "None": None, "": None})
-    return df
 
+    try:
+        df = pd.read_csv("renensp.csv", encoding="utf-8")
+
+    except:
+        df = pd.read_csv("renensp.csv", sep=";", encoding="utf-8")
+
+    df.columns = (
+        df.columns
+        .str.strip()
+        .str.replace("\ufeff", "", regex=False)
+    )
+
+    print(df.columns.tolist())
+
+    df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce")
+
+    numeric_cols = [
+        "Event_Day",
+        "Population_NH4N",
+        "Load_g_day",
+        "PNML_mg_day_1000inh"
+    ]
+
+    for col in numeric_cols:
+        df[col] = pd.to_numeric(df[col], errors="coerce")
+
+    return df
 df = load_data()
 
 def unique_sorted(dataframe, column):
