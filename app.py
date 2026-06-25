@@ -32,32 +32,33 @@ REQUIRED_COLUMNS = [
 
 @st.cache_data
 def load_data():
+    df = pd.read_csv("renensp.csv", sep=",", encoding="utf-8-sig")
 
-    try:
-        df = pd.read_csv("renensp.csv", encoding="utf-8")
+    df = df.dropna(how="all")
+    df.columns = df.columns.str.strip().str.replace("\ufeff", "", regex=False)
 
-    except:
-        df = pd.read_csv("renensp.csv", sep=";", encoding="utf-8")
+    missing = [col for col in REQUIRED_COLUMNS if col not in df.columns]
 
-    df.columns = (
-        df.columns
-        .str.strip()
-        .str.replace("\ufeff", "", regex=False)
-    )
-
-    print(df.columns.tolist())
+    if missing:
+        st.error(f"Missing columns in renensp.csv: {missing}")
+        st.write("Columns found:", df.columns.tolist())
+        st.stop()
 
     df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce")
+    df["Year"] = pd.to_numeric(df["Year"], errors="coerce").astype("Int64")
+    df["Event_Day"] = pd.to_numeric(df["Event_Day"], errors="coerce")
+    df["Population_NH4N"] = pd.to_numeric(df["Population_NH4N"], errors="coerce")
+    df["Load_g_day"] = pd.to_numeric(df["Load_g_day"], errors="coerce")
+    df["PNML_mg_day_1000inh"] = pd.to_numeric(df["PNML_mg_day_1000inh"], errors="coerce")
 
-    numeric_cols = [
-        "Event_Day",
-        "Population_NH4N",
-        "Load_g_day",
-        "PNML_mg_day_1000inh"
+    text_cols = [
+        "State", "City", "WWTP", "Event", "Period", "Substance",
+        "Drug_Class", "Analytical_Platform", "Analysis_Type", "Detection"
     ]
 
-    for col in numeric_cols:
-        df[col] = pd.to_numeric(df[col], errors="coerce")
+    for col in text_cols:
+        df[col] = df[col].astype(str).str.strip()
+        df[col] = df[col].replace({"nan": None, "None": None, "": None})
 
     return df
 df = load_data()
