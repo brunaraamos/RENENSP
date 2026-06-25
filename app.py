@@ -302,12 +302,12 @@ def apply_local_filters(dataframe, prefix, label):
         )
 if period_choice:
         filtered_local = filtered_local[filtered_local["Period"].isin(period_choice)]
-        context = site_context_table(filtered_local)
+context = site_context_table(filtered_local)
 
 with st.expander("Selected Site Context", expanded=False):
         st.dataframe(context, use_container_width=True)
 
-    return filtered_local
+return filtered_local
 
 
 def empty_message(text):
