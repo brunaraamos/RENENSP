@@ -832,33 +832,64 @@ with tab_screening:
     stab1, stab2 = st.tabs(["Classical Drugs", "NPS"])
 
     with stab1:
-        st.markdown("### Screening - Classical Drugs: Year → Local → WWTP → Period")
-        if len(screening_classical_plot) > 0:
-            fig_classical_screen = px.histogram(
-                screening_classical_plot,
-                x="WWTP",
-                color="Detection",
-                facet_col="Local",
-                hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date", "Substance"],
-                title="Classical Drugs Screening by Local and WWTP"
+    st.markdown("### Classical Drugs Screening")
+
+    if len(screening_classical) > 0:
+        detected_classical = screening_classical[
+            screening_classical["Detection"] == "Detected"
+        ]
+
+        fig_classical_substances = px.histogram(
+            screening_classical,
+            x="Substance",
+            color="Detection",
+            facet_col="WWTP",
+            hover_data=[
+                "Year", "State", "City", "WWTP",
+                "Event", "Period", "Sampling_Date"
+            ],
+            title="Classical Drugs Screening by Substance and WWTP"
+        )
+        st.plotly_chart(fig_classical_substances, use_container_width=True)
+
+        fig_classical_event = px.histogram(
+            detected_classical,
+            x="Substance",
+            color="Event",
+            facet_col="WWTP",
+            hover_data=[
+                "Year", "State", "City", "WWTP",
+                "Event", "Period", "Sampling_Date"
+            ],
+            title="Detected Classical Drugs by Event and WWTP"
+        )
+        st.plotly_chart(fig_classical_event, use_container_width=True)
+
+        classical_heatmap_data = (
+            screening_classical
+            .assign(Detected_Num=screening_classical["Detection"].eq("Detected").astype(int))
+            .pivot_table(
+                index="Substance",
+                columns="WWTP",
+                values="Detected_Num",
+                aggfunc="sum",
+                fill_value=0
             )
-            st.plotly_chart(fig_classical_screen, use_container_width=True)
+        )
 
-            fig_classical_period = px.histogram(
-                screening_classical_plot,
-                x="Period",
-                color="Detection",
-                facet_col="WWTP",
-                hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date", "Substance"],
-                title="Classical Drugs Screening by Period and WWTP"
-            )
-            st.plotly_chart(fig_classical_period, use_container_width=True)
+        fig_classical_heatmap = px.imshow(
+            classical_heatmap_data,
+            text_auto=True,
+            aspect="auto",
+            title="Classical Drugs Detection Heatmap by Substance and WWTP"
+        )
+        st.plotly_chart(fig_classical_heatmap, use_container_width=True)
 
-            st.markdown("### Classical Drugs Screening Dataset")
-            st.dataframe(screening_classical_plot, use_container_width=True)
-        else:
-            empty_message("No classical drug screening data available for the selected filters.")
+        st.markdown("### Classical Drugs Screening Dataset")
+        st.dataframe(screening_classical, use_container_width=True)
 
+    else:
+        st.info("No classical drug screening data available for the selected filters.")
     with stab2:
         st.markdown("### Screening - NPS: Year → Local → WWTP → Period")
         if len(screening_nps_plot) > 0:
