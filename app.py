@@ -403,8 +403,8 @@ with tab_quantification:
         else:
             st.info("No classical drug quantification data available for the selected filters.")
 
-   with qtab2:
-    st.markdown("### Quantified NPS")
+        with qtab2:
+            st.markdown("### Quantified NPS")
 
     if len(nps_quant) > 0:
 
