@@ -32,7 +32,12 @@ REQUIRED_COLUMNS = [
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("renensp.csv", sep=",", encoding="utf-8-sig")
+    df = pd.read_csv(
+        "renensp.csv",
+        sep=",",
+        encoding="utf-8-sig",
+        engine="python"
+    )
 
     df = df.dropna(how="all")
     df.columns = df.columns.str.strip().str.replace("\ufeff", "", regex=False)
@@ -60,8 +65,7 @@ def load_data():
         df[col] = df[col].astype(str).str.strip()
         df[col] = df[col].replace({"nan": None, "None": None, "": None})
 
-    return df
-df = load_data()
+    return dfdf = load_data()
 
 def unique_sorted(dataframe, column):
     if column not in dataframe.columns:
