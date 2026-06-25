@@ -455,7 +455,7 @@ with tab_quantification:
             st.markdown("### Quantified NPS Dataset")
             st.dataframe(nps_quant, use_container_width=True)
 
-         else:
+        else:
             st.info("No quantified NPS data available for the selected filters.")
 
 with tab_nps:
