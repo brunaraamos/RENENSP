@@ -199,7 +199,7 @@ tab_about, tab_partners, tab_map, tab_dashboard, tab_population, tab_quantificat
     "Dashboard",
     "Population",
     "Target Quantification",
-    "NPS Screening",
+    "Screening",
     "Events",
     "Methodology",
     "Data Explorer"
@@ -459,27 +459,69 @@ with tab_quantification:
            st.info("No quantified NPS data available for the selected filters.")
 
 with tab_nps:
-    st.subheader("NPS Observatory – Orbitrap HRMS Screening")
-    screening = filtered[filtered["Analysis_Type"] == "Screening"]
-    if len(screening) > 0:
-        detected = screening[screening["Detection"] == "Detected"]
-        colA, colB = st.columns(2)
-        with colA:
-            fig = px.histogram(detected, x="Substance", color="Event", title="Detected NPS by Event")
-            st.plotly_chart(fig, use_container_width=True)
-        with colB:
-            detection_frequency = screening.groupby(["Substance", "Detection"]).size().reset_index(name="Count")
-            fig = px.bar(detection_frequency, x="Substance", y="Count", color="Detection", title="NPS Detection Frequency")
-            st.plotly_chart(fig, use_container_width=True)
-        heatmap_data = screening.assign(Detected_Num=screening["Detection"].eq("Detected").astype(int)).pivot_table(index="Substance", columns=["Year", "Event"], values="Detected_Num", aggfunc="sum", fill_value=0)
-        fig_heatmap = px.imshow(heatmap_data, text_auto=True, aspect="auto", title="NPS Detection Heatmap by Year and Event")
-        st.plotly_chart(fig_heatmap, use_container_width=True)
-        st.markdown("### NPS Screening Dataset")
-        st.dataframe(screening, use_container_width=True)
-    else:
-        st.info("No screening data available for the selected filters.")
+    st.subheader("Screening – Orbitrap HRMS")
 
-with tab_events:
+    screening = filtered[filtered["Analysis_Type"] == "Screening"]
+
+    screening_classical = screening[screening["Drug_Class"] == "Classical"]
+    screening_nps = screening[screening["Drug_Class"] != "Classical"]
+
+    stab1, stab2 = st.tabs([
+        "Classical Drugs",
+        "NPS"
+    ])
+
+    with stab1:
+        st.markdown("### Classical Drugs Screening")
+
+        if len(screening_classical) > 0:
+            fig = px.histogram(
+                screening_classical,
+                x="Substance",
+                color="Detection",
+                title="Classical Drugs Screening Frequency"
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+            st.dataframe(screening_classical, use_container_width=True)
+        else:
+            st.info("No classical drug screening data available for the selected filters.")
+
+    with stab2:
+        st.markdown("### Screening")
+
+        if len(screening_nps) > 0:
+            detected_nps = screening_nps[screening_nps["Detection"] == "Detected"]
+
+            fig1 = px.histogram(
+                detected_nps,
+                x="Substance",
+                color="Event",
+                title="Detected NPS by Event"
+            )
+            st.plotly_chart(fig1, use_container_width=True)
+
+            detection_frequency = (
+                screening_nps
+                .groupby(["Substance", "Detection"])
+                .size()
+                .reset_index(name="Count")
+            )
+
+            fig2 = px.bar(
+                detection_frequency,
+                x="Substance",
+                y="Count",
+                color="Detection",
+                title="NPS Detection Frequency"
+            )
+            st.plotly_chart(fig2, use_container_width=True)
+
+            st.dataframe(screening_nps, use_container_width=True)
+        else:
+            st.info("No NPS screening data available for the selected filters.")
+            
+            with tab_events:
     st.subheader("Event Comparison")
     if len(filtered) > 0:
         event_overview = filtered.groupby(["Year", "Event", "State", "WWTP"]).agg(Monitoring_Results=("Event", "count"), Substances=("Substance", "nunique"), Cities=("City", "nunique"), Population=("Population_NH4N", "max")).reset_index()
