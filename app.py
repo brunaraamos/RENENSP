@@ -65,7 +65,9 @@ def load_data():
         df[col] = df[col].astype(str).str.strip()
         df[col] = df[col].replace({"nan": None, "None": None, "": None})
 
-    return dfdf = load_data()
+        return df
+
+df = load_data()
 
 def unique_sorted(dataframe, column):
     if column not in dataframe.columns:
