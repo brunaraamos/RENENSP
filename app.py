@@ -448,7 +448,9 @@ with tab_classical:
             st.dataframe(nps_quant, use_container_width=True)
 
         else:
-            st.info("No quantified NPS data available for the selected filters.")with tab_nps:
+           st.info("No quantified NPS data available for the selected filters.")
+
+with tab_nps:
     st.subheader("NPS Observatory – Orbitrap HRMS Screening")
     screening = filtered[filtered["Analysis_Type"] == "Screening"]
     if len(screening) > 0:
