@@ -242,8 +242,7 @@ def make_plot_df(dataframe, y_columns=None):
 
     for col in y_columns:
         if col in plot_df.columns:
-            [col] = pd.to_numeric(plot_df[col], errors="coerce")
-
+          plot_df[col] = pd.to_numeric(plot_df[col], errors="coerce")
     required = [col for col in y_columns if col in plot_df.columns]
     if required:
         plot_df = plot_df.dropna(subset=required)
