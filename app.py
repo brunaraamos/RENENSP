@@ -303,8 +303,8 @@ def apply_local_filters(dataframe, prefix, label):
     if period_choice:
         filtered_local = filtered_local[filtered_local["Period"].isin(period_choice)]
 
-    st.markdown("### Selected Site Context")
-    st.dataframe(site_context_table(filtered_local), use_container_width=True)
+    with st.expander("Selected Site Context", expanded=False):
+    st.dataframe(context, use_container_width=True)
 
     return filtered_local
 
