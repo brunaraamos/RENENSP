@@ -831,7 +831,7 @@ with tab_screening:
 
     stab1, stab2 = st.tabs(["Classical Drugs", "NPS"])
 
-      with stab1:
+    with stab1:
         st.markdown("### Classical Drugs Screening")
 
         if len(screening_classical) > 0:
