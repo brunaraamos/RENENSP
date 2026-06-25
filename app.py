@@ -300,14 +300,15 @@ def apply_local_filters(dataframe, prefix, label):
             default=periods,
             key=f"{prefix}_period"
         )
-if period_choice:
+    if period_choice:
         filtered_local = filtered_local[filtered_local["Period"].isin(period_choice)]
-context = site_context_table(filtered_local)
 
-with st.expander("Selected Site Context", expanded=False):
+    context = site_context_table(filtered_local)
+
+    with st.expander("Selected Site Context", expanded=False):
         st.dataframe(context, use_container_width=True)
 
-return filtered_local
+    return filtered_local
 
 
 def empty_message(text):
