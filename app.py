@@ -667,7 +667,11 @@ with tab_partners:
 
 with tab_map:
     st.subheader("Interactive Monitoring Map")
-    st.info("Use the mouse wheel, double click, or zoom buttons to explore the map.")
+
+    st.info(
+        "This map shows monitoring coverage, detected substances, estimated population, "
+        "analytical platforms and maximum PNML by WWTP."
+    )
 
     wwtp_coords = pd.DataFrame({
         "State": ["PE", "PE", "PB", "PB", "RN", "AL", "SE", "CE", "BA", "MA", "PI"],
@@ -679,15 +683,39 @@ with tab_map:
             "Cabanga", "Peixinho", "Mangabeira", "Catingueira", "Jundiai-Guarapes",
             "Benedito Bentes", "Orlando Dantas", "Coco", "Boca do Rio", "Vinhais", "Piraja"
         ],
-        "lat": [-8.071, -7.999, -7.175, -7.2307, -5.7945, -9.6498, -10.9472, -3.7319, -12.9777, -2.5307, -5.0892],
-        "lon": [-34.884, -34.860, -34.845, -35.8817, -35.2110, -35.7089, -37.0731, -38.5267, -38.5016, -44.3068, -42.8016],
+        "lat": [
+            -8.071, -7.999, -7.175, -7.2307, -5.7945,
+            -9.6498, -10.9472, -3.7319, -12.9777, -2.5307, -5.0892
+        ],
+        "lon": [
+            -34.884, -34.860, -34.845, -35.8817, -35.2110,
+            -35.7089, -37.0731, -38.5267, -38.5016, -44.3068, -42.8016
+        ],
     })
 
     map_data = (
         filtered.groupby(["Year", "State", "City", "Local", "WWTP"], as_index=False)
         .agg(
             Monitoring_Results=("Substance", "count"),
-            Population_NH4N=("Population_NH4N", "max")
+            Substances_Monitored=("Substance", "nunique"),
+            Detected_Results=("Detection", lambda x: (x == "Detected").sum()),
+            Detected_Substances=("Substance", lambda x: x[filtered.loc[x.index, "Detection"] == "Detected"].nunique()),
+            NPS_Detected=("Substance", lambda x: x[
+                (filtered.loc[x.index, "Detection"] == "Detected") &
+                (filtered.loc[x.index, "Drug_Class"] != "Classical")
+            ].nunique()),
+            Classical_Detected=("Substance", lambda x: x[
+                (filtered.loc[x.index, "Detection"] == "Detected") &
+                (filtered.loc[x.index, "Drug_Class"] == "Classical")
+            ].nunique()),
+            Population_NH4N=("Population_NH4N", "max"),
+            Max_PNML=("PNML_mg_day_1000inh", "max"),
+            Mean_PNML=("PNML_mg_day_1000inh", "mean"),
+            Events=("Event", lambda x: ", ".join(sorted(x.dropna().unique()))),
+            Periods=("Period", lambda x: ", ".join(sorted(x.dropna().unique()))),
+            Platforms=("Analytical_Platform", lambda x: ", ".join(sorted(x.dropna().unique()))),
+            Analysis_Types=("Analysis_Type", lambda x: ", ".join(sorted(x.dropna().unique()))),
+            Substances_List=("Substance", lambda x: ", ".join(sorted(x.dropna().unique()))),
         )
         .merge(wwtp_coords, on=["State", "City", "WWTP"], how="left")
     )
@@ -699,48 +727,173 @@ with tab_map:
             "Some WWTPs do not have coordinates yet. Add them to the wwtp_coords table in app.py."
         )
 
+        with st.expander("WWTPs without coordinates", expanded=False):
+            st.dataframe(
+                missing_coords[["Year", "State", "City", "WWTP", "Events"]],
+                use_container_width=True
+            )
+
     map_data = map_data.dropna(subset=["lat", "lon"])
-    map_data = make_plot_df(map_data, y_columns=["Monitoring_Results", "Population_NH4N"])
+
+    map_data = make_plot_df(
+        map_data,
+        y_columns=[
+            "Monitoring_Results",
+            "Substances_Monitored",
+            "Detected_Results",
+            "Detected_Substances",
+            "NPS_Detected",
+            "Classical_Detected",
+            "Population_NH4N",
+            "Max_PNML",
+            "Mean_PNML",
+        ]
+    )
 
     if len(map_data) > 0:
+
+        map_view = st.radio(
+            "Map view",
+            [
+                "Monitoring coverage",
+                "Detected substances",
+                "Detected NPS",
+                "Population covered",
+                "Maximum PNML"
+            ],
+            horizontal=True
+        )
+
+        if map_view == "Monitoring coverage":
+            size_col = "Monitoring_Results"
+            color_col = "Monitoring_Results"
+            map_title = "Monitoring coverage by WWTP"
+
+        elif map_view == "Detected substances":
+            size_col = "Detected_Substances"
+            color_col = "Detected_Substances"
+            map_title = "Detected substances by WWTP"
+
+        elif map_view == "Detected NPS":
+            size_col = "NPS_Detected"
+            color_col = "NPS_Detected"
+            map_title = "Detected NPS by WWTP"
+
+        elif map_view == "Population covered":
+            size_col = "Population_NH4N"
+            color_col = "Population_NH4N"
+            map_title = "Estimated population covered by WWTP"
+
+        else:
+            size_col = "Max_PNML"
+            color_col = "Max_PNML"
+            map_title = "Maximum PNML by WWTP"
+
         fig_map = px.scatter_mapbox(
             map_data,
             lat="lat",
             lon="lon",
-            size="Monitoring_Results",
-            color="State",
+            size=size_col,
+            color=color_col,
             hover_name="WWTP",
             hover_data={
                 "Year": True,
                 "Local": True,
                 "State": True,
                 "City": True,
+                "Events": True,
+                "Periods": True,
+                "Platforms": True,
+                "Analysis_Types": True,
                 "Monitoring_Results": True,
+                "Substances_Monitored": True,
+                "Detected_Results": True,
+                "Detected_Substances": True,
+                "Classical_Detected": True,
+                "NPS_Detected": True,
                 "Population_NH4N": True,
+                "Max_PNML": ":.2f",
+                "Mean_PNML": ":.2f",
+                "Substances_List": True,
                 "lat": False,
                 "lon": False,
             },
             zoom=5,
-            height=650,
-            title="RENENSP monitoring coverage by WWTP"
+            height=680,
+            title=map_title
         )
 
         fig_map.update_layout(
             mapbox_style="open-street-map",
             dragmode="zoom",
             mapbox=dict(center=dict(lat=-7.8, lon=-37.2), zoom=4.5),
-            margin={"r": 0, "t": 40, "l": 0, "b": 0}
+            margin={"r": 0, "t": 45, "l": 0, "b": 0},
+            coloraxis_colorbar=dict(title=map_view)
         )
 
         st.plotly_chart(
             fig_map,
             use_container_width=True,
-            config={"scrollZoom": True, "displayModeBar": True, "displaylogo": False}
+            config={
+                "scrollZoom": True,
+                "displayModeBar": True,
+                "displaylogo": False
+            }
+        )
+
+        st.markdown("### Monitoring Summary by WWTP")
+
+        ranking_map = map_data[
+            [
+                "Year",
+                "State",
+                "City",
+                "Local",
+                "WWTP",
+                "Events",
+                "Periods",
+                "Platforms",
+                "Analysis_Types",
+                "Monitoring_Results",
+                "Substances_Monitored",
+                "Detected_Results",
+                "Detected_Substances",
+                "Classical_Detected",
+                "NPS_Detected",
+                "Population_NH4N",
+                "Max_PNML",
+                "Mean_PNML",
+                "Substances_List",
+            ]
+        ].sort_values("Monitoring_Results", ascending=False)
+
+        st.dataframe(ranking_map, use_container_width=True)
+
+        col_map1, col_map2, col_map3, col_map4 = st.columns(4)
+
+        col_map1.metric(
+            "Mapped WWTPs",
+            map_data["WWTP"].nunique()
+        )
+
+        col_map2.metric(
+            "Detected substances",
+            int(map_data["Detected_Substances"].sum())
+        )
+
+        col_map3.metric(
+            "Detected NPS",
+            int(map_data["NPS_Detected"].sum())
+        )
+
+        col_map4.metric(
+            "Maximum PNML",
+            f"{map_data['Max_PNML'].max():.2f}"
+            if pd.notna(map_data["Max_PNML"].max()) else "NA"
         )
 
     else:
         empty_message("No mapped WWTPs available for the selected filters.")
-
 # ============================================================
 # DASHBOARD
 # ============================================================
