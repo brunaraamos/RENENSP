@@ -2,10 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# ============================================================
-# PAGE CONFIG
-# ============================================================
-
 st.set_page_config(
     page_title="RENENSP WBE Observatory",
     page_icon="🧪",
@@ -13,10 +9,6 @@ st.set_page_config(
 )
 
 px.defaults.template = "plotly_white"
-
-# ============================================================
-# VISUAL STYLE
-# ============================================================
 
 st.markdown(
     """
@@ -45,7 +37,6 @@ st.markdown(
         font-size: 44px;
         font-weight: 900;
         margin-bottom: 10px;
-        letter-spacing: 0.5px;
     }
 
     .hero p {
@@ -53,24 +44,6 @@ st.markdown(
         line-height: 1.5;
         max-width: 950px;
         margin: 8px 0;
-    }
-
-    .section-card {
-        background: white;
-        padding: 24px 28px;
-        border-radius: 22px;
-        border: 1px solid #dbe7e7;
-        box-shadow: 0 5px 18px rgba(0, 95, 99, 0.08);
-        margin-bottom: 24px;
-    }
-
-    .small-card {
-        background: white;
-        padding: 18px 20px;
-        border-radius: 18px;
-        border: 1px solid #dbe7e7;
-        box-shadow: 0 4px 14px rgba(0, 95, 99, 0.08);
-        margin-bottom: 14px;
     }
 
     h1, h2, h3 {
@@ -106,7 +79,6 @@ st.markdown(
 
     .stTabs [data-baseweb="tab-list"] {
         gap: 10px;
-        background-color: transparent;
     }
 
     .stTabs [data-baseweb="tab"] {
@@ -137,7 +109,6 @@ st.markdown(
         color: #005f63;
         background-color: white;
         font-weight: 800;
-        padding: 0.55rem 1rem;
     }
 
     div.stButton > button:hover {
@@ -157,10 +128,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# ============================================================
-# REQUIRED COLUMNS
-# ============================================================
-
 REQUIRED_COLUMNS = [
     "Year", "State", "City", "WWTP", "Event", "Sampling_Date", "Event_Day", "Period",
     "Substance", "Drug_Class", "Analytical_Platform", "Analysis_Type", "Detection",
@@ -172,9 +139,6 @@ TEXT_COLUMNS = [
     "Analytical_Platform", "Analysis_Type", "Detection", "Sampling_Date", "Local"
 ]
 
-# ============================================================
-# DATA LOADING
-# ============================================================
 
 @st.cache_data
 def load_data():
@@ -217,10 +181,7 @@ def load_data():
         st.write("Columns found:", df.columns.tolist())
         st.stop()
 
-    df["Sampling_Date"] = pd.to_datetime(
-        df["Sampling_Date"],
-        errors="coerce"
-    ).dt.strftime("%Y-%m-%d")
+    df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce").dt.strftime("%Y-%m-%d")
 
     df["Year"] = pd.to_numeric(df["Year"], errors="coerce").astype("Int64").astype(str)
     df["Year"] = df["Year"].replace({"<NA>": None, "nan": None})
@@ -246,15 +207,11 @@ def load_data():
 
 df = load_data()
 
-# ============================================================
-# HELPER FUNCTIONS
-# ============================================================
 
 def unique_sorted(dataframe, column):
     if dataframe is None or len(dataframe) == 0 or column not in dataframe.columns:
         return []
-    values = dataframe[column].dropna().unique().tolist()
-    return sorted(values)
+    return sorted(dataframe[column].dropna().unique().tolist())
 
 
 def format_int(value):
@@ -335,6 +292,47 @@ def empty_message(text):
     st.info(text)
 
 
+def safe_top_value(dataframe, value_col):
+    if len(dataframe) == 0 or value_col not in dataframe.columns:
+        return None
+
+    temp = dataframe.dropna(subset=[value_col])
+
+    if len(temp) == 0:
+        return None
+
+    return temp.loc[temp[value_col].idxmax()]
+
+
+def calculate_reference_event_change(dataframe):
+    quant = dataframe[dataframe["Analysis_Type"].eq("Quantification")].copy()
+
+    if len(quant) == 0:
+        return pd.DataFrame()
+
+    grouped = (
+        quant.groupby(
+            ["State", "City", "Local", "WWTP", "Event", "Substance", "Period"],
+            as_index=False
+        )["PNML_mg_day_1000inh"]
+        .mean()
+    )
+
+    pivot = grouped.pivot_table(
+        index=["State", "City", "Local", "WWTP", "Event", "Substance"],
+        columns="Period",
+        values="PNML_mg_day_1000inh",
+        aggfunc="mean"
+    ).reset_index()
+
+    if "Reference" in pivot.columns and "During" in pivot.columns:
+        pivot["Increase_%"] = ((pivot["During"] - pivot["Reference"]) / pivot["Reference"]) * 100
+    else:
+        pivot["Increase_%"] = None
+
+    return pivot
+
+
 def apply_local_filters(dataframe, prefix, label):
     if len(dataframe) == 0:
         return dataframe
@@ -393,9 +391,6 @@ def apply_local_filters(dataframe, prefix, label):
 
     return filtered_local
 
-# ============================================================
-# HEADER
-# ============================================================
 
 st.markdown(
     """
@@ -413,10 +408,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# ============================================================
-# SIDEBAR
-# ============================================================
-
 try:
     st.sidebar.image("logo_renensp.png", use_container_width=True)
 except Exception:
@@ -433,12 +424,6 @@ detection_filter = st.sidebar.multiselect("Detection", unique_sorted(df, "Detect
 
 st.sidebar.markdown("---")
 st.sidebar.caption("RENENSP Network | 2026")
-
-# ============================================================
-# GLOBAL NAVIGATION
-# ============================================================
-
-st.markdown('<div class="section-card">', unsafe_allow_html=True)
 
 st.header("Data Navigation")
 st.markdown(
@@ -509,12 +494,6 @@ if analysis_filter:
 if detection_filter:
     filtered = filtered[filtered["Detection"].isin(detection_filter)]
 
-st.markdown('</div>', unsafe_allow_html=True)
-
-# ============================================================
-# OVERVIEW
-# ============================================================
-
 st.header("Overview")
 
 detected_nps = filtered[
@@ -531,14 +510,12 @@ detected_classical = filtered[
 population_covered = event_specific_population(filtered)
 
 col1, col2, col3, col4 = st.columns(4)
-
 col1.metric("Monitoring results", len(filtered))
 col2.metric("States", filtered["State"].nunique())
 col3.metric("Cities", filtered["City"].nunique())
 col4.metric("WWTPs", filtered["WWTP"].nunique())
 
 col5, col6, col7, col8 = st.columns(4)
-
 col5.metric("Events", filtered["Event"].nunique())
 col6.metric("Detected classical drugs", detected_classical["Substance"].nunique())
 col7.metric("Detected NPS", detected_nps["Substance"].nunique())
@@ -549,15 +526,15 @@ st.caption(
     "avoiding repeated counts across substances from the same sampling context."
 )
 
-# ============================================================
-# TABS
-# ============================================================
-
-tab_about, tab_partners, tab_map, tab_dashboard, tab_population, tab_quantification, tab_screening, tab_events, tab_method, tab_data = st.tabs([
+tab_about, tab_partners, tab_map, tab_dashboard, tab_keyfindings, tab_alert, tab_compare, tab_rankings, tab_population, tab_quantification, tab_screening, tab_events, tab_method, tab_data = st.tabs([
     "Project",
     "Network",
     "Map",
     "Overview",
+    "Key Findings",
+    "NPS Alert",
+    "Reference vs Event",
+    "Rankings",
     "Population",
     "Quantification",
     "Screening",
@@ -565,10 +542,6 @@ tab_about, tab_partners, tab_map, tab_dashboard, tab_population, tab_quantificat
     "Methodology",
     "Open Data"
 ])
-
-# ============================================================
-# PROJECT
-# ============================================================
 
 with tab_about:
     st.subheader("About the RENENSP Project")
@@ -618,7 +591,7 @@ with tab_about:
         jandyson.machado@ufrpe.br
 
         **Platform Development**  
-        Dra. Bruna Ramos de Souza Gomes  
+        Dr. Bruna Ramos de Souza Gomes  
         brunaramosquimica@gmail.com
 
         **Research Group**  
@@ -628,10 +601,6 @@ with tab_about:
         © RENENSP Network - 2026
         """
     )
-
-# ============================================================
-# NETWORK
-# ============================================================
 
 with tab_partners:
     st.subheader("Partner Institutions and Research Team")
@@ -660,10 +629,6 @@ with tab_partners:
         - Socrates Golzio dos Santos - Department of Pharmacy/UFPB
         """
     )
-
-# ============================================================
-# MAP
-# ============================================================
 
 with tab_map:
     st.subheader("Interactive Monitoring Map")
@@ -723,9 +688,7 @@ with tab_map:
     missing_coords = map_data[map_data["lat"].isna()]
 
     if len(missing_coords) > 0:
-        st.warning(
-            "Some WWTPs do not have coordinates yet. Add them to the wwtp_coords table in app.py."
-        )
+        st.warning("Some WWTPs do not have coordinates yet. Add them to the wwtp_coords table in app.py.")
 
         with st.expander("WWTPs without coordinates", expanded=False):
             st.dataframe(
@@ -738,20 +701,13 @@ with tab_map:
     map_data = make_plot_df(
         map_data,
         y_columns=[
-            "Monitoring_Results",
-            "Substances_Monitored",
-            "Detected_Results",
-            "Detected_Substances",
-            "NPS_Detected",
-            "Classical_Detected",
-            "Population_NH4N",
-            "Max_PNML",
-            "Mean_PNML",
+            "Monitoring_Results", "Substances_Monitored", "Detected_Results",
+            "Detected_Substances", "NPS_Detected", "Classical_Detected",
+            "Population_NH4N", "Max_PNML", "Mean_PNML"
         ]
     )
 
     if len(map_data) > 0:
-
         map_view = st.radio(
             "Map view",
             [
@@ -834,36 +790,18 @@ with tab_map:
         st.plotly_chart(
             fig_map,
             use_container_width=True,
-            config={
-                "scrollZoom": True,
-                "displayModeBar": True,
-                "displaylogo": False
-            }
+            config={"scrollZoom": True, "displayModeBar": True, "displaylogo": False}
         )
 
         st.markdown("### Monitoring Summary by WWTP")
 
         ranking_map = map_data[
             [
-                "Year",
-                "State",
-                "City",
-                "Local",
-                "WWTP",
-                "Events",
-                "Periods",
-                "Platforms",
-                "Analysis_Types",
-                "Monitoring_Results",
-                "Substances_Monitored",
-                "Detected_Results",
-                "Detected_Substances",
-                "Classical_Detected",
-                "NPS_Detected",
-                "Population_NH4N",
-                "Max_PNML",
-                "Mean_PNML",
-                "Substances_List",
+                "Year", "State", "City", "Local", "WWTP", "Events", "Periods",
+                "Platforms", "Analysis_Types", "Monitoring_Results",
+                "Substances_Monitored", "Detected_Results", "Detected_Substances",
+                "Classical_Detected", "NPS_Detected", "Population_NH4N",
+                "Max_PNML", "Mean_PNML", "Substances_List"
             ]
         ].sort_values("Monitoring_Results", ascending=False)
 
@@ -871,32 +809,16 @@ with tab_map:
 
         col_map1, col_map2, col_map3, col_map4 = st.columns(4)
 
-        col_map1.metric(
-            "Mapped WWTPs",
-            map_data["WWTP"].nunique()
-        )
-
-        col_map2.metric(
-            "Detected substances",
-            int(map_data["Detected_Substances"].sum())
-        )
-
-        col_map3.metric(
-            "Detected NPS",
-            int(map_data["NPS_Detected"].sum())
-        )
-
+        col_map1.metric("Mapped WWTPs", map_data["WWTP"].nunique())
+        col_map2.metric("Detected substances", int(map_data["Detected_Substances"].sum()))
+        col_map3.metric("Detected NPS", int(map_data["NPS_Detected"].sum()))
         col_map4.metric(
             "Maximum PNML",
-            f"{map_data['Max_PNML'].max():.2f}"
-            if pd.notna(map_data["Max_PNML"].max()) else "NA"
+            f"{map_data['Max_PNML'].max():.2f}" if pd.notna(map_data["Max_PNML"].max()) else "NA"
         )
 
     else:
         empty_message("No mapped WWTPs available for the selected filters.")
-# ============================================================
-# DASHBOARD
-# ============================================================
 
 with tab_dashboard:
     st.subheader("General Dashboard")
@@ -951,9 +873,302 @@ with tab_dashboard:
     else:
         empty_message("No data available for the selected filters.")
 
-# ============================================================
-# POPULATION
-# ============================================================
+with tab_keyfindings:
+    st.subheader("Automatic Key Findings")
+
+    if len(filtered) == 0:
+        empty_message("No data available for the selected filters.")
+
+    else:
+        quant = filtered[filtered["Analysis_Type"] == "Quantification"]
+        screening_detected = filtered[filtered["Detection"] == "Detected"]
+
+        top_pnml = safe_top_value(quant, "PNML_mg_day_1000inh")
+        top_load = safe_top_value(quant, "Load_g_day")
+
+        col1, col2, col3 = st.columns(3)
+
+        col1.metric("Total records", len(filtered))
+        col2.metric("Detected substances", screening_detected["Substance"].nunique())
+        col3.metric("Events monitored", filtered["Event"].nunique())
+
+        st.markdown("### Main Highlights")
+
+        if top_pnml is not None:
+            st.success(
+                f"The highest PNML was observed for **{top_pnml['Substance']}** "
+                f"in **{top_pnml['City']}**, WWTP **{top_pnml['WWTP']}**, "
+                f"during **{top_pnml['Event']}** "
+                f"({top_pnml['PNML_mg_day_1000inh']:.2f} mg/day/1000 inhabitants)."
+            )
+
+        if top_load is not None:
+            st.info(
+                f"The highest daily load was observed for **{top_load['Substance']}** "
+                f"in **{top_load['City']}**, WWTP **{top_load['WWTP']}**, "
+                f"during **{top_load['Event']}** "
+                f"({top_load['Load_g_day']:.2f} g/day)."
+            )
+
+        detected_nps_alert = filtered[
+            (filtered["Drug_Class"] != "Classical") &
+            (filtered["Detection"] == "Detected")
+        ]
+
+        if len(detected_nps_alert) > 0:
+            st.warning(
+                f"Detected NPS were found in the selected data: "
+                f"**{detected_nps_alert['Substance'].nunique()} unique NPS**."
+            )
+
+            st.dataframe(
+                detected_nps_alert[
+                    [
+                        "Year", "State", "City", "WWTP", "Event", "Period",
+                        "Substance", "Analytical_Platform", "Sampling_Date"
+                    ]
+                ].drop_duplicates(),
+                use_container_width=True
+            )
+        else:
+            st.info("No NPS detections were found for the selected filters.")
+
+with tab_alert:
+    st.subheader("NPS Alert")
+
+    nps_alert = filtered[
+        (filtered["Drug_Class"] != "Classical") &
+        (filtered["Detection"] == "Detected")
+    ].copy()
+
+    if len(nps_alert) > 0:
+        col1, col2, col3, col4 = st.columns(4)
+
+        col1.metric("Detected NPS records", len(nps_alert))
+        col2.metric("Unique NPS", nps_alert["Substance"].nunique())
+        col3.metric("Cities", nps_alert["City"].nunique())
+        col4.metric("WWTPs", nps_alert["WWTP"].nunique())
+
+        fig_nps_alert = px.histogram(
+            nps_alert,
+            x="Substance",
+            color="City",
+            facet_col="Event",
+            title="Detected NPS by substance, city and event",
+            hover_data=["Year", "State", "City", "WWTP", "Period", "Sampling_Date"]
+        )
+
+        st.plotly_chart(fig_nps_alert, use_container_width=True)
+
+        heatmap_alert = (
+            nps_alert
+            .assign(Detected_Num=1)
+            .pivot_table(
+                index="Substance",
+                columns="WWTP",
+                values="Detected_Num",
+                aggfunc="sum",
+                fill_value=0
+            )
+        )
+
+        fig_heatmap_alert = px.imshow(
+            heatmap_alert,
+            text_auto=True,
+            aspect="auto",
+            title="NPS Alert Heatmap by Substance and WWTP"
+        )
+
+        st.plotly_chart(fig_heatmap_alert, use_container_width=True)
+
+        st.markdown("### NPS Alert Table")
+
+        st.dataframe(
+            nps_alert[
+                [
+                    "Year", "State", "City", "Local", "WWTP", "Event", "Period",
+                    "Substance", "Analytical_Platform", "Sampling_Date"
+                ]
+            ].drop_duplicates(),
+            use_container_width=True
+        )
+
+    else:
+        empty_message("No detected NPS available for the selected filters.")
+
+with tab_compare:
+    st.subheader("Reference vs Event Comparison")
+
+    st.info(
+        "This section compares mean PNML values between Reference and During periods "
+        "when both periods are available."
+    )
+
+    comparison = calculate_reference_event_change(filtered)
+
+    if len(comparison) > 0:
+        if "Increase_%" in comparison.columns:
+            comparison_plot = comparison.dropna(subset=["Increase_%"])
+
+            if len(comparison_plot) > 0:
+                fig_increase = px.bar(
+                    comparison_plot,
+                    x="Substance",
+                    y="Increase_%",
+                    color="City",
+                    facet_col="Event",
+                    hover_data=["State", "City", "WWTP", "Reference", "During"],
+                    title="Percentage increase from Reference to During period",
+                    labels={"Increase_%": "Increase (%)"}
+                )
+
+                st.plotly_chart(fig_increase, use_container_width=True)
+
+                top_increase = comparison_plot.sort_values("Increase_%", ascending=False).head(10)
+
+                st.markdown("### Top 10 Increases")
+
+                st.dataframe(
+                    top_increase[
+                        [
+                            "State", "City", "WWTP", "Event", "Substance",
+                            "Reference", "During", "Increase_%"
+                        ]
+                    ],
+                    use_container_width=True
+                )
+
+            else:
+                empty_message("Reference and During periods were not both available for the selected filters.")
+
+        st.markdown("### Comparison Table")
+        st.dataframe(comparison, use_container_width=True)
+
+    else:
+        empty_message("No quantification data available for comparison.")
+
+with tab_rankings:
+    st.subheader("Rankings")
+
+    quant_rank = filtered[filtered["Analysis_Type"] == "Quantification"].copy()
+    detected_rank = filtered[filtered["Detection"] == "Detected"].copy()
+
+    rtab1, rtab2, rtab3, rtab4 = st.tabs([
+        "Top PNML",
+        "Top Load",
+        "Most Detected Substances",
+        "WWTP Ranking"
+    ])
+
+    with rtab1:
+        st.markdown("### Top 10 Highest PNML")
+
+        top_pnml_table = (
+            quant_rank
+            .dropna(subset=["PNML_mg_day_1000inh"])
+            .sort_values("PNML_mg_day_1000inh", ascending=False)
+            .head(10)
+        )
+
+        if len(top_pnml_table) > 0:
+            fig_top_pnml = px.bar(
+                top_pnml_table,
+                x="Substance",
+                y="PNML_mg_day_1000inh",
+                color="City",
+                hover_data=["Year", "State", "City", "WWTP", "Event", "Period"],
+                title="Top 10 highest PNML values"
+            )
+
+            st.plotly_chart(fig_top_pnml, use_container_width=True)
+            st.dataframe(top_pnml_table, use_container_width=True)
+        else:
+            empty_message("No PNML data available.")
+
+    with rtab2:
+        st.markdown("### Top 10 Highest Loads")
+
+        top_load_table = (
+            quant_rank
+            .dropna(subset=["Load_g_day"])
+            .sort_values("Load_g_day", ascending=False)
+            .head(10)
+        )
+
+        if len(top_load_table) > 0:
+            fig_top_load = px.bar(
+                top_load_table,
+                x="Substance",
+                y="Load_g_day",
+                color="City",
+                hover_data=["Year", "State", "City", "WWTP", "Event", "Period"],
+                title="Top 10 highest daily loads"
+            )
+
+            st.plotly_chart(fig_top_load, use_container_width=True)
+            st.dataframe(top_load_table, use_container_width=True)
+        else:
+            empty_message("No load data available.")
+
+    with rtab3:
+        st.markdown("### Most Frequently Detected Substances")
+
+        substance_freq = (
+            detected_rank
+            .groupby(["Substance", "Drug_Class"], as_index=False)
+            .size()
+            .rename(columns={"size": "Detection_Count"})
+            .sort_values("Detection_Count", ascending=False)
+        )
+
+        if len(substance_freq) > 0:
+            fig_freq = px.bar(
+                substance_freq.head(20),
+                x="Substance",
+                y="Detection_Count",
+                color="Drug_Class",
+                title="Most frequently detected substances"
+            )
+
+            st.plotly_chart(fig_freq, use_container_width=True)
+            st.dataframe(substance_freq, use_container_width=True)
+        else:
+            empty_message("No detected substances available.")
+
+    with rtab4:
+        st.markdown("### WWTP Monitoring Ranking")
+
+        wwtp_ranking = (
+            filtered
+            .groupby(["State", "City", "Local", "WWTP"], as_index=False)
+            .agg(
+                Monitoring_Results=("Substance", "count"),
+                Unique_Substances=("Substance", "nunique"),
+                Detected_Results=("Detection", lambda x: (x == "Detected").sum()),
+                Events=("Event", lambda x: ", ".join(sorted(x.dropna().unique()))),
+                Population_NH4N=("Population_NH4N", "max"),
+                Max_PNML=("PNML_mg_day_1000inh", "max")
+            )
+            .sort_values("Monitoring_Results", ascending=False)
+        )
+
+        if len(wwtp_ranking) > 0:
+            fig_wwtp_rank = px.bar(
+                wwtp_ranking,
+                x="WWTP",
+                y="Monitoring_Results",
+                color="City",
+                hover_data=[
+                    "State", "City", "Events", "Unique_Substances",
+                    "Detected_Results", "Population_NH4N", "Max_PNML"
+                ],
+                title="WWTP ranking by monitoring results"
+            )
+
+            st.plotly_chart(fig_wwtp_rank, use_container_width=True)
+            st.dataframe(wwtp_ranking, use_container_width=True)
+        else:
+            empty_message("No WWTP ranking available.")
 
 with tab_population:
     st.subheader("Population Estimated by NH4-N")
@@ -1008,10 +1223,6 @@ with tab_population:
 
     else:
         empty_message("No population data available for the selected filters.")
-
-# ============================================================
-# QUANTIFICATION
-# ============================================================
 
 with tab_quantification:
     st.subheader("Target Quantification - Triple Quadrupole MS/MS")
@@ -1172,10 +1383,6 @@ with tab_quantification:
         else:
             empty_message("No quantified NPS data available for the selected filters.")
 
-# ============================================================
-# SCREENING
-# ============================================================
-
 with tab_screening:
     st.subheader("Screening - Orbitrap HRMS")
 
@@ -1326,10 +1533,6 @@ with tab_screening:
         else:
             empty_message("No NPS screening data available for the selected filters.")
 
-# ============================================================
-# EVENTS
-# ============================================================
-
 with tab_events:
     st.subheader("Event Comparison")
 
@@ -1385,10 +1588,6 @@ with tab_events:
     else:
         empty_message("No event data available for the selected filters.")
 
-# ============================================================
-# METHODOLOGY
-# ============================================================
-
 with tab_method:
     st.subheader("Methodology")
 
@@ -1439,10 +1638,6 @@ with tab_method:
         """
     )
 
-# ============================================================
-# OPEN DATA
-# ============================================================
-
 with tab_data:
     st.subheader("Complete Dataset")
 
@@ -1457,10 +1652,6 @@ with tab_data:
         mime="text/csv"
     )
 
-# ============================================================
-# FOOTER
-# ============================================================
-
 st.markdown("---")
 
 st.markdown(
@@ -1468,7 +1659,7 @@ st.markdown(
     <div class="footer">
     RENENSP Observatory | PROCAD CAPES/SENAD<br>
     Project Coordinator: Prof. Dr. Jandyson Machado Santos - UFRPE<br>
-    Platform Developer: Dra. Bruna Ramos de Souza Gomes<br>
+    Platform Developer: Dr. Bruna Ramos de Souza Gomes<br>
     © 2026 RENENSP Network
     </div>
     """,
