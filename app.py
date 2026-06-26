@@ -19,65 +19,109 @@ st.markdown(
     """
     <style>
     .stApp {
-        background: linear-gradient(135deg, #f7fbfb 0%, #eef6f6 45%, #ffffff 100%);
+        background: #f4f8f8;
     }
+
     .block-container {
-        padding-top: 2rem;
+        padding-top: 1.5rem;
         padding-bottom: 3rem;
+        max-width: 1450px;
     }
-    h1 {
-        color: #005f63;
+
+    .hero {
+        background: linear-gradient(135deg, #003c43 0%, #005f63 55%, #0a9396 100%);
+        padding: 34px 38px;
+        border-radius: 26px;
+        color: white;
+        box-shadow: 0 10px 30px rgba(0, 60, 67, 0.25);
+        margin-bottom: 28px;
+    }
+
+    .hero h1 {
+        color: white;
+        font-size: 42px;
+        margin-bottom: 6px;
         font-weight: 900;
-        letter-spacing: 1px;
     }
-    h2, h3 {
-        color: #12343b;
-        font-weight: 750;
+
+    .hero p {
+        font-size: 18px;
+        line-height: 1.5;
+        max-width: 900px;
     }
+
+    .section-card {
+        background: white;
+        padding: 24px 28px;
+        border-radius: 22px;
+        border: 1px solid #dbe7e7;
+        box-shadow: 0 4px 18px rgba(0, 95, 99, 0.08);
+        margin-bottom: 24px;
+    }
+
+    h1, h2, h3 {
+        color: #003c43;
+        font-weight: 850;
+    }
+
     [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #003c43 0%, #005f63 100%);
+        background: linear-gradient(180deg, #002f35 0%, #005f63 100%);
     }
+
     [data-testid="stSidebar"] * {
         color: white;
     }
+
     div[data-testid="stMetric"] {
-        background-color: white;
+        background: white;
         border: 1px solid #dbe7e7;
         padding: 18px;
-        border-radius: 18px;
-        box-shadow: 0 4px 14px rgba(0, 95, 99, 0.10);
+        border-radius: 20px;
+        box-shadow: 0 6px 18px rgba(0, 95, 99, 0.10);
     }
+
     div[data-testid="stMetric"] label {
         color: #005f63;
+        font-weight: 800;
+    }
+
+    div[data-testid="stMetricValue"] {
+        color: #003c43;
+        font-weight: 900;
+    }
+
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 10px;
+        background-color: transparent;
+    }
+
+    .stTabs [data-baseweb="tab"] {
+        background-color: white;
+        border-radius: 16px;
+        padding: 12px 20px;
+        border: 1px solid #dbe7e7;
         font-weight: 700;
     }
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 8px;
-    }
-    .stTabs [data-baseweb="tab"] {
-        background-color: #ffffff;
-        border-radius: 14px 14px 0 0;
-        padding: 10px 18px;
-        border: 1px solid #dbe7e7;
-    }
+
     .stTabs [aria-selected="true"] {
         background-color: #005f63 !important;
         color: white !important;
     }
-    .stAlert {
-        border-radius: 16px;
-    }
+
     .stDataFrame {
-        border-radius: 14px;
+        border-radius: 16px;
         overflow: hidden;
     }
+
     div.stButton > button {
-        border-radius: 12px;
+        border-radius: 14px;
         border: 1px solid #005f63;
         color: #005f63;
         background-color: white;
-        font-weight: 700;
+        font-weight: 800;
+        padding: 0.55rem 1rem;
     }
+
     div.stButton > button:hover {
         background-color: #005f63;
         color: white;
@@ -87,7 +131,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
 # ============================================================
 # REQUIRED COLUMNS
 # ============================================================
