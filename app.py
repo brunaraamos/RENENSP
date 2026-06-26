@@ -1834,7 +1834,7 @@ st.markdown(
     </div>
     """,
     unsafe_allow_html=True
-)        font-size: 44px;
+)       font-size: 44px;
         font-weight: 900;
         margin-bottom: 10px;
     }
