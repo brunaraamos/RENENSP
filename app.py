@@ -8,8 +8,11 @@ import plotly.express as px
 
 st.set_page_config(
     page_title="RENENSP WBE Observatory",
+    page_icon="🧪",
     layout="wide"
 )
+
+px.defaults.template = "plotly_white"
 
 # ============================================================
 # VISUAL STYLE
@@ -19,35 +22,37 @@ st.markdown(
     """
     <style>
     .stApp {
-        background: #f4f8f8;
+        background: linear-gradient(135deg, #f4f8f8 0%, #eef6f6 45%, #ffffff 100%);
     }
 
     .block-container {
         padding-top: 1.5rem;
         padding-bottom: 3rem;
-        max-width: 1450px;
+        max-width: 1500px;
     }
 
     .hero {
         background: linear-gradient(135deg, #003c43 0%, #005f63 55%, #0a9396 100%);
-        padding: 34px 38px;
-        border-radius: 26px;
         color: white;
-        box-shadow: 0 10px 30px rgba(0, 60, 67, 0.25);
-        margin-bottom: 28px;
+        padding: 38px 42px;
+        border-radius: 28px;
+        margin-bottom: 30px;
+        box-shadow: 0 10px 32px rgba(0, 60, 67, 0.25);
     }
 
     .hero h1 {
         color: white;
-        font-size: 42px;
-        margin-bottom: 6px;
+        font-size: 44px;
         font-weight: 900;
+        margin-bottom: 10px;
+        letter-spacing: 0.5px;
     }
 
     .hero p {
         font-size: 18px;
         line-height: 1.5;
-        max-width: 900px;
+        max-width: 950px;
+        margin: 8px 0;
     }
 
     .section-card {
@@ -55,8 +60,17 @@ st.markdown(
         padding: 24px 28px;
         border-radius: 22px;
         border: 1px solid #dbe7e7;
-        box-shadow: 0 4px 18px rgba(0, 95, 99, 0.08);
+        box-shadow: 0 5px 18px rgba(0, 95, 99, 0.08);
         margin-bottom: 24px;
+    }
+
+    .small-card {
+        background: white;
+        padding: 18px 20px;
+        border-radius: 18px;
+        border: 1px solid #dbe7e7;
+        box-shadow: 0 4px 14px rgba(0, 95, 99, 0.08);
+        margin-bottom: 14px;
     }
 
     h1, h2, h3 {
@@ -108,6 +122,10 @@ st.markdown(
         color: white !important;
     }
 
+    .stAlert {
+        border-radius: 16px;
+    }
+
     .stDataFrame {
         border-radius: 16px;
         overflow: hidden;
@@ -127,10 +145,18 @@ st.markdown(
         color: white;
         border: 1px solid #005f63;
     }
+
+    .footer {
+        text-align: center;
+        color: #456;
+        font-size: 14px;
+        padding-top: 20px;
+    }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 # ============================================================
 # REQUIRED COLUMNS
 # ============================================================
@@ -152,7 +178,6 @@ TEXT_COLUMNS = [
 
 @st.cache_data
 def load_data():
-    """Load renensp.csv robustly and return Plotly-safe data types."""
     df = None
     read_errors = []
 
@@ -166,11 +191,14 @@ def load_data():
                     engine="python"
                 )
                 temp.columns = temp.columns.str.strip().str.replace("\ufeff", "", regex=False)
+
                 if all(col in temp.columns for col in ["Year", "State", "City", "WWTP", "Period"]):
                     df = temp
                     break
+
             except Exception as exc:
                 read_errors.append(f"encoding={encoding}, sep={sep}: {exc}")
+
         if df is not None:
             break
 
@@ -189,14 +217,16 @@ def load_data():
         st.write("Columns found:", df.columns.tolist())
         st.stop()
 
-    # Dates as display strings avoid Plotly/Numpy dtype promotion issues in Cloud.
-    df["Sampling_Date"] = pd.to_datetime(df["Sampling_Date"], errors="coerce").dt.strftime("%Y-%m-%d")
+    df["Sampling_Date"] = pd.to_datetime(
+        df["Sampling_Date"],
+        errors="coerce"
+    ).dt.strftime("%Y-%m-%d")
 
-    # Year as string avoids pandas nullable integer problems with Plotly + NumPy 2.
     df["Year"] = pd.to_numeric(df["Year"], errors="coerce").astype("Int64").astype(str)
     df["Year"] = df["Year"].replace({"<NA>": None, "nan": None})
 
     numeric_cols = ["Event_Day", "Population_NH4N", "Load_g_day", "PNML_mg_day_1000inh"]
+
     for col in numeric_cols:
         df[col] = pd.to_numeric(df[col], errors="coerce")
 
@@ -204,6 +234,7 @@ def load_data():
         "State", "City", "WWTP", "Event", "Period", "Substance",
         "Drug_Class", "Analytical_Platform", "Analysis_Type", "Detection"
     ]
+
     for col in text_cols:
         df[col] = df[col].astype(str).str.strip()
         df[col] = df[col].replace({"nan": None, "None": None, "": None})
@@ -229,7 +260,7 @@ def unique_sorted(dataframe, column):
 def format_int(value):
     if pd.isna(value) or value is None:
         return "NA"
-    return f"{int(value):,}"
+    return f"{int(value):,}".replace(",", ".")
 
 
 def event_specific_population(dataframe):
@@ -237,6 +268,7 @@ def event_specific_population(dataframe):
         return None
 
     keys = ["Year", "State", "City", "WWTP", "Event"]
+
     pop = (
         dataframe.dropna(subset=["Population_NH4N"])
         .drop_duplicates(subset=keys)["Population_NH4N"]
@@ -245,13 +277,16 @@ def event_specific_population(dataframe):
 
     if pd.isna(pop) or pop == 0:
         return None
+
     return pop
 
 
 def get_population_table(dataframe):
     keys = ["Year", "State", "City", "WWTP", "Event"]
+
     if len(dataframe) == 0:
         return pd.DataFrame(columns=keys + ["Population_NH4N"])
+
     return (
         dataframe.dropna(subset=["Population_NH4N"])
         .groupby(keys, as_index=False)["Population_NH4N"]
@@ -262,8 +297,10 @@ def get_population_table(dataframe):
 
 def site_context_table(dataframe):
     cols = ["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Population_NH4N"]
+
     if len(dataframe) == 0:
         return pd.DataFrame(columns=cols)
+
     return (
         dataframe[cols]
         .drop_duplicates()
@@ -272,7 +309,6 @@ def site_context_table(dataframe):
 
 
 def make_plot_df(dataframe, y_columns=None):
-    """Return a Plotly-safe copy with text columns as strings and y columns numeric."""
     if y_columns is None:
         y_columns = []
 
@@ -285,24 +321,26 @@ def make_plot_df(dataframe, y_columns=None):
 
     for col in y_columns:
         if col in plot_df.columns:
-          plot_df[col] = pd.to_numeric(plot_df[col], errors="coerce")
+            plot_df[col] = pd.to_numeric(plot_df[col], errors="coerce")
+
     required = [col for col in y_columns if col in plot_df.columns]
+
     if required:
         plot_df = plot_df.dropna(subset=required)
 
     return plot_df
 
 
+def empty_message(text):
+    st.info(text)
+
+
 def apply_local_filters(dataframe, prefix, label):
-    """Add Year -> Local -> WWTP -> Event -> Period filters and show selected context."""
     if len(dataframe) == 0:
         return dataframe
 
-    st.markdown(f"### {label}: Year → Local → WWTP → Event → Period")
-    st.caption(
-        "These filters make the spatial and temporal origin explicit for every result. "
-        "Local combines State and City. WWTP identifies the wastewater treatment plant."
-    )
+    st.markdown(f"### {label}: spatial and temporal filters")
+    st.caption("Use these filters to explore results by year, local, WWTP, event and period.")
 
     c1, c2, c3 = st.columns(3)
 
@@ -311,18 +349,21 @@ def apply_local_filters(dataframe, prefix, label):
     with c1:
         years = ["All"] + unique_sorted(filtered_local, "Year")
         year_choice = st.selectbox("Year", years, key=f"{prefix}_year")
+
     if year_choice != "All":
         filtered_local = filtered_local[filtered_local["Year"] == year_choice]
 
     with c2:
         locals_ = ["All"] + unique_sorted(filtered_local, "Local")
         local_choice = st.selectbox("Local", locals_, key=f"{prefix}_local")
+
     if local_choice != "All":
         filtered_local = filtered_local[filtered_local["Local"] == local_choice]
 
     with c3:
         wwtps = ["All"] + unique_sorted(filtered_local, "WWTP")
         wwtp_choice = st.selectbox("WWTP", wwtps, key=f"{prefix}_wwtp")
+
     if wwtp_choice != "All":
         filtered_local = filtered_local[filtered_local["WWTP"] == wwtp_choice]
 
@@ -331,6 +372,7 @@ def apply_local_filters(dataframe, prefix, label):
     with c4:
         events = ["All"] + unique_sorted(filtered_local, "Event")
         event_choice = st.selectbox("Event", events, key=f"{prefix}_event")
+
     if event_choice != "All":
         filtered_local = filtered_local[filtered_local["Event"] == event_choice]
 
@@ -342,53 +384,46 @@ def apply_local_filters(dataframe, prefix, label):
             default=periods,
             key=f"{prefix}_period"
         )
+
     if period_choice:
         filtered_local = filtered_local[filtered_local["Period"].isin(period_choice)]
 
-    context = site_context_table(filtered_local)
-
-    with st.expander("Selected Site Context", expanded=False):
-        st.dataframe(context, use_container_width=True)
+    with st.expander("Selected site context", expanded=False):
+        st.dataframe(site_context_table(filtered_local), use_container_width=True)
 
     return filtered_local
-
-
-def empty_message(text):
-    st.info(text)
 
 # ============================================================
 # HEADER
 # ============================================================
 
-st.title("RENENSP")
-
-st.caption(
-    "Northeast Network for the Production of Secondary Reference Standards and Monitoring of "
-    "New Psychoactive Substance Consumption through Wastewater-Based Epidemiology"
-)
-
-st.info(
+st.markdown(
     """
-    The RENENSP Network is a collaborative initiative focused on monitoring classical drugs and
-    new psychoactive substances (NPS) through wastewater-based epidemiology (WBE) across Northeast Brazil.
-
-    This public platform provides open-access data generated by the network to support research,
-    innovation, public health actions, and evidence-based policies.
-    """
+    <div class="hero">
+        <h1>RENENSP WBE Observatory</h1>
+        <p>
+        Public platform for monitoring classical drugs and new psychoactive substances
+        through wastewater-based epidemiology in Northeast Brazil.
+        </p>
+        <p>
+        <b>PROCAD CAPES/SENAD • UFRPE • PEM Research Group</b>
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
 )
-
-st.markdown("🔗 **PEM Research Group:** [@grupo.pem](https://www.instagram.com/grupo.pem/)")
 
 # ============================================================
-# SIDEBAR FILTERS
+# SIDEBAR
 # ============================================================
 
 try:
     st.sidebar.image("logo_renensp.png", use_container_width=True)
 except Exception:
-    st.sidebar.warning("Logo file not found: logo_renensp.png")
+    st.sidebar.markdown("### RENENSP")
 
-st.sidebar.header("Additional filters")
+st.sidebar.markdown("## Filters")
+st.sidebar.caption("Use these filters to refine the whole platform.")
 
 substance_filter = st.sidebar.multiselect("Substance", unique_sorted(df, "Substance"))
 drug_class_filter = st.sidebar.multiselect("Drug Class", unique_sorted(df, "Drug_Class"))
@@ -396,39 +431,46 @@ platform_filter = st.sidebar.multiselect("Analytical Platform", unique_sorted(df
 analysis_filter = st.sidebar.multiselect("Analysis Type", unique_sorted(df, "Analysis_Type"))
 detection_filter = st.sidebar.multiselect("Detection", unique_sorted(df, "Detection"))
 
+st.sidebar.markdown("---")
+st.sidebar.caption("RENENSP Network | 2026")
+
 # ============================================================
-# GLOBAL CASCADE NAVIGATION
+# GLOBAL NAVIGATION
 # ============================================================
+
+st.markdown('<div class="section-card">', unsafe_allow_html=True)
 
 st.header("Data Navigation")
 st.markdown(
-    "Use the cascade below to navigate globally by **Year**, **Local**, **WWTP**, **Event** and **Period**. "
-    "Each analytical tab also has its own local filters so that Quantification and Screening can be explored independently."
+    "Use the cascade below to navigate by **Year**, **Local**, **WWTP**, **Event** and **Period**."
 )
 
 nav1, nav2, nav3 = st.columns(3)
 
 with nav1:
     year_options = ["All"] + unique_sorted(df, "Year")
-    selected_year = st.selectbox("1. Select year", year_options)
+    selected_year = st.selectbox("1. Year", year_options)
 
 df_year = df.copy()
+
 if selected_year != "All":
     df_year = df_year[df_year["Year"] == selected_year]
 
 with nav2:
     local_options = ["All"] + unique_sorted(df_year, "Local")
-    selected_local = st.selectbox("2. Select local", local_options)
+    selected_local = st.selectbox("2. Local", local_options)
 
 df_local = df_year.copy()
+
 if selected_local != "All":
     df_local = df_local[df_local["Local"] == selected_local]
 
 with nav3:
     wwtp_options = ["All"] + unique_sorted(df_local, "WWTP")
-    selected_wwtp = st.selectbox("3. Select WWTP", wwtp_options)
+    selected_wwtp = st.selectbox("3. WWTP", wwtp_options)
 
 df_wwtp = df_local.copy()
+
 if selected_wwtp != "All":
     df_wwtp = df_wwtp[df_wwtp["WWTP"] == selected_wwtp]
 
@@ -436,30 +478,38 @@ nav4, nav5 = st.columns(2)
 
 with nav4:
     event_options = ["All"] + unique_sorted(df_wwtp, "Event")
-    selected_event = st.selectbox("4. Select event", event_options)
+    selected_event = st.selectbox("4. Event", event_options)
 
 df_event = df_wwtp.copy()
+
 if selected_event != "All":
     df_event = df_event[df_event["Event"] == selected_event]
 
 with nav5:
     period_options = unique_sorted(df_event, "Period")
-    selected_periods = st.multiselect("5. Select period", period_options, default=period_options)
+    selected_periods = st.multiselect("5. Period", period_options, default=period_options)
 
 filtered = df_event.copy()
+
 if selected_periods:
     filtered = filtered[filtered["Period"].isin(selected_periods)]
 
 if substance_filter:
     filtered = filtered[filtered["Substance"].isin(substance_filter)]
+
 if drug_class_filter:
     filtered = filtered[filtered["Drug_Class"].isin(drug_class_filter)]
+
 if platform_filter:
     filtered = filtered[filtered["Analytical_Platform"].isin(platform_filter)]
+
 if analysis_filter:
     filtered = filtered[filtered["Analysis_Type"].isin(analysis_filter)]
+
 if detection_filter:
     filtered = filtered[filtered["Detection"].isin(detection_filter)]
+
+st.markdown('</div>', unsafe_allow_html=True)
 
 # ============================================================
 # OVERVIEW
@@ -473,15 +523,24 @@ detected_nps = filtered[
     (filtered["Detection"] == "Detected")
 ]
 
+detected_classical = filtered[
+    (filtered["Drug_Class"] == "Classical") &
+    (filtered["Detection"] == "Detected")
+]
+
 population_covered = event_specific_population(filtered)
 
-col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
+col1, col2, col3, col4 = st.columns(4)
+
 col1.metric("Monitoring results", len(filtered))
-col2.metric("Years", filtered["Year"].nunique())
-col3.metric("States", filtered["State"].nunique())
-col4.metric("Cities", filtered["City"].nunique())
-col5.metric("WWTPs", filtered["WWTP"].nunique())
-col6.metric("Events", filtered["Event"].nunique())
+col2.metric("States", filtered["State"].nunique())
+col3.metric("Cities", filtered["City"].nunique())
+col4.metric("WWTPs", filtered["WWTP"].nunique())
+
+col5, col6, col7, col8 = st.columns(4)
+
+col5.metric("Events", filtered["Event"].nunique())
+col6.metric("Detected classical drugs", detected_classical["Substance"].nunique())
 col7.metric("Detected NPS", detected_nps["Substance"].nunique())
 col8.metric("Population covered", format_int(population_covered))
 
@@ -495,24 +554,25 @@ st.caption(
 # ============================================================
 
 tab_about, tab_partners, tab_map, tab_dashboard, tab_population, tab_quantification, tab_screening, tab_events, tab_method, tab_data = st.tabs([
-    "About the Project",
-    "Partner Institutions",
-    "Interactive Map",
-    "Dashboard",
+    "Project",
+    "Network",
+    "Map",
+    "Overview",
     "Population",
-    "Target Quantification",
+    "Quantification",
     "Screening",
     "Events",
     "Methodology",
-    "Data Explorer"
+    "Open Data"
 ])
 
 # ============================================================
-# ABOUT THE PROJECT
+# PROJECT
 # ============================================================
 
 with tab_about:
     st.subheader("About the RENENSP Project")
+
     st.markdown(
         """
         **Project title:**  
@@ -527,14 +587,15 @@ with tab_about:
         PROCAD - Academic Cooperation Support Action - Drug Policies  
         Joint Call No. 2/2024 - CAPES/SENAD
 
-        **Proponent institution:** Federal Rural University of Pernambuco (UFRPE)  
+        **Proponent institution:** Federal Rural University of Pernambuco - UFRPE  
         **Graduate program:** Graduate Program in Chemistry - UFRPE  
         **Project period:** November 2024 to October 2029  
         **Duration:** 60 months  
         **Knowledge area:** Chemistry  
-        **Thematic axis:** Axis 2 - New Psychoactive Substances (NPS)
+        **Thematic axis:** Axis 2 - New Psychoactive Substances
 
         ### Project description
+
         RENENSP aims to establish an academic and scientific cooperation network involving higher education institutions
         and public security agencies. The project focuses on the production of secondary reference standards for NPS and
         the monitoring of NPS consumption through wastewater-based epidemiology in Northeast Brazil.
@@ -542,25 +603,26 @@ with tab_about:
     )
 
     st.markdown("---")
+
     st.subheader("Platform Information")
+
     st.markdown(
         """
         **RENENSP Observatory**
 
         Developed under the PROCAD CAPES/SENAD Project.
 
-        ### Project Coordination
-        **Prof. Dr. Jandyson Machado Santos**  
-        Federal Rural University of Pernambuco (UFRPE)  
-        📧 jandyson.machado@ufrpe.br
+        **Project Coordination**  
+        Prof. Dr. Jandyson Machado Santos  
+        Federal Rural University of Pernambuco - UFRPE  
+        jandyson.machado@ufrpe.br
 
-        ### Platform Development
-        **Dr. Bruna Ramos de Souza Gomes**  
-        Platform Developer  
-        📧 brunaramosquimica@gmail.com
+        **Platform Development**  
+        Dra. Bruna Ramos de Souza Gomes  
+        brunaramosquimica@gmail.com
 
-        ### Research Group
-        **PEM - Petroleum, Energy and Mass Spectrometry Research Group**  
+        **Research Group**  
+        PEM - Petroleum, Energy and Mass Spectrometry Research Group  
         Instagram: [@grupo.pem](https://www.instagram.com/grupo.pem/)
 
         © RENENSP Network - 2026
@@ -568,18 +630,21 @@ with tab_about:
     )
 
 # ============================================================
-# PARTNER INSTITUTIONS
+# NETWORK
 # ============================================================
 
 with tab_partners:
     st.subheader("Partner Institutions and Research Team")
+
     st.markdown(
         """
         ### Coordination
+
         **Principal Coordinator:** Jandyson Machado Santos - PPGQ/UFRPE  
         **Associate Coordinator:** Josean Fechine Tavares - PgPNSB/UFPB
 
         ### Partner Teams
+
         - Adriana Santos Ribeiro - PGMateriais/UFAL
         - Alberto Wisniewski Jr - PPGQ/UFS
         - Alexandro M. L. de Assis - Federal Police/AL and PGMateriais/UFAL
@@ -606,21 +671,33 @@ with tab_map:
 
     wwtp_coords = pd.DataFrame({
         "State": ["PE", "PE", "PB", "PB", "RN", "AL", "SE", "CE", "BA", "MA", "PI"],
-        "City": ["Recife", "Olinda", "Joao Pessoa", "Campina Grande", "Natal", "Maceio", "Aracaju", "Fortaleza", "Salvador", "Sao Luis", "Teresina"],
-        "WWTP": ["Cabanga", "Peixinho", "Mangabeira", "Catingueira", "Jundiai-Guarapes", "Benedito Bentes", "Orlando Dantas", "Coco", "Boca do Rio", "Vinhais", "Piraja"],
+        "City": [
+            "Recife", "Olinda", "Joao Pessoa", "Campina Grande", "Natal",
+            "Maceio", "Aracaju", "Fortaleza", "Salvador", "Sao Luis", "Teresina"
+        ],
+        "WWTP": [
+            "Cabanga", "Peixinho", "Mangabeira", "Catingueira", "Jundiai-Guarapes",
+            "Benedito Bentes", "Orlando Dantas", "Coco", "Boca do Rio", "Vinhais", "Piraja"
+        ],
         "lat": [-8.071, -7.999, -7.175, -7.2307, -5.7945, -9.6498, -10.9472, -3.7319, -12.9777, -2.5307, -5.0892],
         "lon": [-34.884, -34.860, -34.845, -35.8817, -35.2110, -35.7089, -37.0731, -38.5267, -38.5016, -44.3068, -42.8016],
     })
 
     map_data = (
         filtered.groupby(["Year", "State", "City", "Local", "WWTP"], as_index=False)
-        .agg(Monitoring_Results=("Substance", "count"), Population_NH4N=("Population_NH4N", "max"))
+        .agg(
+            Monitoring_Results=("Substance", "count"),
+            Population_NH4N=("Population_NH4N", "max")
+        )
         .merge(wwtp_coords, on=["State", "City", "WWTP"], how="left")
     )
 
     missing_coords = map_data[map_data["lat"].isna()]
+
     if len(missing_coords) > 0:
-        st.warning("Some WWTPs do not have coordinates yet. Add them to the wwtp_coords table in app.py to display them on the map.")
+        st.warning(
+            "Some WWTPs do not have coordinates yet. Add them to the wwtp_coords table in app.py."
+        )
 
     map_data = map_data.dropna(subset=["lat", "lon"])
     map_data = make_plot_df(map_data, y_columns=["Monitoring_Results", "Population_NH4N"])
@@ -647,13 +724,20 @@ with tab_map:
             height=650,
             title="RENENSP monitoring coverage by WWTP"
         )
+
         fig_map.update_layout(
             mapbox_style="open-street-map",
             dragmode="zoom",
             mapbox=dict(center=dict(lat=-7.8, lon=-37.2), zoom=4.5),
             margin={"r": 0, "t": 40, "l": 0, "b": 0}
         )
-        st.plotly_chart(fig_map, use_container_width=True, config={"scrollZoom": True, "displayModeBar": True, "displaylogo": False})
+
+        st.plotly_chart(
+            fig_map,
+            use_container_width=True,
+            config={"scrollZoom": True, "displayModeBar": True, "displaylogo": False}
+        )
+
     else:
         empty_message("No mapped WWTPs available for the selected filters.")
 
@@ -668,22 +752,51 @@ with tab_dashboard:
 
     if len(dashboard_plot) > 0:
         colA, colB = st.columns(2)
+
         with colA:
-            fig = px.histogram(dashboard_plot, x="Substance", color="Analysis_Type", title="Monitoring results by substance")
+            fig = px.histogram(
+                dashboard_plot,
+                x="Substance",
+                color="Analysis_Type",
+                title="Monitoring results by substance"
+            )
+            fig.update_layout(xaxis_title="Substance", yaxis_title="Count")
             st.plotly_chart(fig, use_container_width=True)
+
         with colB:
-            fig = px.histogram(dashboard_plot, x="Local", color="State", title="Monitoring results by local")
+            fig = px.histogram(
+                dashboard_plot,
+                x="Local",
+                color="State",
+                title="Monitoring results by local"
+            )
+            fig.update_layout(xaxis_title="Local", yaxis_title="Count")
             st.plotly_chart(fig, use_container_width=True)
 
         colC, colD = st.columns(2)
+
         with colC:
-            fig = px.histogram(dashboard_plot, x="WWTP", color="Event", title="Monitoring results by WWTP and event")
+            fig = px.histogram(
+                dashboard_plot,
+                x="WWTP",
+                color="Event",
+                title="Monitoring results by WWTP and event"
+            )
+            fig.update_layout(xaxis_title="WWTP", yaxis_title="Count")
             st.plotly_chart(fig, use_container_width=True)
+
         with colD:
-            fig = px.histogram(dashboard_plot, x="Period", color="Detection", title="Detection by period")
+            fig = px.histogram(
+                dashboard_plot,
+                x="Period",
+                color="Detection",
+                title="Detection by period"
+            )
+            fig.update_layout(xaxis_title="Period", yaxis_title="Count")
             st.plotly_chart(fig, use_container_width=True)
+
     else:
-        st.warning("No data available for the selected filters.")
+        empty_message("No data available for the selected filters.")
 
 # ============================================================
 # POPULATION
@@ -694,14 +807,21 @@ with tab_population:
     st.info("Population_NH4N is year-, event-, WWTP- and sampling-day-specific.")
 
     available_years = unique_sorted(filtered, "Year")
-    selected_pop_year = st.selectbox("Select year for population view", ["All"] + available_years, key="population_year")
+
+    selected_pop_year = st.selectbox(
+        "Select year for population view",
+        ["All"] + available_years,
+        key="population_year"
+    )
 
     pop_filtered = filtered.copy()
+
     if selected_pop_year != "All":
         pop_filtered = pop_filtered[pop_filtered["Year"] == selected_pop_year]
 
     pop_table = get_population_table(pop_filtered)
     pop_table["Local"] = pop_table["State"].astype(str) + " - " + pop_table["City"].astype(str)
+
     pop_plot = make_plot_df(pop_table, y_columns=["Population_NH4N"])
 
     if len(pop_plot) > 0:
@@ -711,9 +831,10 @@ with tab_population:
             y="Population_NH4N",
             color="Local",
             barmode="group",
-            title=f"Estimated Population by WWTP and Local ({selected_pop_year})",
-            labels={"Population_NH4N": "Estimated population (NH4-N)", "WWTP": "WWTP"}
+            title=f"Estimated population by WWTP and local ({selected_pop_year})",
+            labels={"Population_NH4N": "Estimated population by NH4-N", "WWTP": "WWTP"}
         )
+
         st.plotly_chart(fig_pop_wwtp, use_container_width=True)
 
         fig_pop_event = px.bar(
@@ -723,36 +844,50 @@ with tab_population:
             color="WWTP",
             barmode="group",
             facet_col="Local",
-            title=f"Estimated Population by Event, Local and WWTP ({selected_pop_year})",
-            labels={"Population_NH4N": "Estimated population (NH4-N)", "Event": "Event"}
+            title=f"Estimated population by event, local and WWTP ({selected_pop_year})",
+            labels={"Population_NH4N": "Estimated population by NH4-N", "Event": "Event"}
         )
+
         st.plotly_chart(fig_pop_event, use_container_width=True)
 
         st.markdown("### Population Summary")
         st.dataframe(pop_plot, use_container_width=True)
+
     else:
         empty_message("No population data available for the selected filters.")
 
 # ============================================================
-# TARGET QUANTIFICATION
+# QUANTIFICATION
 # ============================================================
 
 with tab_quantification:
     st.subheader("Target Quantification - Triple Quadrupole MS/MS")
 
     quant_base = filtered[filtered["Analysis_Type"] == "Quantification"]
-    quant_local = apply_local_filters(quant_base, "quant", "Quantification") if len(quant_base) > 0 else quant_base
+
+    if len(quant_base) > 0:
+        quant_local = apply_local_filters(quant_base, "quant", "Quantification")
+    else:
+        quant_local = quant_base
 
     classical_quant = quant_local[quant_local["Drug_Class"] == "Classical"]
     nps_quant = quant_local[quant_local["Drug_Class"] != "Classical"]
 
-    classical_quant_plot = make_plot_df(classical_quant, y_columns=["Load_g_day", "PNML_mg_day_1000inh", "Event_Day"])
-    nps_quant_plot = make_plot_df(nps_quant, y_columns=["Load_g_day", "PNML_mg_day_1000inh", "Event_Day"])
+    classical_quant_plot = make_plot_df(
+        classical_quant,
+        y_columns=["Load_g_day", "PNML_mg_day_1000inh", "Event_Day"]
+    )
+
+    nps_quant_plot = make_plot_df(
+        nps_quant,
+        y_columns=["Load_g_day", "PNML_mg_day_1000inh", "Event_Day"]
+    )
 
     qtab1, qtab2 = st.tabs(["Classical Drugs", "Quantified NPS"])
 
     with qtab1:
-        st.markdown("### Quantification - Classical Drugs: Year → Local → WWTP → Period")
+        st.markdown("### Classical Drugs Quantification")
+
         if len(classical_quant_plot) > 0:
             fig_load_classical = px.bar(
                 classical_quant_plot,
@@ -762,9 +897,10 @@ with tab_quantification:
                 barmode="group",
                 facet_col="Local",
                 hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
-                title="Classical Drugs - Load by Local and WWTP",
+                title="Classical drugs - load by local and WWTP",
                 labels={"Load_g_day": "Load (g/day)", "WWTP": "WWTP"}
             )
+
             st.plotly_chart(fig_load_classical, use_container_width=True)
 
             fig_pnml_classical = px.bar(
@@ -775,12 +911,19 @@ with tab_quantification:
                 barmode="group",
                 facet_col="Period",
                 hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
-                title="Classical Drugs - PNML by WWTP and Period",
-                labels={"PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)", "WWTP": "WWTP"}
+                title="Classical drugs - PNML by WWTP and period",
+                labels={
+                    "PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)",
+                    "WWTP": "WWTP"
+                }
             )
+
             st.plotly_chart(fig_pnml_classical, use_container_width=True)
 
-            temporal_classical = classical_quant_plot.dropna(subset=["Event_Day", "PNML_mg_day_1000inh"])
+            temporal_classical = classical_quant_plot.dropna(
+                subset=["Event_Day", "PNML_mg_day_1000inh"]
+            )
+
             if temporal_classical["Event_Day"].nunique() > 1:
                 fig_trend_classical = px.line(
                     temporal_classical.sort_values("Event_Day"),
@@ -791,20 +934,27 @@ with tab_quantification:
                     markers=True,
                     facet_col="WWTP",
                     hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
-                    title="Classical Drugs - Temporal Profile by WWTP",
-                    labels={"Event_Day": "Event day", "PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"}
+                    title="Classical drugs - temporal profile by WWTP",
+                    labels={
+                        "Event_Day": "Event day",
+                        "PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"
+                    }
                 )
+
                 st.plotly_chart(fig_trend_classical, use_container_width=True)
+
             else:
                 empty_message("Temporal profile requires more than one Event_Day.")
 
             st.markdown("### Classical Drugs Quantification Dataset")
             st.dataframe(classical_quant_plot, use_container_width=True)
+
         else:
             empty_message("No classical drug quantification data available for the selected filters.")
 
     with qtab2:
-        st.markdown("### Quantification - NPS: Year → Local → WWTP → Period")
+        st.markdown("### NPS Quantification")
+
         if len(nps_quant_plot) > 0:
             fig_load_nps = px.bar(
                 nps_quant_plot,
@@ -814,9 +964,10 @@ with tab_quantification:
                 barmode="group",
                 facet_col="Local",
                 hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
-                title="Quantified NPS - Load by Local and WWTP",
+                title="Quantified NPS - load by local and WWTP",
                 labels={"Load_g_day": "Load (g/day)", "WWTP": "WWTP"}
             )
+
             st.plotly_chart(fig_load_nps, use_container_width=True)
 
             fig_pnml_nps = px.bar(
@@ -827,12 +978,19 @@ with tab_quantification:
                 barmode="group",
                 facet_col="Period",
                 hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
-                title="Quantified NPS - PNML by WWTP and Period",
-                labels={"PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)", "WWTP": "WWTP"}
+                title="Quantified NPS - PNML by WWTP and period",
+                labels={
+                    "PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)",
+                    "WWTP": "WWTP"
+                }
             )
+
             st.plotly_chart(fig_pnml_nps, use_container_width=True)
 
-            temporal_nps = nps_quant_plot.dropna(subset=["Event_Day", "PNML_mg_day_1000inh"])
+            temporal_nps = nps_quant_plot.dropna(
+                subset=["Event_Day", "PNML_mg_day_1000inh"]
+            )
+
             if temporal_nps["Event_Day"].nunique() > 1:
                 fig_trend_nps = px.line(
                     temporal_nps.sort_values("Event_Day"),
@@ -843,15 +1001,21 @@ with tab_quantification:
                     markers=True,
                     facet_col="WWTP",
                     hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
-                    title="Quantified NPS - Temporal Profile by WWTP",
-                    labels={"Event_Day": "Event day", "PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"}
+                    title="Quantified NPS - temporal profile by WWTP",
+                    labels={
+                        "Event_Day": "Event day",
+                        "PNML_mg_day_1000inh": "PNML (mg/day/1000 inhabitants)"
+                    }
                 )
+
                 st.plotly_chart(fig_trend_nps, use_container_width=True)
+
             else:
                 empty_message("Temporal profile requires more than one Event_Day.")
 
             st.markdown("### Quantified NPS Dataset")
             st.dataframe(nps_quant_plot, use_container_width=True)
+
         else:
             empty_message("No quantified NPS data available for the selected filters.")
 
@@ -863,7 +1027,11 @@ with tab_screening:
     st.subheader("Screening - Orbitrap HRMS")
 
     screening_base = filtered[filtered["Analysis_Type"] == "Screening"]
-    screening_local = apply_local_filters(screening_base, "screen", "Screening") if len(screening_base) > 0 else screening_base
+
+    if len(screening_base) > 0:
+        screening_local = apply_local_filters(screening_base, "screen", "Screening")
+    else:
+        screening_local = screening_base
 
     screening_classical = screening_local[screening_local["Drug_Class"] == "Classical"]
     screening_nps = screening_local[screening_local["Drug_Class"] != "Classical"]
@@ -876,41 +1044,38 @@ with tab_screening:
     with stab1:
         st.markdown("### Classical Drugs Screening")
 
-        if len(screening_classical) > 0:
-            detected_classical = screening_classical[
-                screening_classical["Detection"] == "Detected"
+        if len(screening_classical_plot) > 0:
+            detected_classical_local = screening_classical_plot[
+                screening_classical_plot["Detection"] == "Detected"
             ]
 
             fig_classical_substances = px.histogram(
-                screening_classical,
+                screening_classical_plot,
                 x="Substance",
                 color="Detection",
                 facet_col="WWTP",
-                hover_data=[
-                    "Year", "State", "City", "WWTP",
-                    "Event", "Period", "Sampling_Date"
-                ],
-                title="Classical Drugs Screening by Substance and WWTP"
+                hover_data=["Year", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
+                title="Classical drugs screening by substance and WWTP"
             )
+
             st.plotly_chart(fig_classical_substances, use_container_width=True)
 
-            fig_classical_event = px.histogram(
-                detected_classical,
-                x="Substance",
-                color="Event",
-                facet_col="WWTP",
-                hover_data=[
-                    "Year", "State", "City", "WWTP",
-                    "Event", "Period", "Sampling_Date"
-                ],
-                title="Detected Classical Drugs by Event and WWTP"
-            )
-            st.plotly_chart(fig_classical_event, use_container_width=True)
+            if len(detected_classical_local) > 0:
+                fig_classical_event = px.histogram(
+                    detected_classical_local,
+                    x="Substance",
+                    color="Event",
+                    facet_col="WWTP",
+                    hover_data=["Year", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
+                    title="Detected classical drugs by event and WWTP"
+                )
+
+                st.plotly_chart(fig_classical_event, use_container_width=True)
 
             classical_heatmap_data = (
-                screening_classical
+                screening_classical_plot
                 .assign(
-                    Detected_Num=screening_classical["Detection"].eq("Detected").astype(int)
+                    Detected_Num=screening_classical_plot["Detection"].eq("Detected").astype(int)
                 )
                 .pivot_table(
                     index="Substance",
@@ -921,34 +1086,41 @@ with tab_screening:
                 )
             )
 
-            fig_classical_heatmap = px.imshow(
-                classical_heatmap_data,
-                text_auto=True,
-                aspect="auto",
-                title="Classical Drugs Detection Heatmap by Substance and WWTP"
-            )
-            st.plotly_chart(fig_classical_heatmap, use_container_width=True)
+            if len(classical_heatmap_data) > 0:
+                fig_classical_heatmap = px.imshow(
+                    classical_heatmap_data,
+                    text_auto=True,
+                    aspect="auto",
+                    title="Classical drugs detection heatmap by substance and WWTP"
+                )
+
+                st.plotly_chart(fig_classical_heatmap, use_container_width=True)
 
             st.markdown("### Classical Drugs Screening Dataset")
-            st.dataframe(screening_classical, use_container_width=True)
+            st.dataframe(screening_classical_plot, use_container_width=True)
 
         else:
-            st.info("No classical drug screening data available for the selected filters.")
-        
-    with stab2:
-        st.markdown("### Screening - NPS: Year → Local → WWTP → Period")
-        if len(screening_nps_plot) > 0:
-            detected_nps_local = screening_nps_plot[screening_nps_plot["Detection"] == "Detected"]
+            empty_message("No classical drug screening data available for the selected filters.")
 
-            fig_nps_by_local = px.histogram(
-                detected_nps_local,
-                x="WWTP",
-                color="Substance",
-                facet_col="Local",
-                hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
-                title="Detected NPS by Local and WWTP"
-            )
-            st.plotly_chart(fig_nps_by_local, use_container_width=True)
+    with stab2:
+        st.markdown("### NPS Screening")
+
+        if len(screening_nps_plot) > 0:
+            detected_nps_local = screening_nps_plot[
+                screening_nps_plot["Detection"] == "Detected"
+            ]
+
+            if len(detected_nps_local) > 0:
+                fig_nps_by_local = px.histogram(
+                    detected_nps_local,
+                    x="WWTP",
+                    color="Substance",
+                    facet_col="Local",
+                    hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
+                    title="Detected NPS by local and WWTP"
+                )
+
+                st.plotly_chart(fig_nps_by_local, use_container_width=True)
 
             detection_frequency = (
                 screening_nps_plot
@@ -956,6 +1128,7 @@ with tab_screening:
                 .size()
                 .reset_index(name="Count")
             )
+
             detection_frequency = make_plot_df(detection_frequency, y_columns=["Count"])
 
             fig_nps_frequency = px.bar(
@@ -965,26 +1138,38 @@ with tab_screening:
                 color="Detection",
                 facet_col="Period",
                 hover_data=["Year", "Local", "State", "City", "WWTP", "Period", "Substance"],
-                title="NPS Detection Frequency by WWTP and Period"
+                title="NPS detection frequency by WWTP and period"
             )
+
             st.plotly_chart(fig_nps_frequency, use_container_width=True)
 
             heatmap_data = (
                 screening_nps_plot
-                .assign(Detected_Num=screening_nps_plot["Detection"].eq("Detected").astype(int))
-                .pivot_table(index="Substance", columns="WWTP", values="Detected_Num", aggfunc="sum", fill_value=0)
+                .assign(
+                    Detected_Num=screening_nps_plot["Detection"].eq("Detected").astype(int)
+                )
+                .pivot_table(
+                    index="Substance",
+                    columns="WWTP",
+                    values="Detected_Num",
+                    aggfunc="sum",
+                    fill_value=0
+                )
             )
+
             if len(heatmap_data) > 0:
                 fig_heatmap = px.imshow(
                     heatmap_data,
                     text_auto=True,
                     aspect="auto",
-                    title="NPS Detection Heatmap by Substance and WWTP"
+                    title="NPS detection heatmap by substance and WWTP"
                 )
+
                 st.plotly_chart(fig_heatmap, use_container_width=True)
 
             st.markdown("### NPS Screening Dataset")
             st.dataframe(screening_nps_plot, use_container_width=True)
+
         else:
             empty_message("No NPS screening data available for the selected filters.")
 
@@ -999,9 +1184,15 @@ with tab_events:
 
     if len(events_plot_base) > 0:
         event_overview = (
-            events_plot_base.groupby(["Year", "Event", "State", "City", "Local", "WWTP"], as_index=False)
-            .agg(Monitoring_Results=("Event", "count"), Substances=("Substance", "nunique"), Population=("Population_NH4N", "max"))
+            events_plot_base
+            .groupby(["Year", "Event", "State", "City", "Local", "WWTP"], as_index=False)
+            .agg(
+                Monitoring_Results=("Event", "count"),
+                Substances=("Substance", "nunique"),
+                Population=("Population_NH4N", "max")
+            )
         )
+
         event_overview = make_plot_df(event_overview, y_columns=["Monitoring_Results", "Population"])
 
         fig_event = px.bar(
@@ -1014,6 +1205,7 @@ with tab_events:
             hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Population"],
             title="Monitoring results by WWTP, local and event"
         )
+
         st.plotly_chart(fig_event, use_container_width=True)
 
         quant_events = events_plot_base[events_plot_base["Analysis_Type"] == "Quantification"]
@@ -1031,10 +1223,12 @@ with tab_events:
                 title="Quantified substances across locals and WWTPs",
                 labels={"PNML_mg_day_1000inh": "PNML"}
             )
+
             st.plotly_chart(fig_compare, use_container_width=True)
 
         st.markdown("### Event Overview")
         st.dataframe(event_overview, use_container_width=True)
+
     else:
         empty_message("No event data available for the selected filters.")
 
@@ -1044,39 +1238,65 @@ with tab_events:
 
 with tab_method:
     st.subheader("Methodology")
+
+    st.warning(
+        "These data are intended for scientific, epidemiological and public health interpretation. "
+        "They do not represent individual-level consumption or law enforcement evidence."
+    )
+
     st.markdown(
         """
         ### Wastewater-Based Epidemiology
-        Wastewater-based epidemiology (WBE) estimates community-level exposure or consumption of chemical substances by
+
+        Wastewater-based epidemiology estimates community-level exposure or consumption of chemical substances by
         measuring biomarkers, parent compounds, or transformation products in wastewater samples.
 
         ### Analytical Platforms
+
         **Triple Quadrupole MS/MS** is used for target quantification of selected substances.  
-        **Orbitrap HRMS** is used for screening of classical drugs and new psychoactive substances (NPS).
+
+        **Orbitrap HRMS** is used for screening of classical drugs and new psychoactive substances.
 
         ### Main Indicators
+
         **Local** combines State and City.  
+
         **WWTP** identifies the wastewater treatment plant or sampling site.  
-        **Population_NH4N** represents the population estimated based on ammoniacal nitrogen and can vary by year, event,
-        WWTP and sampling day.  
+
+        **Population_NH4N** represents the population estimated based on ammoniacal nitrogen and can vary by year,
+        event, WWTP and sampling day.  
+
         **Load (g/day)** represents the estimated daily mass load entering the wastewater system.  
+
         **PNML (mg/day/1000 inhabitants)** represents the population-normalized mass load.
 
         ### Interpretation
-        Results should always be interpreted together with the spatial context: Year, Local, WWTP and Period.
-        This is why the quantification and screening tabs include site-specific filters and site context tables.
+
+        Results should always be interpreted together with the spatial context: Year, Local, WWTP, Event and Period.
+        """
+    )
+
+    st.markdown("---")
+
+    st.markdown(
+        """
+        ### How to cite this platform
+
+        RENENSP Network. **RENENSP WBE Observatory: Wastewater-Based Epidemiology Monitoring Platform for Northeast Brazil.** 2026.
         """
     )
 
 # ============================================================
-# DATA EXPLORER
+# OPEN DATA
 # ============================================================
 
 with tab_data:
     st.subheader("Complete Dataset")
+
     st.dataframe(filtered, use_container_width=True)
 
     csv = filtered.to_csv(index=False).encode("utf-8")
+
     st.download_button(
         label="Download filtered data as CSV",
         data=csv,
@@ -1089,11 +1309,15 @@ with tab_data:
 # ============================================================
 
 st.markdown("---")
-st.caption(
+
+st.markdown(
     """
-    RENENSP Observatory | PROCAD CAPES/SENAD  
-    Project Coordinator: Prof. Dr. Jandyson Machado Santos (UFRPE)  
-    Platform Developer: Dr. Bruna Ramos de Souza Gomes  
+    <div class="footer">
+    RENENSP Observatory | PROCAD CAPES/SENAD<br>
+    Project Coordinator: Prof. Dr. Jandyson Machado Santos - UFRPE<br>
+    Platform Developer: Dra. Bruna Ramos de Souza Gomes<br>
     © 2026 RENENSP Network
-    """
+    </div>
+    """,
+    unsafe_allow_html=True
 )
