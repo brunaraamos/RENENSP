@@ -7,7 +7,7 @@ import plotly.express as px
 # ============================================================
 
 st.set_page_config(
-    page_title="RENENSP WBE Observatory",
+    page_title="RENENSP",
     page_icon="🧪",
     layout="wide"
 )
@@ -456,7 +456,7 @@ def apply_local_filters(dataframe, prefix, label):
 st.markdown(
     """
     <div class="hero">
-        <h1>RENENSP WBE Observatory</h1>
+        <h1>RENENSP</h1>
         <p>
         Public platform for monitoring classical drugs and new psychoactive substances
         through wastewater-based epidemiology in Northeast Brazil.
@@ -702,7 +702,7 @@ with tab_about:
 
     st.markdown(
         """
-        **RENENSP Observatory**
+        **RENENSP**
 
         Developed under the PROCAD CAPES/SENAD Project.
 
@@ -1865,7 +1865,7 @@ with tab_method:
         """
         ### How to cite this platform
 
-        RENENSP Network. **RENENSP WBE Observatory: Wastewater-Based Epidemiology Monitoring Platform for Northeast Brazil.** 2026.
+        RENENSP Network. **RENENSP: Wastewater-Based Epidemiology Monitoring Platform for Northeast Brazil.** 2026.
         """
     )
 
@@ -1896,7 +1896,7 @@ st.markdown("---")
 st.markdown(
     """
     <div class="footer">
-    RENENSP Observatory | PROCAD CAPES/SENAD<br>
+    RENENSP | PROCAD CAPES/SENAD<br>
     Project Coordinator: Prof. Dr. Jandyson Machado Santos - UFRPE<br>
     Platform Developer: Dr. Bruna Ramos de Souza Gomes<br>
     © 2026 RENENSP Network
