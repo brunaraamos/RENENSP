@@ -751,12 +751,6 @@ with tab_about:
         **RENENSP**
 
         Developed under the PROCAD CAPES/SENAD Project.
-
-        **Project Coordination**  
-        Prof. Dr. Jandyson Machado Santos  
-        Federal Rural University of Pernambuco - UFRPE  
-        jandyson.machado@ufrpe.br
-
         **Platform Development**  
         Dra. Bruna Ramos de Souza Gomes  
         brunaramosquimica@gmail.com
@@ -774,67 +768,88 @@ with tab_about:
 # ============================================================
 
 with tab_partners:
-   st.subheader("Partner Institutions and Research Team")
+    st.subheader("Partner Institutions and Research Team")
 
-st.markdown(
-    """
-    ## Project Coordination
+    st.markdown(
+        """
+        ## Project Coordination
 
-    **Principal Coordinator**  
-    Prof. Dr. Jandyson Machado Santos – Graduate Program in Chemistry (PPGQ/UFRPE)
+        **Principal Coordinator**  
+        **Prof. Dr. Jandyson Machado Santos**  
+        Graduate Program in Chemistry (PPGQ/UFRPE)
 
-    **Associate Coordinator**  
-    Prof. Dr. Josean Fechine Tavares – Graduate Program in Natural and Synthetic Bioactive Products (PgPNSB/UFPB)
+        **Associate Coordinator**  
+        **Prof. Dr. Josean Fechine Tavares**  
+        Graduate Program in Natural and Synthetic Bioactive Products (PgPNSB/UFPB)
 
-    ---
+        ---
 
-    ## RENENSP Research Team
+        ## RENENSP Research Team
 
-    ### Postdoctoral Researchers
-    - Dra. Bruna Ramos de Souza Gomes
+        ### Postdoctoral Researcher
+        - **Dra. Bruna Ramos de Souza Gomes**
 
-    ### Ph.D. Students
-    - Maria Eduarda Bezerra Coutinho
-    - Iasmim Maria Silva de Miranda
-    - Thiago Araújo de Medeiros Brito
-    
-    ### Master's Students
-    - Felipe Ramon de Freitas Cabral
+        ### Ph.D. Students
+        - Ma. Maria Eduarda Bezerra Coutinho
+        - Ma. Iasmim Maria Silva de Miranda
+        - Me. Thiago Araújo de Medeiros Brito
 
-    ### Undergraduate Students
-    - Gabryelle Louise C. Santos
-    
-    ---
+        ### Master's Students
+        - Felipe Ramon de Freitas Cabral
 
-    ## Partner Institutions
+        ### Undergraduate Students
+        - Gabryelle Louise C. Santos
 
-    - Federal Rural University of Pernambuco (UFRPE)
-    - Federal University of Paraíba (UFPB)
-    - Federal University of Rio Grande do Norte (UFRN)
-    - Federal University of Alagoas (UFAL)
-    - Federal University of Sergipe (UFS)
-    - Federal University of Pernambuco (UFPE)
+        ---
 
-    ---
+        ## Partner Institutions
 
-    ## Collaborating Organizations and Researchers
+        - Federal Rural University of Pernambuco (UFRPE)
+        - Federal University of Paraíba (UFPB)
+        - Federal University of Rio Grande do Norte (UFRN)
+        - Federal University of Alagoas (UFAL)
+        - Federal University of Sergipe (UFS)
+        - Federal University of Pernambuco (UFPE)
 
-    - Prof. Dr. Adriana Santos Ribeiro – PGMateriais/UFAL
-    - Prof. Dr. Alberto Wisniewski Jr – PPGQ/UFS
-    - Dr. Alexandro M. L. de Assis – Federal Police (AL) / PGMateriais/UFAL
-    - Prof. Dr. Beate Saegesser Santos – Department of Pharmacy/UFPE
-    - Dr. Cezar Silvino Gomes – Federal Police (PB)
-    - Prof. Dr. Cícero Flávio Soares Aragão – Department of Pharmacy/UFRN
-    - Dr. Cíntia Maria do Rego Barros Veiga – Scientific Police Institute (PB)
-    - Dr. Elaine Andrade de Oliveira Bezerra – Scientific Police Institute (PB)
-    - Dr. Marcos José Brandão Guimarães – Technical-Scientific Institute of Forensics (RN)
-    - Dr. Mônica Paulo de Souza – Federal Police (PB)
-    - Dr. Ricardo Saldanha Honorato – Federal Police (PE)
-    - Dr. Rosana Coutinho Freire Silva – Scientific Police of Alagoas
-    - Prof. Dr. Socrates Golzio dos Santos – Department of Pharmacy/UFPB
-    """
-)
+        ---
 
+        ## Collaborating Organizations and Researchers
+
+        - **Prof. Dra. Adriana Santos Ribeiro** – PGMateriais/UFAL
+        - **Prof. Dr. Alberto Wisniewski Jr** – PPGQ/UFS
+        - **Dr. Alexandro M. L. de Assis** – Federal Police (AL) / PGMateriais/UFAL
+        - **Prof. Dra. Beate Saegesser Santos** – Department of Pharmacy/UFPE
+        - **Dr. Cezar Silvino Gomes** – Federal Police (PB)
+        - **Prof. Dr. Cícero Flávio Soares Aragão** – Department of Pharmacy/UFRN
+        - **Dra. Cíntia Maria do Rego Barros Veiga** – Scientific Police Institute (PB)
+        - **Dra. Elaine Andrade de Oliveira Bezerra** – Scientific Police Institute (PB)
+        - **Dr. Marcos José Brandão Guimarães** – Technical-Scientific Institute of Forensics (RN)
+        - **Dra. Mônica Paulo de Souza** – Federal Police (PB)
+        - **Dr. Ricardo Saldanha Honorato** – Federal Police (PE)
+        - **Dra. Rosana Coutinho Freire Silva** – Scientific Police of Alagoas
+        - **Prof. Dr. Socrates Golzio dos Santos** – Department of Pharmacy/UFPB
+
+        ---
+
+        ## RENENSP Observatory
+
+        Developed under the **PROCAD CAPES/SENAD** Project.
+
+        ### Platform Development
+
+        **Dra. Bruna Ramos de Souza Gomes**
+
+        📧 brunaramosquimica@gmail.com
+
+        ### Research Group
+
+        **PEM – Petroleum, Energy and Mass Spectrometry Research Group**
+
+        📷 Instagram: **[@grupo.pem](https://www.instagram.com/grupo.pem/)**
+
+        © RENENSP Network – 2026
+        """
+    )
 # ============================================================
 # MAP
 # ============================================================
