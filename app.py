@@ -205,7 +205,7 @@ TEXT_COLUMNS = [
 # DATA LOADING
 # ============================================================
 
-@st.cache_data
+@st.cache_data(ttl=0)
 def load_data():
     df = None
     read_errors = []
