@@ -945,9 +945,10 @@ map_data["lon_plot"] = map_data.apply(
     lambda row: row["lon"] + event_offset.get(row["Main_Event"], (0, 0))[1],
     axis=1
 )
-    detected_aux = filtered[filtered["Detection"] == "Detected"]
 
-    if len(detected_aux) > 0:
+detected_aux = filtered[filtered["Detection"] == "Detected"]
+
+if len(detected_aux) > 0:
         detected_summary = (
             detected_aux.groupby(group_cols, as_index=False)
             .agg(
