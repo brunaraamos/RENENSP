@@ -949,28 +949,31 @@ map_data["lon_plot"] = map_data.apply(
 detected_aux = filtered[filtered["Detection"] == "Detected"]
 
 if len(detected_aux) > 0:
-        detected_summary = (
-            detected_aux.groupby(group_cols, as_index=False)
-            .agg(
-                Detected_Substances=("Substance", "nunique"),
-                NPS_Detected=(
-                    "Substance",
-                    lambda x: detected_aux.loc[x.index]
-                    [detected_aux.loc[x.index, "Drug_Class"] != "Classical"]["Substance"].nunique()
-                ),
-                Classical_Detected=(
-                    "Substance",
-                    lambda x: detected_aux.loc[x.index]
-                    [detected_aux.loc[x.index, "Drug_Class"] == "Classical"]["Substance"].nunique()
-                )
+    detected_summary = (
+        detected_aux.groupby(group_cols, as_index=False)
+        .agg(
+            Detected_Substances=("Substance", "nunique"),
+            NPS_Detected=(
+                "Drug_Class",
+                lambda x: (x != "Classical").sum()
+            ),
+            Classical_Detected=(
+                "Drug_Class",
+                lambda x: (x == "Classical").sum()
             )
         )
+    )
 
-        map_data = map_data.merge(detected_summary, on=group_cols, how="left")
-    else:
-        map_data["Detected_Substances"] = 0
-        map_data["NPS_Detected"] = 0
-        map_data["Classical_Detected"] = 0
+    map_data = map_data.merge(
+        detected_summary,
+        on=group_cols,
+        how="left"
+    )
+
+else:
+    map_data["Detected_Substances"] = 0
+    map_data["NPS_Detected"] = 0
+    map_data["Classical_Detected"] = 0
 
     for col in ["Detected_Substances", "NPS_Detected", "Classical_Detected"]:
         map_data[col] = map_data[col].fillna(0)
