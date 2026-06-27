@@ -5,12 +5,12 @@
 2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-05,1,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,341,703.1,-8.071,-34.884
 2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-05,1,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
 2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-05,1,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
-2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-05,1,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-05,1,Reference,Bromazolam,NPS,Triple Quadrupole,Quantification,Not Detected,485000,128000000,,,-8.071,-34.884
 2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,640,1319.6,-8.071,-34.884
 2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,544,1121.6,-8.071,-34.884
 2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,448,923.7,-8.071,-34.884
 2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,352,725.8,-8.071,-34.884
-2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,3-MMC,NPS,Triple Quadrupole,Quantification,Not Detected,485000,128000000,,,-8.071,-34.884
 2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
 2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
 2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-07,3,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,660,1360.8,-8.071,-34.884
