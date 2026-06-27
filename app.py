@@ -32,6 +32,13 @@ PERIOD_COLORS = {
     "During": "#EE9B00",
     "After": "#5E6472",
 }
+EVENT_COLORS = {
+    "Carnival": "#EE9B00",
+    "New Year": "#2E86DE",
+    "Sao Joao": "#27AE60",
+    "Reference": "#003C43",
+    "Festival": "#8E44AD"
+}
 
 px.defaults.color_discrete_sequence = RENENSP_COLORS
 px.defaults.color_continuous_scale = "Teal"
@@ -961,6 +968,14 @@ with tab_map:
         ]
     )
 
+    map_data["Main_Event"] = (
+        map_data["Events"]
+        .fillna("")
+        .str.split(",")
+        .str[0]
+        .str.strip()
+    )
+
     if len(map_data) > 0:
         map_view = st.radio(
             "Map view",
@@ -1004,7 +1019,9 @@ with tab_map:
             lat="lat",
             lon="lon",
             size=size_col,
-            color=color_col,
+            size_max=35,
+            color="Main_Event",
+            color_discrete_map=EVENT_COLORS,
             hover_name="WWTP",
             hover_data={
                 "Year": True,
@@ -1034,7 +1051,7 @@ with tab_map:
         )
 
         fig_map.update_layout(
-            mapbox_style="open-street-map",
+            mapbox_style="carto-positron",
             dragmode="zoom",
             mapbox=dict(center=dict(lat=-7.8, lon=-37.2), zoom=4.5),
             margin={"r": 0, "t": 45, "l": 0, "b": 0},
