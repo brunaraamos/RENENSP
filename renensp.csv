@@ -1,0 +1,981 @@
+﻿Year,State,City,Local,WWTP,Event,Sampling_Date,Event_Day,Period,Substance,Drug_Class,Analytical_Platform,Analysis_Type,Detection,Population_NH4N,Flow_L_day,Load_g_day,PNML_mg_day_1000inh,Latitude,Longitude
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-05,1,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,620,1278.4,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-05,1,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,527,1086.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-05,1,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,434,894.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-05,1,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,341,703.1,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-05,1,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-05,1,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-05,1,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,640,1319.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,544,1121.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,448,923.7,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,352,725.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-06,2,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-07,3,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,660,1360.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-07,3,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,561,1156.7,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-07,3,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,462,952.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-07,3,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,363,748.5,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-07,3,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-07,3,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-07,3,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-08,4,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,680,1402.1,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-08,4,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,578,1191.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-08,4,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,476,981.4,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-08,4,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,374,771.1,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-08,4,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-08,4,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-08,4,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-09,5,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,700,1443.3,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-09,5,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,595,1226.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-09,5,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,490,1010.3,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-09,5,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,385,793.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-09,5,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-09,5,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-09,5,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-10,6,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,720,1484.5,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-10,6,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,612,1261.9,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-10,6,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,504,1039.2,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-10,6,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,396,816.5,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-10,6,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-10,6,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-10,6,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-11,7,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,740,1525.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-11,7,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,629,1296.9,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-11,7,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,518,1068,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-11,7,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,407,839.2,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-11,7,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-11,7,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Reference,2026-05-11,7,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-28,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,620,1278.4,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-28,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,527,1086.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-28,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,434,894.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-28,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,341,703.1,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-28,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-28,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-28,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-29,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,640,1319.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-29,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,544,1121.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-29,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,448,923.7,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-29,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,352,725.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-29,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-29,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-29,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-30,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,660,1360.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-30,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,561,1156.7,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-30,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,462,952.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-30,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,363,748.5,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-30,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-30,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-30,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-31,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,1224,2523.7,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-31,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,1040.4,2145.2,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-31,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,856.8,1766.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-31,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,673.2,1388,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-31,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-31,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2025-12-31,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-01,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,1260,2597.9,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-01,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,1071,2208.2,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-01,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,882,1818.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-01,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,693,1428.9,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-01,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-01,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-01,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-02,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,864,1781.4,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-02,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,734.4,1514.2,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-02,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,604.8,1247,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-02,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,475.2,979.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-02,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-02,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-02,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-03,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,888,1830.9,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-03,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,754.8,1556.3,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-03,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,621.6,1281.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-03,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,488.4,1007,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-03,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-03,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,New Year,2026-01-03,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-13,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,620,1278.4,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-13,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,527,1086.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-13,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,434,894.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-13,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,341,703.1,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-13,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-13,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-13,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-14,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,640,1319.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-14,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,544,1121.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-14,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,448,923.7,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-14,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,352,725.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-14,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-14,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-14,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-15,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,660,1360.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-15,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,561,1156.7,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-15,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,462,952.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-15,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,363,748.5,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-15,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-15,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-15,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-16,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,1224,2523.7,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-16,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,1040.4,2145.2,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-16,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,856.8,1766.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-16,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,673.2,1388,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-16,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-16,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-16,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-17,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,1260,2597.9,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-17,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,1071,2208.2,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-17,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,882,1818.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-17,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,693,1428.9,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-17,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-17,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-17,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-18,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,864,1781.4,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-18,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,734.4,1514.2,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-18,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,604.8,1247,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-18,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,475.2,979.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-18,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-18,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-18,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-19,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,888,1830.9,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-19,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,754.8,1556.3,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-19,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,621.6,1281.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-19,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,488.4,1007,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-19,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-19,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Carnival,2026-02-19,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-21,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,620,1278.4,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-21,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,527,1086.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-21,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,434,894.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-21,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,341,703.1,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-21,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-21,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-21,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-22,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,640,1319.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-22,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,544,1121.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-22,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,448,923.7,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-22,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,352,725.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-22,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-22,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-22,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-23,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,660,1360.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-23,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,561,1156.7,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-23,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,462,952.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-23,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,363,748.5,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-23,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-23,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-23,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-24,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,1224,2523.7,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-24,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,1040.4,2145.2,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-24,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,856.8,1766.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-24,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,673.2,1388,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-24,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-24,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-24,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-25,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,1260,2597.9,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-25,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,1071,2208.2,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-25,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,882,1818.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-25,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,693,1428.9,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-25,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-25,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-25,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-26,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,864,1781.4,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-26,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,734.4,1514.2,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-26,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,604.8,1247,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-26,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,475.2,979.8,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-26,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-26,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-26,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-27,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,888,1830.9,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-27,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,754.8,1556.3,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-27,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,621.6,1281.6,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-27,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,485000,128000000,488.4,1007,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-27,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-27,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Recife,PE - Recife,Cabanga,Sao Joao,2026-06-27,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,485000,128000000,,,-8.071,-34.884
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-05,1,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,620,2000,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-05,1,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,527,1700,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-05,1,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,434,1400,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-05,1,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,341,1100,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-05,1,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-05,1,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-05,1,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-06,2,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,640,2064.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-06,2,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,544,1754.8,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-06,2,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,448,1445.2,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-06,2,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,352,1135.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-06,2,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-06,2,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-06,2,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-07,3,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,660,2129,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-07,3,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,561,1809.7,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-07,3,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,462,1490.3,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-07,3,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,363,1171,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-07,3,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-07,3,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-07,3,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-08,4,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,680,2193.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-08,4,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,578,1864.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-08,4,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,476,1535.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-08,4,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,374,1206.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-08,4,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-08,4,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-08,4,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-09,5,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,700,2258.1,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-09,5,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,595,1919.4,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-09,5,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,490,1580.6,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-09,5,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,385,1241.9,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-09,5,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-09,5,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-09,5,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-10,6,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,720,2322.6,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-10,6,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,612,1974.2,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-10,6,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,504,1625.8,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-10,6,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,396,1277.4,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-10,6,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-10,6,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-10,6,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-11,7,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,740,2387.1,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-11,7,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,629,2029,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-11,7,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,518,1671,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-11,7,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,407,1312.9,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-11,7,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-11,7,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Reference,2026-05-11,7,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-28,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,620,2000,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-28,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,527,1700,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-28,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,434,1400,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-28,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,341,1100,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-28,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-28,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-28,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-29,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,640,2064.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-29,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,544,1754.8,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-29,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,448,1445.2,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-29,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,352,1135.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-29,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-29,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-29,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-30,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,660,2129,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-30,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,561,1809.7,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-30,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,462,1490.3,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-30,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,363,1171,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-30,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-30,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-30,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-31,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,1224,3948.4,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-31,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,1040.4,3356.1,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-31,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,856.8,2763.9,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-31,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,673.2,2171.6,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-31,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-31,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2025-12-31,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-01,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,1260,4064.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-01,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,1071,3454.8,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-01,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,882,2845.2,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-01,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,693,2235.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-01,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-01,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-01,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-02,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,864,2787.1,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-02,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,734.4,2369,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-02,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,604.8,1951,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-02,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,475.2,1532.9,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-02,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-02,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-02,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-03,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,888,2864.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-03,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,754.8,2434.8,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-03,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,621.6,2005.2,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-03,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,488.4,1575.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-03,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-03,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,New Year,2026-01-03,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-13,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,620,2000,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-13,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,527,1700,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-13,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,434,1400,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-13,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,341,1100,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-13,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-13,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-13,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-14,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,640,2064.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-14,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,544,1754.8,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-14,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,448,1445.2,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-14,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,352,1135.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-14,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-14,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-14,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-15,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,660,2129,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-15,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,561,1809.7,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-15,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,462,1490.3,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-15,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,363,1171,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-15,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-15,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-15,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-16,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,1224,3948.4,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-16,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,1040.4,3356.1,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-16,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,856.8,2763.9,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-16,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,673.2,2171.6,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-16,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-16,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-16,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-17,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,1260,4064.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-17,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,1071,3454.8,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-17,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,882,2845.2,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-17,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,693,2235.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-17,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-17,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-17,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-18,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,864,2787.1,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-18,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,734.4,2369,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-18,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,604.8,1951,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-18,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,475.2,1532.9,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-18,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-18,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-18,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-19,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,888,2864.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-19,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,754.8,2434.8,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-19,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,621.6,2005.2,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-19,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,488.4,1575.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-19,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-19,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Carnival,2026-02-19,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-21,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,620,2000,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-21,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,527,1700,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-21,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,434,1400,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-21,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,341,1100,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-21,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-21,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-21,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-22,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,640,2064.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-22,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,544,1754.8,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-22,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,448,1445.2,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-22,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,352,1135.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-22,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-22,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-22,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-23,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,660,2129,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-23,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,561,1809.7,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-23,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,462,1490.3,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-23,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,363,1171,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-23,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-23,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-23,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-24,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,1224,3948.4,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-24,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,1040.4,3356.1,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-24,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,856.8,2763.9,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-24,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,673.2,2171.6,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-24,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-24,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-24,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-25,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,1260,4064.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-25,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,1071,3454.8,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-25,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,882,2845.2,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-25,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,693,2235.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-25,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-25,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-25,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-26,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,864,2787.1,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-26,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,734.4,2369,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-26,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,604.8,1951,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-26,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,475.2,1532.9,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-26,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-26,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-26,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-27,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,888,2864.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-27,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,754.8,2434.8,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-27,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,621.6,2005.2,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-27,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,310000,78000000,488.4,1575.5,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-27,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-27,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PE,Olinda,PE - Olinda,Peixinhos,Sao Joao,2026-06-27,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,310000,78000000,,,-7.999,-34.86
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-05,1,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,620,1476.2,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-05,1,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,527,1254.8,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-05,1,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,434,1033.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-05,1,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,341,811.9,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-05,1,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-05,1,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-05,1,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-06,2,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,640,1523.8,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-06,2,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,544,1295.2,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-06,2,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,448,1066.7,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-06,2,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,352,838.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-06,2,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-06,2,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-06,2,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-07,3,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,660,1571.4,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-07,3,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,561,1335.7,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-07,3,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,462,1100,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-07,3,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,363,864.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-07,3,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-07,3,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-07,3,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-08,4,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,680,1619,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-08,4,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,578,1376.2,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-08,4,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,476,1133.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-08,4,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,374,890.5,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-08,4,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-08,4,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-08,4,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-09,5,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,700,1666.7,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-09,5,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,595,1416.7,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-09,5,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,490,1166.7,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-09,5,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,385,916.7,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-09,5,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-09,5,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-09,5,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-10,6,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,720,1714.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-10,6,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,612,1457.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-10,6,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,504,1200,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-10,6,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,396,942.9,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-10,6,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-10,6,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-10,6,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-11,7,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,740,1761.9,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-11,7,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,629,1497.6,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-11,7,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,518,1233.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-11,7,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,407,969,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-11,7,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-11,7,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Reference,2026-05-11,7,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-28,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,620,1476.2,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-28,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,527,1254.8,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-28,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,434,1033.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-28,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,341,811.9,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-28,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-28,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-28,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-29,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,640,1523.8,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-29,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,544,1295.2,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-29,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,448,1066.7,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-29,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,352,838.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-29,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-29,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-29,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-30,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,660,1571.4,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-30,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,561,1335.7,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-30,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,462,1100,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-30,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,363,864.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-30,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-30,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-30,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-31,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,1224,2914.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-31,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,1040.4,2477.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-31,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,856.8,2040,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-31,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,673.2,1602.9,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-31,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-31,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2025-12-31,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-01,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,1260,3000,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-01,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,1071,2550,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-01,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,882,2100,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-01,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,693,1650,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-01,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-01,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-01,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-02,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,864,2057.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-02,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,734.4,1748.6,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-02,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,604.8,1440,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-02,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,475.2,1131.4,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-02,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-02,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-02,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-03,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,888,2114.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-03,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,754.8,1797.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-03,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,621.6,1480,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-03,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,488.4,1162.9,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-03,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-03,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,New Year,2026-01-03,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-13,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,620,1476.2,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-13,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,527,1254.8,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-13,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,434,1033.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-13,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,341,811.9,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-13,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-13,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-13,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-14,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,640,1523.8,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-14,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,544,1295.2,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-14,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,448,1066.7,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-14,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,352,838.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-14,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-14,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-14,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-15,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,660,1571.4,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-15,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,561,1335.7,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-15,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,462,1100,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-15,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,363,864.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-15,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-15,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-15,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-16,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,1224,2914.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-16,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,1040.4,2477.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-16,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,856.8,2040,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-16,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,673.2,1602.9,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-16,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-16,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-16,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-17,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,1260,3000,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-17,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,1071,2550,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-17,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,882,2100,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-17,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,693,1650,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-17,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-17,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-17,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-18,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,864,2057.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-18,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,734.4,1748.6,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-18,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,604.8,1440,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-18,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,475.2,1131.4,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-18,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-18,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-18,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-19,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,888,2114.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-19,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,754.8,1797.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-19,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,621.6,1480,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-19,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,488.4,1162.9,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-19,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-19,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Carnival,2026-02-19,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-21,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,620,1476.2,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-21,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,527,1254.8,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-21,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,434,1033.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-21,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,341,811.9,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-21,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-21,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-21,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-22,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,640,1523.8,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-22,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,544,1295.2,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-22,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,448,1066.7,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-22,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,352,838.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-22,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-22,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-22,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-23,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,660,1571.4,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-23,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,561,1335.7,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-23,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,462,1100,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-23,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,363,864.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-23,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-23,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-23,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-24,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,1224,2914.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-24,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,1040.4,2477.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-24,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,856.8,2040,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-24,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,673.2,1602.9,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-24,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-24,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-24,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-25,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,1260,3000,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-25,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,1071,2550,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-25,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,882,2100,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-25,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,693,1650,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-25,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-25,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-25,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-26,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,864,2057.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-26,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,734.4,1748.6,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-26,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,604.8,1440,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-26,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,475.2,1131.4,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-26,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-26,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-26,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-27,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,888,2114.3,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-27,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,754.8,1797.1,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-27,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,621.6,1480,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-27,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,420000,99000000,488.4,1162.9,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-27,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-27,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,João Pessoa,PB - João Pessoa,Mangabeira,Sao Joao,2026-06-27,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,420000,99000000,,,-7.175,-34.845
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-05,1,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,620,2952.4,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-05,1,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,527,2509.5,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-05,1,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,434,2066.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-05,1,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,341,1623.8,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-05,1,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-05,1,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-05,1,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-06,2,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,640,3047.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-06,2,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,544,2590.5,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-06,2,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,448,2133.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-06,2,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,352,1676.2,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-06,2,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-06,2,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-06,2,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-07,3,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,660,3142.9,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-07,3,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,561,2671.4,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-07,3,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,462,2200,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-07,3,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,363,1728.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-07,3,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-07,3,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-07,3,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-08,4,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,680,3238.1,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-08,4,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,578,2752.4,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-08,4,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,476,2266.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-08,4,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,374,1781,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-08,4,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-08,4,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-08,4,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-09,5,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,700,3333.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-09,5,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,595,2833.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-09,5,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,490,2333.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-09,5,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,385,1833.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-09,5,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-09,5,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-09,5,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-10,6,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,720,3428.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-10,6,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,612,2914.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-10,6,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,504,2400,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-10,6,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,396,1885.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-10,6,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-10,6,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-10,6,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-11,7,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,740,3523.8,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-11,7,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,629,2995.2,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-11,7,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,518,2466.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-11,7,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,407,1938.1,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-11,7,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-11,7,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Reference,2026-05-11,7,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-28,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,620,2952.4,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-28,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,527,2509.5,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-28,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,434,2066.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-28,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,341,1623.8,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-28,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-28,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-28,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-29,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,640,3047.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-29,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,544,2590.5,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-29,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,448,2133.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-29,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,352,1676.2,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-29,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-29,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-29,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-30,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,660,3142.9,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-30,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,561,2671.4,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-30,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,462,2200,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-30,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,363,1728.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-30,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-30,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-30,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-31,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,1224,5828.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-31,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,1040.4,4954.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-31,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,856.8,4080,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-31,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,673.2,3205.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-31,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-31,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2025-12-31,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-01,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,1260,6000,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-01,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,1071,5100,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-01,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,882,4200,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-01,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,693,3300,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-01,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-01,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-01,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-02,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,864,4114.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-02,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,734.4,3497.1,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-02,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,604.8,2880,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-02,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,475.2,2262.9,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-02,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-02,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-02,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-03,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,888,4228.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-03,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,754.8,3594.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-03,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,621.6,2960,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-03,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,488.4,2325.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-03,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-03,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,New Year,2026-01-03,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-13,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,620,2952.4,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-13,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,527,2509.5,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-13,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,434,2066.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-13,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,341,1623.8,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-13,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-13,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-13,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-14,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,640,3047.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-14,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,544,2590.5,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-14,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,448,2133.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-14,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,352,1676.2,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-14,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-14,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-14,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-15,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,660,3142.9,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-15,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,561,2671.4,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-15,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,462,2200,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-15,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,363,1728.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-15,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-15,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-15,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-16,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,1224,5828.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-16,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,1040.4,4954.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-16,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,856.8,4080,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-16,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,673.2,3205.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-16,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-16,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-16,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-17,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,1260,6000,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-17,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,1071,5100,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-17,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,882,4200,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-17,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,693,3300,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-17,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-17,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-17,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-18,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,864,4114.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-18,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,734.4,3497.1,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-18,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,604.8,2880,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-18,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,475.2,2262.9,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-18,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-18,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-18,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-19,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,888,4228.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-19,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,754.8,3594.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-19,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,621.6,2960,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-19,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,488.4,2325.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-19,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-19,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Carnival,2026-02-19,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-21,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,620,2952.4,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-21,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,527,2509.5,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-21,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,434,2066.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-21,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,341,1623.8,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-21,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-21,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-21,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-22,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,640,3047.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-22,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,544,2590.5,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-22,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,448,2133.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-22,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,352,1676.2,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-22,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-22,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-22,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-23,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,660,3142.9,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-23,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,561,2671.4,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-23,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,462,2200,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-23,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,363,1728.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-23,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-23,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-23,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-24,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,1224,5828.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-24,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,1040.4,4954.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-24,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,856.8,4080,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-24,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,673.2,3205.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-24,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-24,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-24,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-25,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,1260,6000,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-25,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,1071,5100,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-25,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,882,4200,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-25,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,693,3300,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-25,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-25,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-25,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-26,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,864,4114.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-26,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,734.4,3497.1,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-26,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,604.8,2880,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-26,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,475.2,2262.9,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-26,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-26,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-26,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-27,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,888,4228.6,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-27,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,754.8,3594.3,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-27,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,621.6,2960,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-27,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,210000,51000000,488.4,2325.7,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-27,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-27,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,PB,Campina Grande,PB - Campina Grande,Catingueira,Sao Joao,2026-06-27,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,210000,51000000,,,-7.231,-35.882
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-05,1,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,620,1823.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-05,1,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,527,1550,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-05,1,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,434,1276.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-05,1,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,341,1002.9,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-05,1,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-05,1,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-05,1,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-06,2,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,640,1882.4,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-06,2,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,544,1600,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-06,2,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,448,1317.6,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-06,2,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,352,1035.3,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-06,2,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-06,2,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-06,2,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-07,3,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,660,1941.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-07,3,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,561,1650,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-07,3,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,462,1358.8,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-07,3,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,363,1067.6,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-07,3,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-07,3,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-07,3,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-08,4,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,680,2000,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-08,4,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,578,1700,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-08,4,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,476,1400,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-08,4,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,374,1100,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-08,4,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-08,4,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-08,4,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-09,5,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,700,2058.8,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-09,5,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,595,1750,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-09,5,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,490,1441.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-09,5,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,385,1132.4,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-09,5,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-09,5,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-09,5,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-10,6,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,720,2117.6,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-10,6,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,612,1800,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-10,6,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,504,1482.4,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-10,6,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,396,1164.7,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-10,6,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-10,6,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-10,6,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-11,7,Reference,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,740,2176.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-11,7,Reference,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,629,1850,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-11,7,Reference,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,518,1523.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-11,7,Reference,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,407,1197.1,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-11,7,Reference,3-MMC,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-11,7,Reference,Eutylone,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Reference,2026-05-11,7,Reference,Bromazolam,NPS,Orbitrap HRMS,Screening,Not Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-28,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,620,1823.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-28,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,527,1550,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-28,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,434,1276.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-28,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,341,1002.9,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-28,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-28,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-28,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-29,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,640,1882.4,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-29,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,544,1600,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-29,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,448,1317.6,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-29,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,352,1035.3,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-29,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-29,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-29,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-30,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,660,1941.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-30,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,561,1650,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-30,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,462,1358.8,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-30,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,363,1067.6,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-30,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-30,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-30,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-31,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,1224,3600,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-31,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,1040.4,3060,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-31,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,856.8,2520,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-31,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,673.2,1980,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-31,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-31,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2025-12-31,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-01,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,1260,3705.9,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-01,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,1071,3150,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-01,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,882,2594.1,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-01,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,693,2038.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-01,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-01,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-01,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-02,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,864,2541.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-02,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,734.4,2160,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-02,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,604.8,1778.8,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-02,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,475.2,1397.6,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-02,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-02,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-02,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-03,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,888,2611.8,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-03,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,754.8,2220,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-03,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,621.6,1828.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-03,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,488.4,1436.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-03,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-03,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,New Year,2026-01-03,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-13,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,620,1823.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-13,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,527,1550,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-13,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,434,1276.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-13,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,341,1002.9,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-13,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-13,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-13,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-14,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,640,1882.4,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-14,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,544,1600,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-14,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,448,1317.6,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-14,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,352,1035.3,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-14,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-14,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-14,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-15,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,660,1941.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-15,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,561,1650,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-15,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,462,1358.8,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-15,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,363,1067.6,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-15,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-15,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-15,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-16,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,1224,3600,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-16,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,1040.4,3060,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-16,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,856.8,2520,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-16,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,673.2,1980,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-16,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-16,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-16,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-17,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,1260,3705.9,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-17,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,1071,3150,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-17,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,882,2594.1,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-17,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,693,2038.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-17,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-17,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-17,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-18,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,864,2541.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-18,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,734.4,2160,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-18,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,604.8,1778.8,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-18,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,475.2,1397.6,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-18,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-18,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-18,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-19,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,888,2611.8,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-19,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,754.8,2220,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-19,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,621.6,1828.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-19,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,488.4,1436.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-19,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-19,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Carnival,2026-02-19,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-21,1,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,620,1823.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-21,1,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,527,1550,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-21,1,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,434,1276.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-21,1,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,341,1002.9,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-21,1,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-21,1,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-21,1,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-22,2,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,640,1882.4,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-22,2,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,544,1600,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-22,2,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,448,1317.6,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-22,2,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,352,1035.3,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-22,2,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-22,2,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-22,2,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-23,3,Before,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,660,1941.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-23,3,Before,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,561,1650,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-23,3,Before,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,462,1358.8,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-23,3,Before,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,363,1067.6,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-23,3,Before,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-23,3,Before,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-23,3,Before,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-24,4,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,1224,3600,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-24,4,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,1040.4,3060,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-24,4,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,856.8,2520,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-24,4,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,673.2,1980,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-24,4,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-24,4,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-24,4,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-25,5,During,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,1260,3705.9,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-25,5,During,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,1071,3150,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-25,5,During,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,882,2594.1,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-25,5,During,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,693,2038.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-25,5,During,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-25,5,During,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-25,5,During,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-26,6,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,864,2541.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-26,6,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,734.4,2160,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-26,6,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,604.8,1778.8,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-26,6,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,475.2,1397.6,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-26,6,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-26,6,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-26,6,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-27,7,After,Cocaine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,888,2611.8,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-27,7,After,Benzoylecgonine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,754.8,2220,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-27,7,After,MDMA,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,621.6,1828.2,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-27,7,After,Ketamine,Classical,Triple Quadrupole,Quantification,Detected,340000,82000000,488.4,1436.5,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-27,7,After,3-MMC,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-27,7,After,Eutylone,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
+2026,RN,Natal,RN - Natal,Jundiai-Guarapes,Sao Joao,2026-06-27,7,After,Bromazolam,NPS,Orbitrap HRMS,Screening,Detected,340000,82000000,,,-5.795,-35.211
