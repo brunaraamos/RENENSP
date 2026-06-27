@@ -1539,7 +1539,6 @@ with tab_population:
             y="Population_NH4N",
             color="WWTP",
             barmode="group",
-            facet_col="Local",
             title=f"Estimated population by event, local and WWTP ({selected_pop_year})",
             labels={"Population_NH4N": "Estimated population by NH4-N", "Event": "Event"}
         )
@@ -1591,12 +1590,10 @@ with tab_quantification:
                 y="Load_g_day",
                 color="Substance",
                 barmode="group",
-                facet_col="Local",
                 hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
-                title="Classical drugs - load by local and WWTP",
+                title="Classical drugs - load by WWTP",
                 labels={"Load_g_day": "Load (g/day)", "WWTP": "WWTP"}
-            )
-
+)
             st.plotly_chart(fig_load_classical, use_container_width=True)
 
             fig_pnml_classical = px.bar(
@@ -1653,16 +1650,15 @@ with tab_quantification:
 
         if len(nps_quant_plot) > 0:
             fig_load_nps = px.bar(
-                nps_quant_plot,
+                classical_quant_plot,
                 x="WWTP",
                 y="Load_g_day",
                 color="Substance",
                 barmode="group",
-                facet_col="Local",
                 hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
-                title="Quantified NPS - load by local and WWTP",
+                title="NPS - load by WWTP",
                 labels={"Load_g_day": "Load (g/day)", "WWTP": "WWTP"}
-            )
+)
 
             st.plotly_chart(fig_load_nps, use_container_width=True)
 
@@ -1795,7 +1791,6 @@ with tab_screening:
                     detected_nps_local,
                     x="WWTP",
                     color="Substance",
-                    facet_col="Local",
                     hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
                     title="Detected NPS by local and WWTP"
                 )
@@ -1898,7 +1893,6 @@ with tab_events:
                 y="PNML_mg_day_1000inh",
                 color="Substance",
                 barmode="group",
-                facet_col="Local",
                 hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
                 title="Quantified substances across locals and WWTPs",
                 labels={"PNML_mg_day_1000inh": "PNML"}
