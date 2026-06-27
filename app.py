@@ -928,7 +928,23 @@ with tab_map:
 
     map_data["Events"] = map_data["Event"]
     map_data["Main_Event"] = map_data["Event"]
+event_offset = {
+    "Carnival": (-0.035, 0.035),
+    "New Year": (0.035, 0.035),
+    "Reference": (-0.035, -0.035),
+    "Sao Joao": (0.035, -0.035),
+    "Festival": (0.000, 0.050),
+}
 
+map_data["lat_plot"] = map_data.apply(
+    lambda row: row["lat"] + event_offset.get(row["Main_Event"], (0, 0))[0],
+    axis=1
+)
+
+map_data["lon_plot"] = map_data.apply(
+    lambda row: row["lon"] + event_offset.get(row["Main_Event"], (0, 0))[1],
+    axis=1
+)
     detected_aux = filtered[filtered["Detection"] == "Detected"]
 
     if len(detected_aux) > 0:
@@ -1015,8 +1031,8 @@ with tab_map:
 
         fig_map = px.scatter_mapbox(
             map_data,
-            lat="lat",
-            lon="lon",
+            "lat_plot": False,
+            "lon_plot": False,
             size=size_col,
             size_max=35,
             color="Main_Event",
