@@ -748,7 +748,7 @@ with tab_about:
 
     st.markdown(
         """
-        **RENENSP Observatory**
+        **RENENSP**
 
         Developed under the PROCAD CAPES/SENAD Project.
 
@@ -772,35 +772,89 @@ with tab_about:
 # ============================================================
 # NETWORK
 # ============================================================
-
 with tab_partners:
     st.subheader("Partner Institutions and Research Team")
 
     st.markdown(
         """
-        ### Coordination
+        ## Project Coordination
 
-        **Principal Coordinator:** Jandyson Machado Santos - PPGQ/UFRPE  
-        **Associate Coordinator:** Josean Fechine Tavares - PgPNSB/UFPB
+        **Principal Coordinator**  
+        **Prof. Dr. Jandyson Machado Santos**  
+        Graduate Program in Chemistry (PPGQ/UFRPE)
 
-        ### Partner Teams
+        **Associate Coordinator**  
+        **Prof. Dr. Josean Fechine Tavares**  
+        Graduate Program in Natural and Synthetic Bioactive Products (PgPNSB/UFPB)
 
-        - Adriana Santos Ribeiro - PGMateriais/UFAL
-        - Alberto Wisniewski Jr - PPGQ/UFS
-        - Alexandro M. L. de Assis - Federal Police/AL and PGMateriais/UFAL
-        - Beate Saegesser Santos - Department of Pharmacy/UFPE
-        - Cezar Silvino Gomes - Federal Police/PB
-        - Cícero Flávio Soares Aragão - Department of Pharmacy/UFRN
-        - Cíntia Maria do Rego Barros Veiga - Scientific Police Institute/PB
-        - Elaine Andrade de Oliveira Bezerra - Scientific Police Institute/PB
-        - Marcos José Brandão Guimarães - Technical-Scientific Institute of Forensics/RN
-        - Mônica Paulo de Souza - Federal Police/PB
-        - Ricardo Saldanha Honorato - Federal Police/PE
-        - Rosana Coutinho Freire Silva - Scientific Police of Alagoas
-        - Socrates Golzio dos Santos - Department of Pharmacy/UFPB
+        ---
+
+        ## RENENSP Research Team
+
+        ### Postdoctoral Researcher
+        - Dra. Bruna Ramos de Souza Gomes
+
+        ### Ph.D. Students
+        - Ma. Maria Eduarda Bezerra Coutinho
+        - Ma. Iasmim Maria Silva de Miranda
+        - Me. Thiago Araújo de Medeiros Brito
+
+        ### Master's Students
+        - Felipe Ramon de Freitas Cabral
+
+        ### Undergraduate Students
+        - Gabryelle Louise C. Santos
+
+        ---
+
+        ## Partner Institutions
+
+        - Federal Rural University of Pernambuco (UFRPE)
+        - Federal University of Paraíba (UFPB)
+        - Federal University of Rio Grande do Norte (UFRN)
+        - Federal University of Alagoas (UFAL)
+        - Federal University of Sergipe (UFS)
+        - Federal University of Pernambuco (UFPE)
+
+        ---
+
+        ## Collaborating Organizations and Researchers
+
+        - **Prof. Dra. Adriana Santos Ribeiro** – PGMateriais/UFAL
+        - **Prof. Dr. Alberto Wisniewski Jr** – PPGQ/UFS
+        - **Dr. Alexandro M. L. de Assis** – Federal Police (AL) / PGMateriais/UFAL
+        - **Prof. Dra. Beate Saegesser Santos** – Department of Pharmacy/UFPE
+        - **Dr. Cezar Silvino Gomes** – Federal Police (PB)
+        - **Prof. Dr. Cícero Flávio Soares Aragão** – Department of Pharmacy/UFRN
+        - **Dra. Cíntia Maria do Rego Barros Veiga** – Scientific Police Institute (PB)
+        - **Dra. Elaine Andrade de Oliveira Bezerra** – Scientific Police Institute (PB)
+        - **Dr. Marcos José Brandão Guimarães** – Technical-Scientific Institute of Forensics (RN)
+        - **Dra. Mônica Paulo de Souza** – Federal Police (PB)
+        - **Dr. Ricardo Saldanha Honorato** – Federal Police (PE)
+        - **Dra. Rosana Coutinho Freire Silva** – Scientific Police of Alagoas
+        - **Prof. Dr. Socrates Golzio dos Santos** – Department of Pharmacy/UFPB
+
+        ---
+
+        ## RENENSP
+
+        Developed under the **PROCAD CAPES/SENAD** Project.
+
+        ### Platform Development
+
+        **Dra. Bruna Ramos de Souza Gomes**
+
+        📧 brunaramosquimica@gmail.com
+
+        ### Research Group
+
+        **PEM – Petroleum, Energy and Mass Spectrometry Research Group**
+
+        📷 Instagram: **[@grupo.pem](https://www.instagram.com/grupo.pem/)**
+
+        © RENENSP Network – 2026
         """
     )
-
 # ============================================================
 # MAP
 # ============================================================
@@ -1908,7 +1962,7 @@ with tab_method:
         """
         ### How to cite this platform
 
-        RENENSP Network. **RENENSP WBE Observatory: Wastewater-Based Epidemiology Monitoring Platform for Northeast Brazil.** 2026.
+        RENENSP Network. **RENENSP: Wastewater-Based Epidemiology Monitoring Platform for Northeast Brazil.** 2026.
         """
     )
 
@@ -1939,7 +1993,7 @@ st.markdown("---")
 st.markdown(
     """
     <div class="footer">
-    RENENSP Observatory | PROCAD CAPES/SENAD<br>
+    RENENSP | PROCAD CAPES/SENAD<br>
     Project Coordinator: Prof. Dr. Jandyson Machado Santos - UFRPE<br>
     Platform Developer: Dr. Bruna Ramos de Souza Gomes<br>
     © 2026 RENENSP Network
