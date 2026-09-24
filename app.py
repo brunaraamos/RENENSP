@@ -1034,7 +1034,7 @@ with tab_map:
             size_col = "Max_PNML"
             map_title = "Maximum PNML by WWTP"
 
-        fig_map = px.scatter_mapbox(
+               fig_map = px.scatter_map(
             map_data,
             lat="lat_plot",
             lon="lon_plot",
@@ -1067,11 +1067,17 @@ with tab_map:
                 "lat_plot": False,
                 "lon_plot": False,
             },
-            zoom=5,
+            zoom=4.5,
+            center={"lat": -7.8, "lon": -37.2},
+            map_style="carto-positron",
             height=680,
             title=map_title
         )
 
+        fig_map.update_layout(
+            dragmode="zoom",
+            margin={"r": 0, "t": 45, "l": 0, "b": 0}
+        )
         fig_map.update_layout(
             mapbox_style="carto-positron",
             dragmode="zoom",
