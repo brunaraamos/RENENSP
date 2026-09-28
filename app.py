@@ -1034,44 +1034,50 @@ with tab_map:
             size_col = "Max_PNML"
             map_title = "Maximum PNML by WWTP"
 
-        fig_map = px.scatter_mapbox(
-            map_data,
-            lat="lat_plot",
-            lon="lon_plot",
-            size=size_col,
-            size_max=35,
-            color="Main_Event",
-            color_discrete_map=EVENT_COLORS,
-            hover_name="WWTP",
-            hover_data={
-                "Year": True,
-                "Local": True,
-                "State": True,
-                "City": True,
-                "Events": True,
-                "Periods": True,
-                "Platforms": True,
-                "Analysis_Types": True,
-                "Monitoring_Results": True,
-                "Substances_Monitored": True,
-                "Detected_Results": True,
-                "Detected_Substances": True,
-                "Classical_Detected": True,
-                "NPS_Detected": True,
-                "Population_NH4N": True,
-                "Max_PNML": ":.2f",
-                "Mean_PNML": ":.2f",
-                "Substances_List": True,
-                "lat": False,
-                "lon": False,
-                "lat_plot": False,
-                "lon_plot": False,
-            },
-            zoom=5,
-            height=680,
-            title=map_title
-        )
+        fig_map = px.scatter_map(
+    map_data,
+    lat="lat_plot",
+    lon="lon_plot",
+    size=size_col,
+    size_max=35,
+    color="Main_Event",
+    color_discrete_map=EVENT_COLORS,
+    hover_name="WWTP",
+    hover_data={
+        "Year": True,
+        "Local": True,
+        "State": True,
+        "City": True,
+        "Events": True,
+        "Periods": True,
+        "Platforms": True,
+        "Analysis_Types": True,
+        "Monitoring_Results": True,
+        "Substances_Monitored": True,
+        "Detected_Results": True,
+        "Detected_Substances": True,
+        "Classical_Detected": True,
+        "NPS_Detected": True,
+        "Population_NH4N": True,
+        "Max_PNML": ":.2f",
+        "Mean_PNML": ":.2f",
+        "Substances_List": True,
+        "lat": False,
+        "lon": False,
+        "lat_plot": False,
+        "lon_plot": False,
+    },
+    zoom=4.5,
+    center={"lat": -7.8, "lon": -37.2},
+    map_style="carto-positron",
+    height=680,
+    title=map_title
+)
 
+fig_map.update_layout(
+    dragmode="zoom",
+    margin={"r": 0, "t": 45, "l": 0, "b": 0}
+)
         fig_map.update_layout(
             mapbox_style="carto-positron",
             dragmode="zoom",
