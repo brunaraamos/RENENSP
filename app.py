@@ -193,7 +193,7 @@ st.markdown(
 REQUIRED_COLUMNS = [
     "Year", "State", "City", "WWTP", "Event", "Sampling_Date", "Event_Day", "Period",
     "Substance", "Drug_Class", "Analytical_Platform", "Analysis_Type", "Detection",
-    "Population_NH4N", "Load_g_day", "PNML_mg_day_1000inh"
+    "Concentration_ng_L", "Population_NH4N", "PNML_mg_day_1000inh"
 ]
 
 TEXT_COLUMNS = [
@@ -255,8 +255,8 @@ def load_data():
 
     numeric_cols = [
         "Event_Day",
+        "Concentration_ng_L",
         "Population_NH4N",
-        "Load_g_day",
         "PNML_mg_day_1000inh"
     ]
 
@@ -1174,7 +1174,7 @@ with tab_keyfindings:
         screening_detected = filtered[filtered["Detection"] == "Detected"]
 
         top_pnml = safe_top_value(quant, "PNML_mg_day_1000inh")
-        top_load = safe_top_value(quant, "Load_g_day")
+        top_concentration = safe_top_value(quant, "Concentration_ng_L")
 
         col1, col2, col3 = st.columns(3)
 
@@ -1192,12 +1192,12 @@ with tab_keyfindings:
                 f"({top_pnml['PNML_mg_day_1000inh']:.2f} mg/day/1000 inhabitants)."
             )
 
-        if top_load is not None:
+        if top_concentration is not None:
             st.info(
-                f"The highest daily load was observed for **{top_load['Substance']}** "
-                f"in **{top_load['City']}**, WWTP **{top_load['WWTP']}**, "
-                f"during **{top_load['Event']}** "
-                f"({top_load['Load_g_day']:.2f} g/day)."
+                f"The highest concentration was observed for **{top_concentration['Substance']}** "
+                f"in **{top_concentration['City']}**, WWTP **{top_concentration['WWTP']}**, "
+                f"during **{top_concentration['Event']}** "
+                f"({top_concentration['Concentration_ng_L']:.2f} ng/L)."
             )
 
         detected_nps_alert = filtered[
@@ -1417,7 +1417,7 @@ with tab_rankings:
 
     rtab1, rtab2, rtab3, rtab4 = st.tabs([
         "Top PNML",
-        "Top Load",
+        "Top Concentration",
         "Most Detected Substances",
         "WWTP Ranking"
     ])
@@ -1448,29 +1448,30 @@ with tab_rankings:
             empty_message("No PNML data available.")
 
     with rtab2:
-        st.markdown("### Top 10 Highest Loads")
+        st.markdown("### Top 10 Highest Concentrations")
 
-        top_load_table = (
+        top_concentration_table = (
             quant_rank
-            .dropna(subset=["Load_g_day"])
-            .sort_values("Load_g_day", ascending=False)
+            .dropna(subset=["Concentration_ng_L"])
+            .sort_values("Concentration_ng_L", ascending=False)
             .head(10)
         )
 
-        if len(top_load_table) > 0:
-            fig_top_load = px.bar(
-                top_load_table,
+        if len(top_concentration_table) > 0:
+            fig_top_concentration = px.bar(
+                top_concentration_table,
                 x="Substance",
-                y="Load_g_day",
+                y="Concentration_ng_L",
                 color="City",
-                hover_data=["Year", "State", "City", "WWTP", "Event", "Period"],
-                title="Top 10 highest daily loads"
+                hover_data=["Year", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
+                title="Top 10 highest concentrations",
+                labels={"Concentration_ng_L": "Concentration (ng/L)"}
             )
 
-            st.plotly_chart(fig_top_load, use_container_width=True)
-            st.dataframe(top_load_table, use_container_width=True)
+            st.plotly_chart(fig_top_concentration, use_container_width=True)
+            st.dataframe(top_concentration_table, use_container_width=True)
         else:
-            empty_message("No load data available.")
+            empty_message("No concentration data available.")
 
     with rtab3:
         st.markdown("### Most Frequently Detected Substances")
@@ -1608,12 +1609,12 @@ with tab_quantification:
 
     classical_quant_plot = make_plot_df(
         classical_quant,
-        y_columns=["Load_g_day", "PNML_mg_day_1000inh", "Event_Day"]
+        y_columns=["Event_Day"]
     )
 
     nps_quant_plot = make_plot_df(
         nps_quant,
-        y_columns=["Load_g_day", "PNML_mg_day_1000inh", "Event_Day"]
+        y_columns=["Event_Day"]
     )
 
     qtab1, qtab2 = st.tabs(["Classical Drugs", "Quantified NPS"])
@@ -1622,17 +1623,21 @@ with tab_quantification:
         st.markdown("### Classical Drugs Quantification")
 
         if len(classical_quant_plot) > 0:
-            fig_load_classical = px.bar(
-                classical_quant_plot,
-                x="WWTP",
-                y="Load_g_day",
-                color="Substance",
-                barmode="group",
-                hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
-                title="Classical drugs - load by WWTP",
-                labels={"Load_g_day": "Load (g/day)", "WWTP": "WWTP"}
-)
-            st.plotly_chart(fig_load_classical, use_container_width=True)
+            concentration_classical = classical_quant_plot.dropna(subset=["Concentration_ng_L"])
+
+            if len(concentration_classical) > 0:
+                fig_concentration_classical = px.bar(
+                    concentration_classical,
+                    x="WWTP",
+                    y="Concentration_ng_L",
+                    color="Substance",
+                    barmode="group",
+                    facet_col="Period",
+                    hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
+                    title="Classical drugs - concentration by WWTP and period",
+                    labels={"Concentration_ng_L": "Concentration (ng/L)", "WWTP": "WWTP"}
+                )
+                st.plotly_chart(fig_concentration_classical, use_container_width=True)
 
             fig_pnml_classical = px.bar(
                 classical_quant_plot,
@@ -1687,18 +1692,21 @@ with tab_quantification:
         st.markdown("### NPS Quantification")
 
         if len(nps_quant_plot) > 0:
-            fig_load_nps = px.bar(
-                nps_quant_plot,
-                x="WWTP",
-                y="Load_g_day",
-                color="Substance",
-                barmode="group",
-                hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
-                title="NPS - load by WWTP",
-                labels={"Load_g_day": "Load (g/day)", "WWTP": "WWTP"}
-)
+            concentration_nps = nps_quant_plot.dropna(subset=["Concentration_ng_L"])
 
-            st.plotly_chart(fig_load_nps, use_container_width=True)
+            if len(concentration_nps) > 0:
+                fig_concentration_nps = px.bar(
+                    concentration_nps,
+                    x="WWTP",
+                    y="Concentration_ng_L",
+                    color="Substance",
+                    barmode="group",
+                    facet_col="Period",
+                    hover_data=["Year", "Local", "State", "City", "WWTP", "Event", "Period", "Sampling_Date"],
+                    title="Quantified NPS - concentration by WWTP and period",
+                    labels={"Concentration_ng_L": "Concentration (ng/L)", "WWTP": "WWTP"}
+                )
+                st.plotly_chart(fig_concentration_nps, use_container_width=True)
 
             fig_pnml_nps = px.bar(
                 nps_quant_plot,
@@ -1978,7 +1986,7 @@ with tab_method:
         **Population_NH4N** represents the population estimated based on ammoniacal nitrogen and can vary by year,
         event, WWTP and sampling day.  
 
-        **Load (g/day)** represents the estimated daily mass load entering the wastewater system.  
+        **Concentration (ng/L)** represents the measured concentration of the quantified substance in the wastewater sample.  
 
         **PNML (mg/day/1000 inhabitants)** represents the population-normalized mass load.
 
