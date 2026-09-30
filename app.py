@@ -1034,7 +1034,7 @@ with tab_map:
             size_col = "Max_PNML"
             map_title = "Maximum PNML by WWTP"
 
-        fig_map = px.scatter_map(
+               fig_map = px.scatter_map(
             map_data,
             lat="lat_plot",
             lon="lon_plot",
@@ -1074,6 +1074,20 @@ with tab_map:
             title=map_title
         )
 
+        fig_map.update_layout(
+            dragmode="zoom",
+            margin={"r": 0, "t": 45, "l": 0, "b": 0}
+        )
+
+        st.plotly_chart(
+            fig_map,
+            use_container_width=True,
+            config={
+                "scrollZoom": True,
+                "displayModeBar": True,
+                "displaylogo": False
+            }
+        )
         fig_map.update_layout(
             dragmode="zoom",
             margin={"r": 0, "t": 45, "l": 0, "b": 0}
